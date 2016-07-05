@@ -1,11 +1,11 @@
 # Site settings
-title: Andrej Karpathy blog
+title: Scott Cole blog
 email: 
-description: "Musings of a Computer Scientist."
+description: ""
 baseurl: ""
-url: "http://karpathy.github.io"
-twitter_username: karpathy
-github_username:  karpathy
+url: "http://srcole.github.io"
+twitter_username: scottrcole
+github_username:  srcole
 
 # Build settings
 markdown: kramdown
