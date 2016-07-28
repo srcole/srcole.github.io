@@ -6,7 +6,4 @@ I adapted this webpage from [Andrej's Karpathy's blog](http://karpathy.github.io
 
 ## TODO
 * Add blogposts from sxcole
-* get rid of rss thing
-* add a description
 * add a fb link
-* expand about... work page on sxcole

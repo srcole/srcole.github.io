@@ -7,6 +7,116 @@ date:   2015-08-30 00:00:00
 mathjax: true
 ---
 
-### TODO
+Want to get a good burrito in SD but not sure what new place to try? Here's a periodically-updated ranking of some places to prioritize and avoid! There are two lists:
+<ol>
+	<li>Best carne asada burritos (beef, guac pico)</li>
+	<li>Best all other burritos</li>
+</ol>
+In addition to its ranking, each burrito has a rating (out of 10.0). To give you an idea of the quality compared to some chain Mexican restaurants, Rubio's scored a 6.0 (too much rice!) and Chipotle a solid 7.8. Most burritos were about $6, while you can expect to pay more at Lucha Libre, in downtown La Jolla, etc.
 
-add the stuff
+In the future, we'll perform a more in depth, multidimensional analysis of the top burritos.
+<p style="text-align:center;"><span style="text-decoration:underline;"><strong><a href="https://drive.google.com/open?id=18yFF1WgPoukmZEA5dC82R7VCxEU&amp;usp=sharing">Check out the Google Map with all rated locations!</a> (deprecated as of Jan 29 2016)</strong></span></p>
+<p style="text-align:center;"><a href="https://docs.google.com/spreadsheets/d/1ru8mEvRgFFYefuuCpwKpGzLHsw9EOuLVT3xvkyz-GfI/edit?usp=sharing">Check out the Google Sheets with all rated burritos!</a></p>
+<p style="text-align:center;"><span style="text-decoration:underline;">Best carne asada burritos</span></p>
+<a href="https://sxcole.files.wordpress.com/2015/08/taco-stand.jpg"><img class="wp-image-275 size-medium aligncenter" src="https://sxcole.files.wordpress.com/2015/08/taco-stand.jpg?w=300" alt="Taco Stand" width="300" height="225" /></a>
+
+<strong>#1 (8.8) <a href="http://letstaco.com/">The Taco Stand</a></strong>
+
+It's a little small, but the tasty beef and freshly-made tortillas made it the best carne asada burrito I've had in SD. Making it unfortunate that this picture is so out-of-focus.
+<a href="https://sxcole.files.wordpress.com/2015/08/elzarape.jpg"><img class="aligncenter size-medium wp-image-350" src="https://sxcole.files.wordpress.com/2015/08/elzarape.jpg?w=225" alt="ElZarape" width="225" height="300" /></a>
+
+<strong>#2 (8.7) <a href="http://www.yelp.com/biz/el-zarape-san-diego">El Zarape</a></strong>
+
+Awesome guac. And solid mild (don't hate) salsa. They also have a burrito with pineapple in it!
+
+<a href="https://sxcole.files.wordpress.com/2015/08/lolitas.jpg"><img class="aligncenter wp-image-267 size-medium" src="https://sxcole.files.wordpress.com/2015/08/lolitas.jpg?w=300" alt="Lolitas" width="300" height="225" /></a>
+
+<strong>#3 (8.1) <a href="http://lolitasmexicanfood.com/">Lolita's Taco Shop</a></strong>
+
+Awesome guac. First result when Googling "best burrito in San Diego." Churros good. Horchata bad.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/rigobertos.jpg"><img class="aligncenter wp-image-280 size-medium" src="https://sxcole.files.wordpress.com/2015/08/rigobertos.jpg?w=300" alt="Rigobertos" width="300" height="225" /></a>
+
+<strong>#4 (8.0) <a href="http://www.yelp.com/biz/rigobertos-taco-shop-san-diego-2">Rigoberto's</a></strong>
+
+Rigoberto's has a special place in my heart. I had my first California burrito and cup of horchata here when I flew in around midnight for a grad program interview. It's probably your best option if you're looking to get a burrito after 10pm. I would also recommend the Campeon burrito, pictured above, is enormous and only $7. Warning: remember to ask without sour cream.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/el-patron.jpg"><img class="aligncenter size-medium wp-image-297" src="https://sxcole.files.wordpress.com/2015/08/el-patron.jpg?w=300" alt="El Patron" width="300" height="225" /></a>
+
+<strong>#5 (8.0) <a href="http://www.yelp.com/biz/el-patron-traditional-mexican-grill-san-diego">El Patron</a></strong>
+
+Free grilled onions! And this place also has a sweet Taco Tuesday deal: an assortment of $1 tacos.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/californiaburritos.jpg"><img class="aligncenter wp-image-333 size-medium" src="https://sxcole.files.wordpress.com/2015/08/californiaburritos.jpg?w=300" alt="CaliforniaBurritos" width="300" height="225" /></a>
+
+<strong>#6 (7.7) <a href="http://www.sdburritos.com/">California Burritos</a></strong>
+
+Carne asada everything - apparently "everything" means + cheese and sour cream. Mucha carne. Sour cream is never a good decision, but otherwise, it was really good.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/los-primos.jpg"><img class="aligncenter wp-image-269 size-medium" src="https://sxcole.files.wordpress.com/2015/08/los-primos.jpg?w=300" alt="Los Primos" width="300" height="225" /></a>
+
+<strong>#7 (7.7) <a href="http://www.losprimosmexicanfood.com/">Los Primos</a></strong>
+
+Good beef flavor. Known for their Monster burritos (pictured). The carne asada monster was pretty bad, too much rice and not enough meat.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/los-dos-pedros.jpg"><img class="aligncenter wp-image-268 size-medium" src="https://sxcole.files.wordpress.com/2015/08/los-dos-pedros.jpg?w=300" alt="Los Dos Pedros" width="300" height="225" /></a>
+
+<strong>#8 (7.5) <a href="http://www.yelp.com/biz/los-dos-pedros-san-diego">Los Dos Pedros</a></strong>
+
+High quality traditional burrito for only $5.25. But really, you should go to Oscar's next door and get some fish tacos and ceviche.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/carmens.jpg"><img class="aligncenter size-medium wp-image-346" src="https://sxcole.files.wordpress.com/2015/08/carmens.jpg?w=300" alt="Carmens" width="300" height="225" /></a>
+
+<strong>#9 (7.4) <a href="http://www.yelp.com/biz/carmens-authentic-mexican-food-san-diego">Carmen's Mexican Food</a></strong>
+
+Good tortilla. The meat:nonmeat ratio was off. Not enough meat.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/tacosurfpb.jpg"><img class="aligncenter size-medium wp-image-348" src="https://sxcole.files.wordpress.com/2015/08/tacosurfpb.jpg?w=300" alt="TacoSurfPB" width="300" height="225" /></a>
+
+<strong>#10 (7.4) <a href="http://www.tacosurftacoshop.com/">Taco Surf PB</a></strong>
+
+An above average burrito with lots of meat and good hot sauce. But the meat wasn't too flavorful.<a href="https://sxcole.files.wordpress.com/2015/08/estradas.jpg">
+</a>.<a href="https://sxcole.files.wordpress.com/2015/08/jvs.jpg">
+</a>
+<p style="text-align:center;"><span style="text-decoration:underline;">Other ratings</span></p>
+<strong><a href="http://eataburrito.com/">Don Carlos Taco Shop</a> </strong>(7.4) - The hottest burrito I've touched. Mediocre salsa. Kind of expensive, and it's a block away from The Taco Stand, so just go there.
+
+<strong><a href="http://lospalmitosmex.com/">Kotija Jr. Taco Shop</a> </strong>(6.6) - Was an 8.5 before their meat was hard to chew and the tortilla's structural integrity disappeared
+
+<strong><a href="http://lospalmitosmex.com/">Los Palmitos</a></strong> (6.6) - Slightly above average burrito. Large water cups!
+
+<strong><a href="http://www.estradasmexicanfood.com/">Estrada's</a></strong> (6.5) - "American or Mexican Guacamole" ... "Mexican" guac tastes just like all the other guac I've had.
+
+<strong><a href="http://jvsmexfood.com/">JV's</a></strong> (6.0) - average taco shop
+
+<strong><a href="http://www.elindiosandiego.com/">El Indio</a></strong> (5.9) - Just go to Lucha Libre down the street.
+
+<strong><a href="http://www.yelp.com/biz/belindas-cocina-san-diego">Belindas Cocina</a></strong> (5.5) - at UCSD "farmer's market"
+
+<strong><a href="http://www.vallartaexpress.com/">Vallarta's</a></strong> (4.7) - Did not want to finish.
+
+<strong><a href="http://www.cotixanmexicanrestaurant.com/">Cotixan</a></strong> (3.0) - I usually look forward to leftover burritos. I was terrified to eat this the next day.
+<p style="text-align:center;"><span style="text-decoration:underline;">Best other burritos</span></p>
+<img class="aligncenter wp-image-279 size-medium" src="https://sxcole.files.wordpress.com/2015/08/lucha-libre1.jpg?w=300" alt="Lucha Libre" width="300" height="271" />
+
+<strong>#1 (9.2/10.0) <a href="http://www.tacosmackdown.com/">Lucha Libre</a> </strong><em>California burrito.</em>
+
+The meat flavor is great and their cheese isn't just filler! They're well known for their delicious green cilantro sauce. I originally rated their Surf &amp; Turf (7.2/10.0), which commits the sin of using rice as a filler. Free chips are always a plus. Though they're not great.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/sushifreak.jpg"><img class="aligncenter size-medium wp-image-347" src="https://sxcole.files.wordpress.com/2015/08/sushifreak.jpg?w=300" alt="sushifreak" width="300" height="225" /></a>
+
+<strong>#2. (9.0) <a href="http://www.sushifreak.me/">Sushi Freak</a> </strong><em>Sushi burrito</em>
+
+Cheap sushi that's actually filling! Just $10 for a giant roll with salmon, crab, and tuna. Cucumbers in sesame oil on the side. Nom.
+
+<a href="https://sxcole.files.wordpress.com/2015/08/lospanchos.jpg"><img class="aligncenter size-medium wp-image-336" src="https://sxcole.files.wordpress.com/2015/08/lospanchos.jpg?w=300" alt="LosPanchos" width="300" height="225" /></a>
+
+<strong>#3. (8.9) <a href="http://www.yelp.com/biz/los-panchos-san-diego-2">Los Panchos</a> </strong><em>Breakfast burrito</em>
+
+I'm usually not a fan of breakfast burritos, but this was exceptional. Just a little egg with beef, cheese, and potatoes. And salsa verde.
+
+&nbsp;
+
+&nbsp;
+
+While I assert that these ratings are objective and should certainly extend to everyone else's tastes, I always like hearing what others think, so let me know if you think I completely misjudged one restaurant, and maybe I'll re-evaluate. Also inform me of any places I might be missing out on, and I'll try to schedule them in for an official rating.

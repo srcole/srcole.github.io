@@ -7,6 +7,11 @@ date:   2016-01-18 00:00:00
 mathjax: true
 ---
 
-### TODO
+<p style="text-align:center;"><a href="https://github.com/srcole/binder_emd">Click here for the IPython Notebook EMD tutorial (executable with binder!)</a></p>
+A while back, I came across a <a href="http://www.sciencedirect.com/science/article/pii/S016502701400017X">J Neuro Methods paper</a> which outlined an alternative methodology for phase-amplitude coupling (PAC) estimation in neural signals. PAC is a metric I have become intimately familiar with since the start of my PhD, as I have even written a <a href="https://pypi.python.org/pypi/pacpy">python package</a> for it, which has since been adopted by <a href="https://github.com/mne-tools/mne-python">MNE,</a> a general library for analysis of magnetoencephalography (MEG) and electroencephalography (EEG) data.
 
-add the stuff
+The general point to this paper is that our current standard method for decomposing signals for PAC analysis assumed that biological rhythms are stationary, when in reality, we know that neural oscillations are frequency modulated over time. They suggested using empirical mode decomposition (EMD) to extract two coupled oscillators in a signal as opposed to the typical bandpass-filter approach.
+
+This begged the question: how does EMD work? The current resources online weren't the best, so I've made a <a href="https://github.com/srcole/binder_emd">tutorial that outlines the algorithm and provides the necessary code to apply it to a piece of data</a>.
+
+Is this alternative method always an improvement? In a future notebook, I'll elaborate on my thoughts on just how well I think EMD functions on electrophysiological data.

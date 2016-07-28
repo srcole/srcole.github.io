@@ -7,6 +7,37 @@ date:   2015-06-23 00:00:00
 mathjax: true
 ---
 
-### TODO
+Another post inspired by Numberphile!<a href="https://www.youtube.com/watch?v=0hlvhQZIOQw"> In this episode</a>, Francis Bonahon starts off by explaining Farey sequences, shown below up to N=8 (<a href="https://epicmathdotorg.files.wordpress.com/2013/02/farey_sequences.png">source</a>). Each sequence is the ascending list of all simplified fractions between 0 and 1 with a maximum denominator of N.
 
-add the stuff
+<a href="https://sxcole.files.wordpress.com/2015/06/farey_sequences.png"><img class=" size-full wp-image-246 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/farey_sequences.png" alt="farey_sequences" width="660" height="213" /></a>
+
+What’s interesting about these? If you choose any number in a sequence, it is the result of Farey addition of the adjacent numbers in the sequence.
+
+<a href="https://sxcole.files.wordpress.com/2015/06/fareyadd.png"><img class=" size-full wp-image-247 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/fareyadd.png" alt="fareyadd" width="397" height="68" /></a>
+
+Here are a few examples to make it clear:
+
+<a href="https://sxcole.files.wordpress.com/2015/06/fareyex.png"><img class=" size-full wp-image-248 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/fareyex.png" alt="fareyex" width="497" height="227" /></a>
+
+The fact that this holds for all consecutive fractions in this series is really cool, especially when you consider cases of large N. And there’s a proof <a href="http://nrich.maths.org/6598/solution">here</a> that shows:
+
+<a href="https://sxcole.files.wordpress.com/2015/06/fareyproperty.png"><img class=" size-full wp-image-249 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/fareyproperty.png" alt="fareyproperty" width="660" height="73" /></a>
+
+But what made this video much more interesting was when Bonahon introduced Ford circles. These circles, shown below (<a href="https://www.youtube.com/watch?v=0hlvhQZIOQw">Numberphile</a>), are constructed by drawing a circle with diameter 1/q<sup>2</sup> immediately above each fraction p/q in a Farey sequence (in this case, N&gt;100).
+
+<a href="https://sxcole.files.wordpress.com/2015/06/fordcircles.png"><img class=" size-full wp-image-253 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/fordcircles.png" alt="fordcircles" width="660" height="196" /></a>
+
+What’s cool about this? First, the circles are nonoverlapping. Second, we can choose any fraction and show that its circle is tangent to a circle on its left and right, and the numbers corresponding to these tangent circles yield the original number by Farey addition! Examples:
+
+<img class=" size-full wp-image-250 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/fordexamples.png" alt="fordexamples" width="221" height="140" />
+
+As Bonahon said in his video, “When we find something very surprising, we want to know: is this a coincidence? Or is there a deep fact behind that?” So, I wanted to prove this relationship between the Farey sequence and Ford circles to gain a deeper understanding of this fractal.
+
+I started by noting that when two circles are tangent to one another, the line connecting the centers intersects the tangent point. Therefore, we can express this distance as the sum of the radii. A second way to express this distance is as the hypotenuse of a right triangle, as shown in the figure below. We have expressions for the legs of this triangle, and so can formulate an equation that must be satisfied in order for these circles to be tangent.
+<a href="https://sxcole.files.wordpress.com/2015/06/geometry.png"><img class=" size-full wp-image-251 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/geometry.png" alt="geometry" width="423" height="360" /></a>
+
+I then simplified the equation until I could do so no longer, and I saw something familiar.
+
+<a href="https://sxcole.files.wordpress.com/2015/06/proof.png"><img class=" size-full wp-image-252 aligncenter" src="https://sxcole.files.wordpress.com/2015/06/proof.png" alt="proof" width="660" height="550" /></a>
+
+The bottom line of this proof is identical to the requirement I stated above for two numbers to be adjacent in the Farey Sequence. Therefore, this proves that tangent circles in the Ford Circle fractal must represent Farey Neighbors. Yay!

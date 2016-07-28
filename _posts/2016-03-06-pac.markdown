@@ -7,6 +7,29 @@ date:   2016-03-06 00:00:00
 mathjax: true
 ---
 
-### TODO
+<p style="text-align:center;"><strong><a href="https://github.com/srcole/qwm/blob/master/pac/Estimating%20PAC.ipynb">See IPython Notebook accompanying this brief post.</a></strong></p>
+In my admittedly short experience analyzing neural data, I have learned to appreciate a general principle: whatever signal I am looking for, it is probably masked in a lot of noise within the raw data. This is undoubtedly true for many cases of data analysis. Here, I'm going to show a specific example of this related to my research.
 
-add the stuff
+Our lab studies oscillations in neural recordings, and one oscillatory phenomena that has been identified across the brain is phase-amplitude coupling  (PAC). Briefly, PAC is a statistical correlation between the phase of one oscillation and the amplitude of an oscillation of higher frequency. The occurrence of PAC has been associated with <span style="font-weight:400;">improved multi-item working memory, learning, attention, decision making, with some evidence of a directional relationship of oscillations in one region driving </span><span style="font-weight:400;">oscillations downstream.</span>
+
+<img class=" size-full wp-image-470 aligncenter" src="https://sxcole.files.wordpress.com/2016/03/temppac.png" alt="temppac" width="855" height="333" />
+
+The simulated data above shows a high frequency oscillation that has increased amplitude at the peak of a lower frequency oscillation. Thus, it has high PAC. Together with Voytek lab post-doc, Erik Peterson, we wrote a <a href="https://pypi.python.org/pypi/pacpy">python package for quantifying PAC</a>. Using this package, we can visualize the coupling between these two oscillators with a comodulogram, below, which shows that the PAC is present between a 15-40Hz carrier oscillation and the amplitude of frequencies above 100Hz.
+
+<img class=" size-full wp-image-485 aligncenter" src="https://sxcole.files.wordpress.com/2016/03/tempcomod.png" alt="tempcomod" width="525" height="516" />
+
+However, electrophysiological recordings will not have nearly as strong of a statistical dependence compared to our contrived example. In reality, one friend was searching for PAC in this voltage signal:
+
+<img class="alignnone size-full wp-image-491" src="https://sxcole.files.wordpress.com/2016/03/tempraw.png" alt="tempraw" width="1040" height="306" />
+
+Given the clear artifacts in the time series, he was not detecting PAC in his comodulogram:
+
+<img class=" size-full wp-image-498 aligncenter" src="https://sxcole.files.wordpress.com/2016/03/tempcomodunclean.png" alt="tempcomodunclean" width="478" height="399" />
+
+In <a href="https://github.com/srcole/qwm/blob/master/pac/Estimating%20PAC.ipynb">this IPython Notebook</a>, we show how to process this signal in order to extract the underlying PAC:
+
+<img class=" size-full wp-image-499 aligncenter" src="https://sxcole.files.wordpress.com/2016/03/tempcomodclean.png" alt="tempcomodclean" width="521" height="399" />
+
+&nbsp;
+
+Later this year we will be publishing a paper with novel insight on <a href="http://www.ncbi.nlm.nih.gov/pubmed/23471992">PAC in the motor cortex of patients with Parkinson's Disease</a>. So stay tuned!
