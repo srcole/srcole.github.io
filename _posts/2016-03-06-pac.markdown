@@ -1,0 +1,12 @@
+---
+layout: post
+comments: true
+title:  "Phase-amplitude coupling: hidden in noise"
+excerpt: "Phase-amplitude coupling is a common analysis on neural oscillations. But in order to obtain meaningful results, we need to first preprocess the signal."
+date:   2016-03-06 00:00:00
+mathjax: true
+---
+
+### TODO
+
+add the stuff
