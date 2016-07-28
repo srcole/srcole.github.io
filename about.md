@@ -18,16 +18,17 @@ I'm a PhD student in the <a href="http://healthsciences.ucsd.edu/education/neuro
 <ul>
 	<li>Filtering neural signals and processing oscillation amplitude (<a href="https://www.youtube.com/watch?v=DIK5bfoTnlg">Lecture</a>, <a href="https://github.com/srcole/neurodemo/tree/master/Fourier%20analysis/ProblemSet1">Problem set</a>)</li>
 	<li>Calculating phase and coherence in neural signals (<a href="https://www.youtube.com/watch?v=PAipVT_B_GY">Lecture</a>, <a href="https://github.com/srcole/neurodemo/tree/master/Fourier%20analysis/ProblemSet2">Problem set</a>)</li>
-	<li><a href="https://github.com/voytekresearch/tutorials">Voytek Lab tutorials</a> - Our lab releases tutorials (with IPython Notebook &amp; Binder) on the techniques we use to analyze neural signals</li>
+	<li><a href="https://github.com/voytekresearch/tutorials">Spectral analysis tutorials (Voytek Lab)</a> - Our lab releases tutorials (with IPython Notebook &amp; Binder) on the techniques we use to analyze neural signals</li>
 	<li><a href="https://github.com/srcole/binder_emd">Empirical mode decomposition (EMD) tutorial</a> - a tutorial I wrote on a method of decomposition of a temporal signal into oscillations, an alternative to Fourier analysis</li>
 </ul>
 <strong>Miscellaneous</strong>
 <ul>
-	<li><span style="text-decoration: underline;">Burrito reviewing</span> - I led a group who developed a <a href="https://sxcole.com/2016/05/22/100-burritos-in-san-diego-10-dimensional-rating-system/">10-dimensional system</a> to rate burritos across San Diego county. See <a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">raw data</a>, and <a href="https://github.com/srcole/qwm/tree/master/burrito">analysis code</a>.</li>
+	<li><span style="text-decoration: underline;">Burrito reviewing</span> - I led a group who developed a <a href="https://srcole.github.io/100burritos/">10-dimensional system</a> to rate burritos across San Diego county. See <a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">raw data</a>, and <a href="https://github.com/srcole/qwm/tree/master/burrito">analysis code</a>.</li>
 	<li><span style="text-decoration: underline;">Foreign currency exchange (Forex)</span> - <a href="https://github.com/srcole/fxml">Github repo</a> to easily download high quality historical data without a <a href="http://www.fxcmapps.com/standalone/historical-data-downloader/">broker subscription costing hundreds of dollars</a>. A blog post on data-driven trading strategies is forthcoming.</li>
 </ul>
 &nbsp;
 
-[caption id="attachment_74" align="aligncenter" width="225"]<img class=" size-medium wp-image-74 aligncenter" src="https://sxcole.files.wordpress.com/2015/03/20150315_172940.jpg?w=225" alt="20150315_172940" width="225" height="300" /> Gingerbread histology[/caption]
-
-[caption id="attachment_53" align="aligncenter" width="401"]<img class=" wp-image-53 aligncenter" src="https://sxcole.files.wordpress.com/2015/03/airport.jpg?w=300" alt="airport" width="401" height="301" /> Cole, S.R., Steele, T.W.J. Biodegradable elastomers for targeted drug delivery applications. <em>Exclusive Biomaterials Conference</em>, O'Hare Terminal 1, Gate B22, Chicago. April 2013. Keynote. Uninvited Talk.[/caption]
+<div class="imgcap">
+<img src="/assets/ohare.jpg">
+<div class="thecap" style="text-align:justify;">Cole, S.R., Steele, T.W.J. Biodegradable elastomers for targeted drug delivery applications. <em>Exclusive Biomaterials Conference</em>, O'Hare Terminal 1, Gate B22, Chicago. April 2013. Keynote. Uninvited Talk.</div>
+</div>
