@@ -6,7 +6,7 @@ permalink: /about/
 
 I’m a PhD student studying neuroscience at UC San Diego, currently researching the functions and measures of neural oscillations in the Voytek lab. Outside of research I love maths, am an amateur currency trader and beach volleyball player, yet a professional burrito reviewer of San Diego.
 
-<strong>Neuroscience research (<a href="https://sxcole.files.wordpress.com/2015/03/cv_01182016.pdf">CV</a>)</strong>
+<strong>Neuroscience research (<a href="/assets/cv.pdf">CV</a>)</strong>
 
 I'm a PhD student in the <a href="http://healthsciences.ucsd.edu/education/neurograd/Pages/default.aspx">Neurosciences Graduate Program at UC San Diego</a> working on my thesis in the <a href="http://voyteklab.com/">Voytek lab</a>. In general, we study the origins of neural oscillations and how they influence neural communication. Specifically, I have worked on:
 <ul>
