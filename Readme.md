@@ -1,3 +1,4 @@
 # My blog
 
-This website layout was taken from Andrej Karpathy at [his GitHub repo](https://github.com/karpathy/karpathy.github.io)
+This is my blog, uses [Jekyll](http://jekyllrb.com/). I was tired of bloated, slow Wordpress that locked up all my content.
+
