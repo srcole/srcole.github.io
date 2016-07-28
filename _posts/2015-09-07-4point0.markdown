@@ -1,0 +1,12 @@
+---
+layout: post
+comments: true
+title:  "Is an undergraduate 4.0 GPA worth the effort?"
+excerpt: "A different perspective on how much having a perfect undergrad GPA really matters."
+date:   2015-09-07 00:00:00
+mathjax: true
+---
+
+### TODO
+
+add the stuff

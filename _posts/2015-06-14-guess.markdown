@@ -1,0 +1,12 @@
+---
+layout: post
+comments: true
+title:  "Game theory to guess closest random number"
+excerpt: "A search for the optimal strategy to win in a competitive number guessing game"
+date:   2015-06-14 00:00:00
+mathjax: true
+---
+
+### TODO
+
+add the stuff

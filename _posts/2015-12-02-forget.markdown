@@ -1,0 +1,12 @@
+---
+layout: post
+comments: true
+title:  "Our forgotten memories are still in our heads"
+excerpt: "My take on a recent neuroscience study in which researchers could stimulate the brain to evoke a forgotten memory"
+date:   2015-12-02 00:00:00
+mathjax: true
+---
+
+### TODO
+
+add the stuff
