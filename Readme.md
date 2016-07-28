@@ -1,4 +1,4 @@
-# My blog
+# Scott's website repo
 
-This is my blog, uses [Jekyll](http://jekyllrb.com/). I was tired of bloated, slow Wordpress that locked up all my content.
-
+I am attempting to move [my website](http://sxcole.com) to github.io instead of wordpress.
+I'm taking inspiration from Andrej's Karpathy's blog. Hopefully it'll be up soon!
