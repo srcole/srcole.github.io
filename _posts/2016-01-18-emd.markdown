@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Empirical Mode Decomposition (EMD) tutorial"
 excerpt: "Rhythmic signal analysis can be improved with a transform our of the time domain. While Fourier techniques are traditionally applied, EMD offers an alternative approach to frequency analysis."
-date:   2015-01-18 00:00:00
+date:   2016-01-18 00:00:00
 mathjax: true
 ---
 
