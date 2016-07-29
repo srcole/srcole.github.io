@@ -5,5 +5,5 @@ I am attempting to move [my website](http://sxcole.com) to github.io instead of 
 I adapted this webpage from [Andrej's Karpathy's blog](http://karpathy.github.io/)
 
 ## TODO
-* Add blogposts from sxcole
+* Format html in blog posts
 * add a fb link

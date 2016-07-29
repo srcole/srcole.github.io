@@ -6,11 +6,7 @@ title: 100 Burritos in San Diego
 permalink: /100burritos/
 ---
 
-<p style="text-align:center;"><strong><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">See the details of all &gt;100 burrito reviews</a></strong></p>
-<p style="text-align:center;"><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform"><b>Contribute to the burrito review data set by filling out this form</b></a></p>
-<p style="text-align:center;"><strong><a href="https://github.com/srcole/qwm/tree/master/burrito">IPython Notebooks for this analysis</a></strong></p>
-<p style="text-align:center;"><strong><a href="https://public.tableau.com/profile/will.griffiths#!/vizhome/BurritoBook/MainDash">Interactive map</a></strong></p>
-<b>Summary</b>
+### Summary
 
 <span style="font-weight:400;">We have developed a 10-dimensional system for rating the burritos in San Diego. The goal of this project is threefold:</span>
 <ol>
@@ -20,9 +16,14 @@ permalink: /100burritos/
 </ol>
 <span style="font-weight:400;">At this time, 30 reviewers have visited 31 taco shops and critiqued 104 burritos. So far, a general consensus has identified The Taco Stand in downtown La Jolla as having the best California burrito, but there are many more to try. Here, the average burrito costs about $7 and is about 850mL in volume. Further, we explore correlations between burrito dimensions, such as the quality of the meat and nonmeat fillings, and identify a novel correlation between tortillas and Yelp ratings.</span>
 
-&nbsp;
+### Quick Links
 
-<b>Motivation</b>
+<p style="text-align:center;"><strong><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">Spreadsheet: See the details of all &gt;100 burrito reviews</a></strong></p>
+<p style="text-align:center;"><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform"><b>Form: Contribute to the burrito review data set</b></a></p>
+<p style="text-align:center;"><strong><a href="https://github.com/srcole/qwm/tree/master/burrito">Code: IPython Notebooks for this analysis</a></strong></p>
+<p style="text-align:center;"><strong><a href="https://public.tableau.com/profile/will.griffiths#!/vizhome/BurritoBook/MainDash">Map: Interactive display of review data</a></strong></p>
+
+### Motivation
 
 <span style="font-weight:400;">Mexican cuisine is often the best food option is southern California. And the burrito is the hallmark of delicious taco shop food: tasty, cheap, and filling. Though these “majestic cylinders” are consumed at a rate faster than one per second across San Diego county [1], they have been dramatically understudied [2]. This lack of funding to support public burrito knowledge has led millions of people to eating a burrito and subsequently feeling dissatisfied, a tragedy that can be avoided. Even the most experienced burrito eaters have experienced the following disappointments:</span>
 <ul>
@@ -33,17 +34,13 @@ permalink: /100burritos/
 	<li style="font-weight:400;"><span style="font-weight:400;">“Where is the meat in this burrito?”</span></li>
 	<li style="font-weight:400;"><span style="font-weight:400;">“I need a fork”</span></li>
 </ul>
-<span style="font-weight:400;">For this reason, an effort was launched to critique burritos across the county and make this data open to the lay burrito consumer. Armed with an ever-growing database of over 100 burritos from Chula Vista to San Marcos (but mainly around UCSD), consumers can make better educated decisions of where to get their next fix. With this active feedback into consumption choice, we hope this will also cause burrito chefs to continuously improve their own methods. This study was predominantly a joint effort between the Neurosciences graduate program at UC San Diego and the amateur beach volleyball group that plays at Muir courts at 5pm. It is an extension of the </span><a href="https://sxcole.com/2015/08/30/searching-for-san-diegos-finest-burrito/"><span style="font-weight:400;">single-dimensional burrito analysis published last year</span></a><span style="font-weight:400;">.</span>
+<span style="font-weight:400;">For this reason, an effort was launched to critique burritos across the county and make this data open to the lay burrito consumer. Armed with an ever-growing database of over 100 burritos from Chula Vista to San Marcos (but mainly around UCSD), consumers can make better educated decisions of where to get their next fix. With this active feedback into consumption choice, we hope this will also cause burrito chefs to continuously improve their own methods. This study was predominantly a joint effort between the Neurosciences graduate program at UC San Diego and the amateur beach volleyball group that plays at Muir courts at 5pm. It is an extension of the </span><a href="https://srcole.github.io/2015/08/30/burrito1/"><span style="font-weight:400;">single-dimensional burrito analysis published last year</span></a><span style="font-weight:400;">.</span>
 
-&nbsp;
-
-<b>Previous work: FiveThirtyEight’s best burrito in America</b>
+### Previous work: FiveThirtyEight’s best burrito in America
 
 <span style="font-weight:400;">Anna Maria Barry-Jester, a reporter with the website FiveThirtyEight travelled across America to identify the best burrito in the country. Their process, </span><a href="http://fivethirtyeight.com/features/americas-best-burrito/"><span style="font-weight:400;">described here</span></a><span style="font-weight:400;">, was to data mine Yelp in order to narrow down the pool of &gt;67,000 restaurants to just 64. Then, Anna completed a </span><a href="http://fivethirtyeight.com/burrito/#brackets-view"><span style="font-weight:400;">“burrito bracket”</span></a><span style="font-weight:400;"> in which groups of four restaurants faced off against each other in knockout-fashion for 3 rounds until only one taqueria remained: La Taqueria in San Francisco. Their articles are worth reading, as their efforts were much more serious, qualifications much more qualified, and methods much better thought-out than my own. In addition to naming a best burrito in America, they also have interesting insight on crowdsourced reviewing systems and biases.</span>
 
-&nbsp;
-
-<b>The 10-dimensional burrito</b>
+### The 10-dimensional burrito
 
 <span style="font-weight:400;">Contrary to popular belief, burritos do not merely exist in 3 dimensions. They transcend the physical limitations of space. From polling several San Diegans, we’ve established the 10 core dimensions of the San Diego burrito.</span>
 <ol>
@@ -63,9 +60,8 @@ permalink: /100burritos/
 	<li><b><b>Overall rating</b><span style="font-weight:400;"> - 0 to 5 stars</span></b></li>
 	<li><b>Recommendation</b><span style="font-weight:400;"> - Yes/No. If a friend asked you about that burrito with the intent of purchasing one, would you recommend it?</span></li>
 </ol>
-&nbsp;
 
-<b>Where can I get the best burrito?</b>
+### Where can I get the best burrito?
 
 <span style="font-weight:400;">This controversial question is argued by many who hold very strong opinions. However, I believe that there is no single best burrito for a few reasons:</span>
 <ol>
@@ -80,9 +76,7 @@ permalink: /100burritos/
 
 Table 1. Ranking of the three most-rated taco shops in each burrito dimension. '1.5' indicates a tie.
 
-&nbsp;
-
-<b>The MNIST (Mexican National Institute for Sustenance Taste) burrito database</b>
+### The MNIST (Mexican National Institute for Sustenance Taste) burrito database
 
 <span style="font-weight:400;">As with the </span><a href="http://yann.lecun.com/exdb/mnist/"><span style="font-weight:400;">MNIST handwritten digit database</span></a><span style="font-weight:400;">, all raw data is available in the Google spreadsheet </span><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing"><span style="font-weight:400;">here</span></a><span style="font-weight:400;">. The subsequent analyses performed can be found in </span><a href="https://github.com/srcole/qwm/tree/master/burrito"><span style="font-weight:400;">my GitHub repo for this blog, organized in IPython Notebooks here</span></a><span style="font-weight:400;">. As of May 19, 2016, the review system outlined above has been applied by 30 people to rate 104 burritos at 31 unique restaurants. Only 9 of those 31 (29%) taco shops provided free chips. The California burrito was the most commonly rated variety, mainly because it is one of my favorites and a standard in San Diego. However, multiple samples were taken from other common varieties as well as each restaurant’s specialties.</span>
 
@@ -94,7 +88,7 @@ Table 1. Ranking of the three most-rated taco shops in each burrito dimension. '
 
 <img class=" size-full wp-image-534 aligncenter" src="https://sxcole.files.wordpress.com/2016/05/volumedist.png" alt="Volumedist" width="360" height="360" />
 
-<b>Linear models to predict overall burrito quality</b>
+### Linear models to predict overall burrito quality
 
 <span style="font-weight:400;">Of the above dimensions, which are the most important to the overall rating of a burrito? Before attempting to answer this, it is important to note that each metric is not independent of one another, and in fact there are considerable correlations between numerous dimensions. This is clearly seen in the correlation matrix below. While the overall rating correlates positively with almost all measures, these measures are not independent of one another, so it is difficult to disentangle how each one contributes to the overall rating. This limitation may be rooted in a few possibilities:</span>
 <ol>
@@ -116,9 +110,7 @@ While the ratings for Fillings, Meat, Salsa, and Tortilla are heavily reliant on
 
 Is there a recipe for a great burrito? A second linear model was designed to predict overall rating, this time based on the ingredients in each burrito. In order to be included in the model, an ingredient had to be in at least 10 burritos. Ten ingredients met this qualification: Beef, Pork, Pico de Gallo, Guacamole, Cheese, Potatoes, Sour cream, rice, beans, and sauce. Though these features had binary values, a linear model was a reasonable first pass for regression analysis [3]. However, the linear model only explained 12% of the variance in the overall rating, using the same number of features as the previous linear model. This was lower than 27% of models trained using the same number of features but with random values. From this, we conclude that the ingredients chosen for a burrito is not critical, it’s solely how the ingredients are prepared.
 
-&nbsp;
-
-<b>Correlations: Difficult to interpret and possibly spurious</b>
+### Correlations: Difficult to interpret and possibly spurious
 
 <span style="font-weight:400;">It’s hard to resist looking for correlations after collecting a large multivariate dataset. Afterall, for every 20 tests I run, there will be at least one that will stop and make me think.</span>
 
@@ -137,17 +129,13 @@ One of the strongest correlations between burrito dimensions was between Meat an
 
 Testing hypotheses (2) and (3) will require very specialized data sets. For example, reviewing many carne asada and carnitas burritos from a given restaurant would hold the fillings (guac and pico) constant while solely changing the meat. Ideally, one meat would be great at this restaurant and the other would be terrible. Then, we could test if there was a difference between the Filling ratings between these two groups (good meat and poor meat). The null result is interesting in this case, in which there is no difference in Filling rating between the burrito with good meat and the type with bad meat. The conclusion would be to reject hypotheses (2) and (3). However, this conclusion will require high power (and so a large sample size) to support.
 
-&nbsp;
-
-<b>Reviewer ratings vs. Yelp ratings</b>
+### Reviewer ratings vs. Yelp ratings
 
 <span style="font-weight:400;">Lastly, how does this data set relate to aggregate ratings from users on Google and Yelp,  both out of 5 stars? While Google and Yelp were both highly correlated with each other (Pearson r = 0.66), they were correlated to a lesser extent to the overall burrito rating (Yelp: Pearson r</span><span style="font-weight:400;"> = 0.34; Google: r</span><span style="font-weight:400;"> = 0.27). This makes sense because we are only rating a subset of the menu at these taco shops. To my surprise, the Tortilla rating was a better predictor than the overall burrito rating when these were these two dimensions were used to predict Yelp rating in a linear model (Tortilla: GLM coefficient = 0.39 +/- 0.13, Z = 2.9, p = 0.003, Overall: GLM coefficient = -0.12 +/- 0.14, Z = -0.8, p = 0.38).</span>
 
 <img class=" size-full wp-image-561 aligncenter" src="https://sxcole.files.wordpress.com/2016/05/corr-yelp-tortilla1.png" alt="corr-Yelp-tortilla" width="288" height="288" />
 
-&nbsp;
-
-<b>Future plans</b>
+### Future plans
 
 <span style="font-weight:400;">We are certainly not satisfied with our sparse sampling of the burritos around San Diego county. Assembling a reliable must-try list for a burrito enthusiast will require visiting many new taco shops and increasing our sampling at the current ones. The <a href="http://burritosofsandiego.tumblr.com/">burritosofsandiego Tumblr</a> will help here, and perhaps we will integrate some of its data into future analysis. While doing this, we hope to continue to characterize the spectrum of burritos found across San Diego.</span>
 
@@ -155,15 +143,11 @@ While the current analysis was limited to linear models, future analysis will in
 
 <span style="font-weight:400;">In writing this, I welcome and hope to receive suggestions on data collection improvements and analytics ideas. Additionally, by opening up this data set, I encourage anyone who is interested to perform their own analysis and share their conclusions! Most importantly, I hope that readers will contribute to this data set by filling out </span><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform"><span style="font-weight:400;">this form</span></a><span style="font-weight:400;">.</span>
 
-&nbsp;
-
-<b>Acknowledgements</b>
+#### Acknowledgements
 
 <span style="font-weight:400;">Thank you to everyone who rated a burrito and provided feedback to improve this system. I am especially grateful to the multiple-burrito raters including Sage Aronson (4 burritos), Ricardo Serrano (6 burritos), and Emily Cheng (21 burritos). And thank you to the National Science Foundation Graduate Research Fellowship program for providing a stipend with sufficient disposable income to eat a lot of burritos.</span>
 
-&nbsp;
-
-<b>Footnotes</b>
+#### Footnotes
 
 <span style="font-weight:400;">[1] Estimate 3.2 million people in San Diego county eat an average of 1 burrito per month.</span>
 
