@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "100 Burritos in San Diego: 10-dimensional rating system"
-excerpt: "A group of San Diegans quantified over 100 burrito experiences by decomposing their meal into 10 dimensions. This post describes the data and has some preliminary analysis."
+title:  "TITLE"
+excerpt: "EXCERPT"
 date:   2016-05-22 00:00:00
 mathjax: true
 ---
