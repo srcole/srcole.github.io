@@ -19,7 +19,7 @@ permalink: /100burritos/
 ### Quick Links
 
 <p style="text-align:center;"><strong><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">Spreadsheet: See the details of all &gt;100 burrito reviews</a></strong></p>
-<p style="text-align:center;"><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform">Form: Contribute to the burrito review data set</a></p>
+<p style="text-align:center;"><strong><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform">Form: Contribute to the burrito review data set</a></strong></p>
 <p style="text-align:center;"><strong><a href="https://github.com/srcole/qwm/tree/master/burrito">Code: IPython Notebooks for this analysis</a></strong></p>
 <p style="text-align:center;"><strong><a href="https://public.tableau.com/profile/will.griffiths#!/vizhome/BurritoBook/MainDash">Map: Interactive display of review data</a></strong></p>
 
@@ -82,21 +82,21 @@ permalink: /100burritos/
 <span style="font-weight:400;">As with the </span><a href="http://yann.lecun.com/exdb/mnist/"><span style="font-weight:400;">MNIST handwritten digit database</span></a><span style="font-weight:400;">, all raw data is available in the Google spreadsheet </span><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing"><span style="font-weight:400;">here</span></a><span style="font-weight:400;">. The subsequent analyses performed can be found in </span><a href="https://github.com/srcole/qwm/tree/master/burrito"><span style="font-weight:400;">my GitHub repo for this blog, organized in IPython Notebooks here</span></a><span style="font-weight:400;">. As of May 19, 2016, the review system outlined above has been applied by 30 people to rate 104 burritos at 31 unique restaurants. Only 9 of those 31 (29%) taco shops provided free chips. The California burrito was the most commonly rated variety, mainly because it is one of my favorites and a standard in San Diego. However, multiple samples were taken from other common varieties as well as each restaurant’s specialties.</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_pie_type.png" height="200">
+<img src="/assets/burrito/100_pie_type.png" height="400">
 <div class="thecap">Figure 1. Distribution of reviewed burrito varieties.</div>
 </div>
 
 <span style="font-weight:400;">While burritos are known to be inexpensive, there is significant variance across taco shops. The average burrito was about $7 before tax, but this value ranged from $5 to $10.</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_hist_cost.png" height="200">
+<img src="/assets/burrito/100_hist_cost.png" height="300">
 <div class="thecap">Figure 2. Distribution of reviewed burrito cost.</div>
 </div>
 
 <span style="font-weight:400;">Volume was estimated using a flexible tape measure (Wal-Mart, sewing section) trimmed to a length of 30cm for better portability. First, before any part of the burrito was consumed, the tape measure was extended in front of the burrito, and the length of the burrito-proper (portion of the burrito with approximately the same circumference as the center) was measured with a precision of 5mm. Second, the tape measure was wrapped around the center of the burrito to record the circumference. An estimate of burrito volume was then calculated using these two measures. The average burrito occupied approximately 0.85 liters but varied across the distribution shown below.</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_hist_vol.png" height="200">
+<img src="/assets/burrito/100_hist_vol.png" height="300">
 <div class="thecap">Figure 3. Distribution of reviewed burrito volume.</div>
 </div>
 
@@ -110,7 +110,7 @@ permalink: /100burritos/
 </ol>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_corrmat.png" height="200">
+<img src="/assets/burrito/100_corrmat.png" height="600">
 <div class="thecap">Figure 4. Correlation matrix between features of burritos.</div>
 </div>
 
@@ -136,7 +136,7 @@ Is there a recipe for a great burrito? A second linear model was designed to pre
 <span style="font-weight:400;">Analyzing the 29 burritos for which we have a size estimate, volume is weakly negatively correlated with cost (Pearson r = -0.38, p = 0.04). That is, when ordering a fancy burrito (e.g. Lobster burrito from El Zarape), don’t expect to be full. However, it is hard to believe that this would hold true to both extremes. Extremely cheap burritos (&lt;$5) probably will not be extremely large, and a “Monster burrito” can run &gt;$10. Though it is not a significant predictor for overall burrito rating, we’ll keep an eye on this metric in the future though to see how size relates to other burrito dimensions, linearly or non-linearly.</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_scatt_vol-cost.png" height="200">
+<img src="/assets/burrito/100_scatt_vol-cost.png" height="300">
 <div class="thecap">Figure 6. Negative relationship between burrito volume and its cost.</div>
 </div>
 
@@ -156,7 +156,7 @@ Testing hypotheses (2) and (3) will require very specialized data sets. For exam
 <span style="font-weight:400;">Lastly, how does this data set relate to aggregate ratings from users on Google and Yelp,  both out of 5 stars? While Google and Yelp were both highly correlated with each other (Pearson r = 0.66), they were correlated to a lesser extent to the overall burrito rating (Yelp: Pearson r</span><span style="font-weight:400;"> = 0.34; Google: r</span><span style="font-weight:400;"> = 0.27). This makes sense because we are only rating a subset of the menu at these taco shops. To my surprise, the Tortilla rating was a better predictor than the overall burrito rating when these were these two dimensions were used to predict Yelp rating in a linear model (Tortilla: GLM coefficient = 0.39 +/- 0.13, Z = 2.9, p = 0.003, Overall: GLM coefficient = -0.12 +/- 0.14, Z = -0.8, p = 0.38).</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_scatt_tortilla-yelp.png" height="200">
+<img src="/assets/burrito/100_scatt_tortilla-yelp.png" height="300">
 <div class="thecap">Figure 7. Strong positive correlation between average tortilla ratings and Yelp reviews.</div>
 </div>
 
