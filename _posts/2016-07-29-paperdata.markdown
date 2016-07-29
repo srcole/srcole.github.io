@@ -7,6 +7,8 @@ date:   2016-07-29 00:00:00
 mathjax: true
 ---
 
+[See this tutorial on GitHub](https://github.com/srcole/qwm/blob/master/misc/paper_data/Extract%20time%20series%20from%20a%20published%20figure.ipynb)
+
 <html>
 <head><meta charset="utf-8" />
 <title>Extract time series from a published figure</title>
