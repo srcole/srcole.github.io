@@ -1,9 +1,11 @@
-# Scott's website repo
+# Scott Cole's webpage
 
-I am attempting to move [my website](http://sxcole.com) to github.io instead of wordpress. Hopefully it'll be up soon!
-
-I adapted this webpage from [Andrej's Karpathy's blog](http://karpathy.github.io/)
+This repo contains all the code and materials for my webpage, http://srcole.github.io. A few notes about this webpage:
+* It is a new version of my former [wordpress-based webpage](http://sxcole.com)
+* The older blog posts (pre- July 2016) have not been formatted for this webpage.
+* I adapted this webpage from [Andrej's Karpathy's blog](http://karpathy.github.io/)
 
 ## TODO
 * Format html in blog posts
-* add a fb link
+* Add Fb to footer
+* More posts!
