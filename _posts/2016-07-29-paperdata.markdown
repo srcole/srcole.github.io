@@ -7,7 +7,6 @@ date:   2016-07-29 00:00:00
 mathjax: true
 ---
 
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 <title>Extract time series from a published figure</title>
@@ -198,7 +197,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Example-Case">Example Case<a class="anchor-link" href="#Example-Case">&#182;</a></h2><p>We're looking at <a href="http://www.sciencedirect.com/science/article/pii/S0896627315004134">a recent Neuron paper</a> that highlighted a potential top-down projection from motor cortex (M2) to primary somatosensory cortex (S1). This interaction is summarized in the firing rate curves below:
-<img src="figure_raw.png"></p>
+<img src="/assets/paperdata/figure_raw.png"></p>
 <p>If we were interested in modeling this interaction, then we may want to closely replicate the firing rate dynamics of S1. So in this notebook, we extract this time series from the figure above so that we can use it for future model fitting.</p>
 
 </div>
@@ -210,7 +209,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Step-1">Step 1<a class="anchor-link" href="#Step-1">&#182;</a></h2><p>In our favorite image editting software (or simply MS Paint), we can isolate the curve we are interested in as well as the scale bars (separated by whitespace)
-<img src="figure_processed.png"></p>
+<img src="/assets/paperdata/figure_processed.png"></p>
 
 </div>
 </div>
@@ -1545,19 +1544,6 @@ XmOMiTALXmOMiTALXmOMibD/DwuQ9STbWeEUAAAAAElFTkSuQmCC
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
-</pre></div>
-
-</div>
 </div>
 </div>
 
