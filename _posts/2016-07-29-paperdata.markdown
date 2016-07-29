@@ -197,7 +197,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Example-Case">Example Case<a class="anchor-link" href="#Example-Case">&#182;</a></h2><p>We're looking at <a href="http://www.sciencedirect.com/science/article/pii/S0896627315004134">a recent Neuron paper</a> that highlighted a potential top-down projection from motor cortex (M2) to primary somatosensory cortex (S1). This interaction is summarized in the firing rate curves below:
-<img src="/assets/paperdata/figure_raw.png"></p>
+<img src="/assets/paperdata/figure_raw.PNG"></p>
 <p>If we were interested in modeling this interaction, then we may want to closely replicate the firing rate dynamics of S1. So in this notebook, we extract this time series from the figure above so that we can use it for future model fitting.</p>
 
 </div>
