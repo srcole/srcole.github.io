@@ -29,6 +29,6 @@ I'm a PhD student in the <a href="http://healthsciences.ucsd.edu/education/neuro
 &nbsp;
 
 <div class="imgcap">
-<img src="/assets/ohare.jpg">
+<img src="/assets/ohare.jpg" height="400">
 <div class="thecap" style="text-align:justify;">Cole, S.R., Steele, T.W.J. Biodegradable elastomers for targeted drug delivery applications. <em>Exclusive Biomaterials Conference</em>, O'Hare Terminal 1, Gate B22, Chicago. April 2013. Keynote. Uninvited Talk.</div>
 </div>
