@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Deciding which country won the Olympics using Tableau"
+title:  "Which country is winning the 2016 Olympic games?: A Tableau Visualization"
 excerpt: "Interactive visualization to set weights to each medal category to visualize performance across the globe. Playing around with data visualization in Tableau Public using the Rio Summer 2016 Olympic medals dataset."
 date:   2016-08-17 00:00:00
 mathjax: true
