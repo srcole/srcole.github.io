@@ -9,8 +9,8 @@ mathjax: true
 
 ## Weighting gold vs. silver vs. bronze medals
 After each Olympic games, there's often a debate of which country "won" the Olympics. This debate is often between
-people who disagree on whether the total number of medals or the number of gold medals is most important. Of course,
-the answer for most of us lies somewhere in between, and using the interactive data visualization below, we can
+people who disagree on whether the total number of medals or the number of gold medals is most important. 
+Perhaps for others the answer lies somewhere in between, and using the interactive data visualization below, we can
 weight the value of each medal and see how that affects each country's standing.
 
 <html>
