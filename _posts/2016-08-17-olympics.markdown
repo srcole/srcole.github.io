@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "Deciding which country won the Olympics: Interactive data visualizations"
-excerpt: "Playing around with data visualization in Tableau Public using the Rio Summer 2016 Olympic medals dataset."
-date:   2016-08-16 00:00:00
+title:  "Deciding which country won the Olympics using Tableau"
+excerpt: "Interactive visualization to set weights to each medal category to visualize performance across the globe. Playing around with data visualization in Tableau Public using the Rio Summer 2016 Olympic medals dataset."
+date:   2016-08-17 00:00:00
 mathjax: true
 ---
 
@@ -16,14 +16,10 @@ weight the value of each medal and see how that affects each country's standing.
 <div class='tableauPlaceholder' id='viz1471451985793' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZR&#47;ZRMSG847R&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='path' value='shared&#47;ZRMSG847R' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZR&#47;ZRMSG847R&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1471451985793');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='804px';vizElement.style.height='669px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 </html>
 
-In this visualization, you can additionally select a country on the map and see in the bar chart how their medal count
-faired in each sport. Additionally, you can select a sport by clicking on its name below the bar chart and the map
-above will update to show the weighted medal score for each country for only that sport. And by clicking on
-the bar above, you can update the map to show only the worldwide distribution of a certain medal type (gold, silver,
- or bronze).
+In this visualization, you can
+* Vary the weights of gold, silver, and bronze medals.
+* Select a country on the map: see in the bar chart how their medal count faired in each sport.
+* Select a sport below the bar chart: see the weighted medal score for each country for only that sport.
+* Select a certain medal type (gold, silver, bronze) in a given sport's bar: see the worldwide distribution of a certain medal type.
 
-## Adjusting medal weights for each sport
-By observing the total number of medals awarded in each sport, I still don't think the weighted medal count above is
-sufficient. Why should swimming be more than twice as important than any other sport when deciding which country
-performed best in the Olympic games? Because of this, I wanted to also weight the medals in each sport separately,
-and this visualization will come later.
+Note that the 'Independent Olympic Athletes' were arbitrarily mapped onto Greenland.
