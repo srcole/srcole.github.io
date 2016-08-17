@@ -1,11 +1,3 @@
----
-layout: post
-comments: true
-title:  "Deciding which country won the Olympics: Interactive data visualizations"
-excerpt: "Playing around with data visualization in Tableau Public using the Rio Summer 2016 Olympic medals dataset."
-date:   2016-08-16 00:00:00
-mathjax: true
----
 
 ## Weighting gold vs. silver vs. bronze medals
 After each Olympic games, there's often a debate of which country "won" the Olympics. This debate is often between
