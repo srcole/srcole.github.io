@@ -12,14 +12,16 @@ After each Olympic games, there's often a debate of which country "won" the Olym
 people who disagree on whether the total number of medals or the number of gold medals is most important. Of course,
 the answer for most of us lies somewhere in between, and using the interactive data visualization below, we can
 weight the value of each medal and see how that affects each country's standing.
+
 <html>
 <div class='tableauPlaceholder' id='viz1471451985793' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZR&#47;ZRMSG847R&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='path' value='shared&#47;ZRMSG847R' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZR&#47;ZRMSG847R&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1471451985793');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='804px';vizElement.style.height='669px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 </html>
 
-In this visualization, you can
-* Vary the weights of gold, silver, and bronze medals.
-* Select a country on the map: see in the bar chart how their medal count faired in each sport.
-* Select a sport below the bar chart: see the weighted medal score for each country for only that sport.
-* Select a certain medal type (gold, silver, bronze) in a given sport's bar: see the worldwide distribution of a certain medal type.
+In this visualization, you can:
+
+1. Vary the weights of gold, silver, and bronze medals.
+2. Select a country on the map: see in the bar chart how their medal count faired in each sport.
+3. Select a sport below the bar chart: see the weighted medal score for each country for only that sport.
+4. Select a certain medal type (gold, silver, bronze) in a given sport's bar: see the worldwide distribution of a certain medal type.
 
 Note that the 'Independent Olympic Athletes' were arbitrarily mapped onto Greenland.
