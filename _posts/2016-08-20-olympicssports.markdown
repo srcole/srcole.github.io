@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: true
-title:  "Olympics 2016: Normalizing by sport, Great Britain has the most gold medals!"
+title:  "Olympics 2016: Normalizing results by sport"
 excerpt: "The United States is dominating in the Olympic medal count, but maybe that's because of the disproportionate number of medals in swimming. What would the results look like if the number of medals was even for all sports?"
 date:   2016-08-20 00:00:00
 mathjax: true
 ---
 
-**[Analysis code can be found here](https://github.com/srcole/qwm/tree/master/olympics)**
+**[Python code for data acquisition and analysis](https://github.com/srcole/qwm/tree/master/olympics)**
 
 ## A new medal count: Normalized by sport
 In [our last Tableau visualization](https://srcole.github.io/2016/08/17/olympics/), we could vary the weights of gold,
@@ -23,8 +23,8 @@ such that each sport has the same weight. For example, since there are 104 medal
 </html>
 
 ## Create your own Olympics: Custom sports weighting
-Interestingly, if we look at the number of gold medals after applying the uniform weighting across sports, we see that Great Britain
-is in the lead. However, I thought it'd be fun to create an interactive visualization in which we can choose the
+Interestingly, if we look at the number of gold medals after applying the uniform weighting across sports, we see that the United States's lead
+diminishes considerably. Additionally, I thought it'd be fun to create an interactive visualization in which we can choose the
 weighting for each sport and then this will weight the medal count appropriately. For example, if I'm a fan of
 diving (weight = 5), but I don't like swimming as much (weight = 0.5), then I see that China wins my Olympics.
 
