@@ -7,12 +7,23 @@ date:   2016-08-31 00:00:00
 mathjax: true
 ---
 
+<span style="font-weight:400;">In the future, when more data is collected (requiring multiple burritos from several establishments), we can identify the taco shop with the best meat, best tortilla, most optimal Meat:Filling, etc. Currently, we can share the rankings of each of the 3 taco shops from which we have rated at least 9 burritos. We find that Taco Stand is superior in most categories (overall average: 4.1/5) but fares worst in terms of cost, volume, and temperature. Rigoberto’s Taco Shop on Miramar Road, seems to be the best value burrito with the lowest cost and greatest volume and Meat:Filling and still an overall rating of 3.8/5.</span>
+
+<div class="imgcap">
+<img src="/assets/burrito/100_table_rank.png" height="200">
+<div class="thecap">Table 1. Ranking of the three most-rated taco shops in each burrito dimension. '1.5' indicates a tie.</div>
+</div>
+
+### The MNIST (Mexican National Institute for Sustenance Taste) burrito database
+
+<span style="font-weight:400;">As with the </span><a href="http://yann.lecun.com/exdb/mnist/"><span style="font-weight:400;">MNIST handwritten digit database</span></a><span style="font-weight:400;">, all raw data is available in the Google spreadsheet </span><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing"><span style="font-weight:400;">here</span></a><span style="font-weight:400;">. The subsequent analyses performed can be found in </span><a href="https://github.com/srcole/qwm/tree/master/burrito"><span style="font-weight:400;">my GitHub repo for this blog, organized in IPython Notebooks here</span></a><span style="font-weight:400;">. As of May 19, 2016, the review system outlined above has been applied by 30 people to rate 104 burritos at 31 unique restaurants. Only 9 of those 31 (29%) taco shops provided free chips. The California burrito was the most commonly rated variety, mainly because it is one of my favorites and a standard in San Diego. However, multiple samples were taken from other common varieties as well as each restaurant’s specialties.</span>
+
 
 
 August 30, 2016 was not a typical Taco Tuesday. Our group of well-trained burrito reviewers congregated at the Champion's
-Booth at [Lucha Libre Taco Shop in North Park](http://www.tacosmackdown.com/). Lucha Libre is one of the first Mexican
-restaurants I heard of when moving to San Diego. Its Luchador (Wrestler) theme is part of what makes it famous, enough
-to regularly have a line of customers out the door and to be included in [FiveThirtyEight’s Burrito Bracket](http://fivethirtyeight.com/burrito/#brackets-view). 
+Booth at [Lucha Libre Taco Shop in North Park](http://www.tacosmackdown.com/). Lucha Libre is potentially the most famous taco shop
+in San Diego. It qualified for [FiveThirtyEight’s Burrito Bracket](http://fivethirtyeight.com/burrito/#brackets-view). 
+The Luchador (Wrestler) theme is fun and silly, and there's commonly a line of customers out the door. 
 That night, our group applied the [10-dimensional burrito rating system](https://srcole.github.io/100burritos/) to
 nearly all the burritos on the [menu](http://www.tacosmackdown.com/menu.htm).
 
