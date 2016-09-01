@@ -15,11 +15,10 @@ That night, our group applied the [10-dimensional burrito rating system](https:/
 nearly all the burritos on the [menu](http://www.tacosmackdown.com/menu.htm).
 
 <div class="imgcap">
-<img src="/assets/burrito/100_table_rank.png" height="200">
-<div class="thecap">Table 1. Ranking of the three most-rated taco shops in each burrito dimension. '1.5' indicates a tie.</div>
+<img src="/assets/burrito/lichalibresize.png" height="400">
 </div>
 
-<img src="/assets/burrito/lichalibresize.png" height="400">
+
 
 ### The Ratings
 
