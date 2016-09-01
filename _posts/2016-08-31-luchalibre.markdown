@@ -42,7 +42,7 @@ burrito averaged over 900mL in volume while all Holy Moly burritos were less tha
 ### The Rankings
 
 <div class="imgcap">
-<img src="/assets/burrito/luchalibre_table1.png" height="200">
+<img src="/assets/burrito/luchalibre_table.png" height="200">
 <div class="thecap">
 Table 1. Ranking of burritos at Lucha Libre against 5 other commonly reviewed taco shops.
 </div>
