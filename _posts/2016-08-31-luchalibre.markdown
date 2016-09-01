@@ -16,7 +16,7 @@ to regularly have a line of customers out the door and to be included in [FiveTh
 That night, our group applied the [10-dimensional burrito rating system](https://srcole.github.io/100burritos/) to
 nearly all the burritos on the [menu](http://www.tacosmackdown.com/menu.htm).
 
-<img src="/assets/burrito/lichalibresize.jpg" height="400">
+<img src="/assets/burrito/lichalibresize.png" height="400">
 
 ### The Ratings
 
@@ -24,7 +24,7 @@ Overall, everyone's burrito experience at Lucha Libre that night was fairly vari
 scores ranged from 4.5/5 (great!) to 1.5/5 (disappointing!) with an average score of 3.26.
 
 <div class="imgcap">
-<img src="/assets/burrito/lichalibre_fig1" height="200">
+<img src="/assets/burrito/lichalibre_fig1.png" height="200">
 <div class="thecap">
 Figure 1. A. Distribution of burritos consumed.
 B. Overall burrito quality ratings, sorted by burrito type.
@@ -43,7 +43,7 @@ burrito averaged over 900mL in volume while all Holy Moly burritos were less tha
 ### The Rankings
 
 <div class="imgcap">
-<img src="/assets/burrito/lichalibre_table1" height="200">
+<img src="/assets/burrito/lichalibre_table1.png" height="200">
 <div class="thecap">
 Table 1. A. Ranking of burritos at Lucha Libre against 5 other commonly reviewed taco shops.
 </div>
