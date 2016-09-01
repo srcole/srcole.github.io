@@ -23,7 +23,7 @@ As a whole, the burrito experience at Lucha Libre that night was fairly variable
 scores ranged from 4.5/5 (great!) to 1.5/5 (disappointing!) with an average score of 3.3.
 
 <div class="imgcap">
-<img src="/assets/burrito/luchalibre_fig1.png" height="350">
+<img src="/assets/burrito/luchalibre_fig1.png" height="800">
 <div class="thecap">
 Figure 1. A. Distribution of burritos consumed.
 B. Overall burrito quality ratings, sorted by burrito type.
@@ -42,7 +42,7 @@ burrito averaged over 900mL in volume while all Holy Moly burritos were less tha
 ### The Rankings
 
 <div class="imgcap">
-<img src="/assets/burrito/luchalibre_table.png" height="200">
+<img src="/assets/burrito/luchalibre_table.png" height="350">
 <div class="thecap">
 Table 1. Ranking of burritos at Lucha Libre against 5 other commonly reviewed taco shops.
 </div>
