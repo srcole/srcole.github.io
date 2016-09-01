@@ -7,7 +7,7 @@ date:   2016-08-31 00:00:00
 mathjax: true
 ---
 
-<img src="/assets/burrito/luchalibresize.png" height="300" align="middle">
+<center><img src="/assets/burrito/luchalibresize.png" height="300"></center>
 
 August 30, 2016 was not a typical Taco Tuesday. Our group of well-trained burrito reviewers congregated at the Champion's
 Booth at [Lucha Libre Taco Shop in North Park](http://www.tacosmackdown.com/). Lucha Libre is potentially the most famous taco shop
