@@ -1,0 +1,20 @@
+---
+layout: post
+comments: true
+title:  "Poster popularity at SfN 2016: Minnesota and New Jersey bring the most viewed posters."
+excerpt: "I analyzed the geographic distribution of poster viewership across the US for the SfN 2016 annual meeting. Posters from some states, like Minnesota, or more popular than others, like Connecticut."
+date:   2016-12-12 00:00:00
+mathjax: true
+---
+
+Wandering around the poster hall at conferences (such as the Society for Neuroscience annual meeting), some posters draw large crowds, while others are less popular. Many factors may be linked to poster viewership. It would be interesting, for instance, if posters from some regions tend to be more popular than those from other regions. Here, I explored a data set on the number of viewers at around 3000 posters at SfN 2016 to see how popularity varied from posters across the United States (for more details on the data, see this previous post).
+
+<html>
+<div class='tableauPlaceholder' id='viz1481523088066' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TK&#47;TK5H22DXR&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='path' value='shared&#47;TK5H22DXR' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TK&#47;TK5H22DXR&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1481523088066');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='804px';vizElement.style.height='669px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</html>
+
+Interestingly, posters from states with large neuroscience communities (estimated by the number of posters affiliated with that state) appear to be more popular than those from states bringing fewer presentations (Spearman correlation, r = 0.46, p < 0.001).
+
+While this correlation is robust to permutation testing, it is important to note that the relatively large popularity of Minnesota is within the margin expected to occur by chance for one of the states with at least 30 posters (p = 0.13)*. Therefore, this result should be taken with a grain of salt. However, the unpopularity of posters from Connecticut was more severe than what was observed for any state in any of the permutation tests (p < 0.01). Therefore, we can conclude that Yale’s neuroscience program is boring.
+
+*For each permutation, observed viewer counts were randomly assigned to states, such that the total number of posters from each state was preserved. Two-tailed t-tests were performed for each state with at least 30 posters to test if its popularity was significantly greater than the rest of the posters. The lowest p-value from this set of tests was taken for each permutation. It was tested if these p-values from the randomized data were significantly higher than the “true” p-value of the difference in poster popularity between Minnesota and all other states. It was found that 13% of the random simulations had a state that was more distinctly popular than Minnesota. However, 0 of the 100 permutations had a state that was less popular than Connecticut.
