@@ -4,13 +4,21 @@ title: About
 permalink: /about/
 ---
 
-I’m a PhD student studying neuroscience at UC San Diego, currently researching the functions and measures of neural oscillations in the Voytek lab. Outside of research I love maths, am an amateur currency trader and beach volleyball player, yet a professional burrito reviewer of San Diego.
+I’m a PhD student studying [neuroscience at UC San Diego](http://healthsciences.ucsd.edu/education/neurograd/Pages/default.aspx), currently researching the functions and measures of neural oscillations in the [Voytek lab](voyteklab.com). 
+
+My main passion is in discovering statistical trends in data. Ideally, I hope for my analytics to serve some public good, even if it's only limited to education and entertainment at this stage. Some of my projects have included:
+* Burritos in San Diego [[1](https://srcole.github.io/100burritos/)], [[2](https://srcole.github.io/2016/08/31/luchalibre/)], [[3](https://srcole.github.io/2015/08/30/burrito1/)]
+* Poster popularity at the Society for Neuroscience Meeting [[1](https://srcole.github.io/2016/11/27/sfnthemes/)] [[2](https://srcole.github.io/2016/12/12/sfnstates/)]
+* Currency trading [[1](http://www.foxcarolina.com/story/18621418/clemson-students-made-40000)] [[2](https://github.com/srcole/fxml)]
+
+In addition to those projects, I'm also interested in:
+* Data visualization [[Tableau vizs](https://public.tableau.com/profile/scott.cole#!/)]
+* Writing miscellaneous Python tutorials tangentially related to data science [[1](https://srcole.github.io/2016/01/18/emd/)] [[2](https://srcole.github.io/2016/07/29/paperdata/)]
+* Probability and math [[1](https://srcole.github.io/2015/06/14/guess/)] [[2](https://srcole.github.io/2015/05/25/medianguess/)] [[3](https://srcole.github.io/2015/06/23/farey/)]
 
 <strong>Neuroscience research (<a href="/assets/cv.pdf">CV</a>)</strong>
-
-I'm a PhD student in the <a href="http://healthsciences.ucsd.edu/education/neurograd/Pages/default.aspx">Neurosciences Graduate Program at UC San Diego</a> working on my thesis in the <a href="http://voyteklab.com/">Voytek lab</a>. In general, we study the origins of neural oscillations and how they influence neural communication. Specifically, I have worked on:
 <ul>
-	<li><span style="text-decoration: underline;">Oscillation shape</span>. Currently, almost all frequency analysis approaches implement Fourier techniques. However, this presumes a sinusoidal basis whereas neural oscillations are commonly nonsinusoidal. We are developing methods to extract information from the waveform shape.</li>
+	<li><span style="text-decoration: underline;">Oscillation shape</span>. Currently, almost all frequency analysis approaches implement Fourier techniques. However, this presumes a sinusoidal basis whereas neural oscillations are commonly nonsinusoidal. We are developing methods to extract information from the waveform shape. See the review I wrote on this topic [here](http://voyteklab.com/wp-content/uploads/Cole-TrendsCognSci_inpress.pdf)</li>
 	<li><span style="text-decoration: underline;">Parkinson's Disease</span> (<a href="http://biorxiv.org/content/early/2016/04/19/049304">Cole et al., 2016, biorxiv</a>) This preprint presents an argument that synaptic synchrony is increased in the motor cortex of Parkinson's Disease patients.</li>
 	<li><span style="text-decoration: underline;">Phase-amplitude coupling (PAC)</span> is a phenomenon in neural electrophysiology in which oscillations at two different frequencies are coupled to one another. Along with post-doc Erik Peterson, we created a library for estimating PAC (<a href="https://pypi.python.org/pypi/pacpy">Python</a>, <a href="https://github.com/voytekresearch/pacmat">MATLAB</a>)</li>
 </ul>
@@ -21,11 +29,7 @@ I'm a PhD student in the <a href="http://healthsciences.ucsd.edu/education/neuro
 	<li><a href="https://github.com/voytekresearch/tutorials">Spectral analysis tutorials (Voytek Lab)</a> - Our lab releases tutorials (with IPython Notebook &amp; Binder) on the techniques we use to analyze neural signals</li>
 	<li><a href="https://github.com/srcole/binder_emd">Empirical mode decomposition (EMD) tutorial</a> - a tutorial I wrote on a method of decomposition of a temporal signal into oscillations, an alternative to Fourier analysis</li>
 </ul>
-<strong>Miscellaneous</strong>
-<ul>
-	<li><span style="text-decoration: underline;">Burrito reviewing</span> - I led a group who developed a <a href="https://srcole.github.io/100burritos/">10-dimensional system</a> to rate burritos across San Diego county. See <a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">raw data</a>, and <a href="https://github.com/srcole/qwm/tree/master/burrito">analysis code</a>.</li>
-	<li><span style="text-decoration: underline;">Foreign currency exchange (Forex)</span> - <a href="https://github.com/srcole/fxml">Github repo</a> to easily download high quality historical data without a <a href="http://www.fxcmapps.com/standalone/historical-data-downloader/">broker subscription costing hundreds of dollars</a>. A blog post on data-driven trading strategies is forthcoming.</li>
-</ul>
+<strong>Miscella
 &nbsp;
 
 <div class="imgcap">
