@@ -8,7 +8,7 @@ I’m a PhD student studying [neuroscience at UC San Diego](http://healthscience
 
 My main passion is in discovering statistical trends in data. In the future, I hope my analytics will serve the public good. But at this stage, my outreach is limited to education and entertainment, so I always try to couple my analyses with open code and data. Some of my projects have included:
 
-* Burritos in San Diego [[1](https://srcole.github.io/100burritos/)], [[2](https://srcole.github.io/2016/08/31/luchalibre/)], [[3](https://srcole.github.io/2015/08/30/burrito1/)]
+* Burritos in San Diego [[1](https://srcole.github.io/100burritos/)] [[2](https://srcole.github.io/2016/08/31/luchalibre/)] [[3](https://srcole.github.io/2015/08/30/burrito1/)]
 * Poster popularity at the Society for Neuroscience Meeting [[1](https://srcole.github.io/2016/11/27/sfnthemes/)] [[2](https://srcole.github.io/2016/12/12/sfnstates/)]
 * Currency trading [[1](http://www.foxcarolina.com/story/18621418/clemson-students-made-40000)] [[2](https://github.com/srcole/fxml)]
 
@@ -31,7 +31,6 @@ In addition to those projects, I'm also interested in:
 	<li><a href="https://github.com/voytekresearch/tutorials">Spectral analysis tutorials (Voytek Lab)</a> - Our lab releases tutorials (with IPython Notebook &amp; Binder) on the techniques we use to analyze neural signals</li>
 	<li><a href="https://github.com/srcole/binder_emd">Empirical mode decomposition (EMD) tutorial</a> - a tutorial I wrote on a method of decomposition of a temporal signal into oscillations, an alternative to Fourier analysis</li>
 </ul>
-<strong>Miscella
 &nbsp;
 
 <div class="imgcap">
