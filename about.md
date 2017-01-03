@@ -20,7 +20,7 @@ In addition to those projects, I'm also interested in:
 
 **Neuroscience research ([CV](https://srcole.github.io/assets/cv.pdf))**
 
-* __Oscillation shape.__ Currently, almost all frequency analysis approaches implement Fourier techniques. However, this presumes a sinusoidal basis whereas neural oscillations are commonly nonsinusoidal. We are developing methods to extract information from the waveform shape. See the review I wrote on this topic [here](http://voyteklab.com/wp-content/uploads/Cole-TrendsCognSci_inpress.pdf)
+* __Oscillation shape.__ ([Cole & Voytek 2017](http://voyteklab.com/wp-content/uploads/Cole-TrendsCognSci_inpress.pdf)) Currently, almost all frequency analysis approaches implement Fourier techniques. However, this presumes a sinusoidal basis whereas neural oscillations are commonly nonsinusoidal. We are developing methods to extract information from the waveform shape.
 * __Parkinson's Disease.__ ([Cole et al., 2016](http://biorxiv.org/content/early/2016/04/19/049304)) This preprint presents an argument that neural activity in the motor cortex of Parkinson's Disease patients is hypersynchronous.
 * __Phase-amplitude coupling (PAC)__ is a phenomenon in neural electrophysiology in which oscillations at two different frequencies are coupled to one another. Along with post-doc Erik Peterson, we created a library for estimating PAC ([Python](https://pypi.python.org/pypi/pacpy)) ([MATLAB](https://github.com/voytekresearch/pacmat))
 
