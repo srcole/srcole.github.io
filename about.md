@@ -18,18 +18,18 @@ In addition to those projects, I'm also interested in:
 * Writing miscellaneous Python tutorials tangentially related to data analysis [[1](https://srcole.github.io/2016/01/18/emd/)] [[2](https://srcole.github.io/2016/07/29/paperdata/)] [[3](https://srcole.github.io/2017/01/03/osg_python/)]
 * Probability and math [[1](https://srcole.github.io/2015/06/14/guess/)] [[2](https://srcole.github.io/2015/05/25/medianguess/)] [[3](https://srcole.github.io/2015/06/23/farey/)]
 
-**Neuroscience research [CV](https://srcole.github.io/assets/cv.pdf)**
+**Neuroscience research ([CV](https://srcole.github.io/assets/cv.pdf))**
 
 * __Oscillation shape.__ Currently, almost all frequency analysis approaches implement Fourier techniques. However, this presumes a sinusoidal basis whereas neural oscillations are commonly nonsinusoidal. We are developing methods to extract information from the waveform shape. See the review I wrote on this topic [here](http://voyteklab.com/wp-content/uploads/Cole-TrendsCognSci_inpress.pdf)
-* __Parkinson's Disease__ [Cole et al., 2016](http://biorxiv.org/content/early/2016/04/19/049304). This preprint presents an argument that synaptic synchrony is increased in the motor cortex of Parkinson's Disease patients.
+* __Parkinson's Disease.__ ([Cole et al., 2016](http://biorxiv.org/content/early/2016/04/19/049304)) This preprint presents an argument that neural activity in the motor cortex of Parkinson's Disease patients is hypersynchronous.
 * __Phase-amplitude coupling (PAC)__ is a phenomenon in neural electrophysiology in which oscillations at two different frequencies are coupled to one another. Along with post-doc Erik Peterson, we created a library for estimating PAC ([Python](https://pypi.python.org/pypi/pacpy)) ([MATLAB](https://github.com/voytekresearch/pacmat))
 
 **Neuroscience teaching**
 
-* Filtering neural signals and processing oscillation amplitude ([Lecture](https://www.youtube.com/watch?v=DIK5bfoTnlg), [Problem set](https://github.com/srcole/neurodemo/tree/master/Fourier%20analysis/ProblemSet1)
-* Calculating phase and coherence in neural signals ([Lecture](https://www.youtube.com/watch?v=PAipVT_B_GY), [Problem set](https://github.com/srcole/neurodemo/tree/master/Fourier%20analysis/ProblemSet2)
+* Filtering neural signals and processing oscillation amplitude ([Lecture](https://www.youtube.com/watch?v=DIK5bfoTnlg), [Problem set](https://github.com/srcole/neurodemo/tree/master/Fourier%20analysis/ProblemSet1))
+* Calculating phase and coherence in neural signals ([Lecture](https://www.youtube.com/watch?v=PAipVT_B_GY), [Problem set](https://github.com/srcole/neurodemo/tree/master/Fourier%20analysis/ProblemSet2))
 * [Spectral analysis tutorials (Voytek Lab)](https://github.com/voytekresearch/tutorials) - Our lab releases tutorials (with IPython Notebook &amp; Binder) on the techniques we use to analyze neural signals
-* [Empirical mode decomposition (EMD) tutorial](https://github.com/srcole/binder_emd) - a tutorial I wrote on a method of decomposition of a temporal signal into oscillations, an alternative to Fourier analysis
+* [Empirical mode decomposition (EMD) tutorial](https://github.com/srcole/binder_emd) - A decomposition method to separate a temporal signal into its component oscillations, an alternative to Fourier analysis
 
 <div class="imgcap">
 <img src="/assets/ohare.jpg" height="400">
