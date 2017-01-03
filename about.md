@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I’m a PhD student studying [neuroscience at UC San Diego](http://healthsciences.ucsd.edu/education/neurograd/Pages/default.aspx), currently researching the functions and measures of neural oscillations in the [Voytek lab](voyteklab.com). 
+I’m a PhD student studying [neuroscience at UC San Diego](http://healthsciences.ucsd.edu/education/neurograd/Pages/default.aspx), currently researching the functions and measures of neural oscillations in the [Voytek lab](https://voyteklab.com). 
 
 My main passion is in discovering statistical trends in data. In the future, I hope my analytics will serve the public good. But at this stage, my outreach is limited to education and entertainment, so I always try to couple my analyses with open code and data. Some of my projects have included:
 
