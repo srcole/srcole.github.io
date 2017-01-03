@@ -15,7 +15,7 @@ My main passion is in discovering statistical trends in data. In the future, I h
 In addition to those projects, I'm also interested in:
 
 * Data visualization [[Tableau vizs](https://public.tableau.com/profile/scott.cole#!/)]
-* Writing miscellaneous Python tutorials tangentially related to data science [[1](https://srcole.github.io/2016/01/18/emd/)] [[2](https://srcole.github.io/2016/07/29/paperdata/)]
+* Writing miscellaneous Python tutorials tangentially related to data analysis [[1](https://srcole.github.io/2016/01/18/emd/)] [[2](https://srcole.github.io/2016/07/29/paperdata/)] [[3](https://srcole.github.io/2017/01/03/osg_python/)]
 * Probability and math [[1](https://srcole.github.io/2015/06/14/guess/)] [[2](https://srcole.github.io/2015/05/25/medianguess/)] [[3](https://srcole.github.io/2015/06/23/farey/)]
 
 <strong>Neuroscience research (<a href="/assets/cv.pdf">CV</a>)</strong>
