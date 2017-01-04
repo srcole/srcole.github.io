@@ -26,6 +26,7 @@ On Mac, I believe the equivalent programs are [Terminal](https://mediatemple.net
 This step is written for Windows, but the steps should be similar on Mac. Alternatively, google “SSH on Mac.”
 
 Using PuTTY, enter the following information:
+
 * Hostname: login.osgconnect.net
 * Port: 22
 * Connection Type: SSH
