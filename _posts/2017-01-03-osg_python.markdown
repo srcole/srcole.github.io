@@ -11,6 +11,8 @@ Supercomputing resources typically cost money, but the [Open Science Grid (OSG)]
 
 Besides cost, a second major barrier to entry for those who are new to supercomputing (or, specifically, Condor) is the necessary troubleshooting before we can actually run our jobs. The purpose of this tutorial is to provide a complete example for running Python jobs on the OSG. This example is nontrivial, in that it includes multiple data sets, public libraries (e.g. scipy), private libraries, and analyzing output. In complement to this tutorial, the OSG has [tutorials](https://support.opensciencegrid.org/support/solutions/folders/5000260743), [a structured class](https://twiki.opensciencegrid.org/bin/view/Education/UserSchool16Materials), and extremely helpful online support when you get stuck.
 
+This tutorial goes through the steps of manually connecting to and running commands on the remote server, but see the **Fabfile** section at the bottom for how this can be automated on your local machine.
+
 ### Step 1. Register with OSG
 
 Sign up for an account at [osgconnect.net](https://osgconnect.net/). If someone in your lab has not already started a project on OSG connect, start one [here](https://osgconnect.net/newproject). For more help on these steps, see the [OSG tutorials here](https://support.opensciencegrid.org/support/solutions/folders/5000260743). This may take a few hours or days to get approved.
@@ -43,7 +45,7 @@ Clone these files into your home directory on the OSG system, and then navigate 
 
 ```
 $ git clone https://github.com/srcole/demo_OSG_python
-$ cd demo_OSG_python
+$ cd demo_OSG_python/
 ```
 
 There are some unnecessary files you can remove to reduce clutter.
@@ -137,12 +139,18 @@ NOTE: Currently, jobs occasionally run into errors. However, these jobs will usu
 
 ### Step 9. Transfer output files from the OSG system to your local machine.
 
-Access the OSG system with WinSCP using the same information and credentials used for PuTTY in Step 3. This GUI will allow you to copy the output files (e.g. out.29213003.0.tar.gz) to your local machine. On your local machine, you can decompress these files and confirm that your job ran correctly by plotting the input time series with the computed peak and trough samples. I did this in [this notebook](https://github.com/srcole/qwm/blob/master/misc/demo_osg_python%20-%20plot%20output%20from%20OSG.ipynb) and obtained the plot below.
+Access the OSG system with WinSCP using the same information and credentials used for PuTTY in Step 3. This GUI will allow you to copy the output files (e.g. out.29213003.0.tar.gz) to your local machine. On your local machine, you can decompress these files and confirm that your job ran correctly by plotting the input time series with the computed peak and trough samples. I did this in [this notebook](https://github.com/srcole/qwm/blob/master/demo_OSG_python/demo_osg_python%20-%20plot%20output%20from%20OSG.ipynb) and obtained the plot below.
 
 <div class="imgcap">
 <img src="/assets/misc/osgpythondemo_output.png" height="300">
 <div class="thecap">Output peaks (blue) and troughs (red) of the input voltage traces (black) calculated on the OSG. The correct placement of the peaks and troughs shows that the jobs ran correctly.</div>
 </div>
+
+### UPDATE: Fabfile
+
+After I initially posted this tutorial, someone suggested using the python library [fabfile](http://www.fabfile.org/). With a Fabric fabfile, we can execute all of these commands on the OSG server with a single call of a python script from the command line on our local machine. Additionally, fabfile facilitates transferring files between local and remote servers. See the [fabfile documentation](http://docs.fabfile.org/en/1.13/) for more information.
+
+You can download [the fabfile to run this demo here](https://github.com/srcole/qwm/blob/master/demo_OSG_python/fabfile.py). You will just need to change the username input. Then navigate to the folder containing the fabfile in a command window and execute `fab run_demo`. The command prompt will then print your progress on the commands that are executing on the remote server.
 
 ### Concluding notes
 
