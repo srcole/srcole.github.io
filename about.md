@@ -11,7 +11,7 @@ My main passion is in discovering statistical trends in data. In the future, I h
 * Burritos in San Diego [[1](https://srcole.github.io/100burritos/)] [[2](https://srcole.github.io/2016/08/31/luchalibre/)] [[3](https://srcole.github.io/2015/08/30/burrito1/)]
 * Poster popularity at the Society for Neuroscience Meeting [[1](https://srcole.github.io/2016/11/27/sfnthemes/)] [[2](https://srcole.github.io/2016/12/12/sfnstates/)]
 * Currency trading [[1](http://www.foxcarolina.com/story/18621418/clemson-students-made-40000)] [[2](https://github.com/srcole/fxml)]
-* Flight delay [[1](https://srcole.github.io/2017/04/02/flight_delay/)]]
+* Flight delay [[1](https://srcole.github.io/2017/04/02/flight_delay/)]
 
 In addition to those projects, I'm also interested in:
 
