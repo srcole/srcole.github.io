@@ -13,20 +13,57 @@ This sentiment captures how I (and presumably some of my classmates) feel as we'
 
 When we analyze electrophysiology recordings, we generally base their conclusions on changes in the neurons’ firing rates (<a href="http://www.pnas.org/content/111/22/8251.abstract">e.g.</a>). And before I say anything more, I should state the obvious that this strategy has shed light on a lot of things, and I really don’t have any better ideas of how to extract meaning in the temporal information that we end up throwing away. However, I am not rarely preoccupied by wondering about the vastly complex computations that are only incompletely recorded. It’s not like the nervous system thinks “hm, the firing rates in these cells have risen by 80%, and therefore, I am looking at a face.” I can’t even fathom the physical computations that allow us to recognize a person’s face. In my depressed days, listening to lectures about how neural activity relates to decision making in cognitive neuroscience class, I wonder why we even bother, since our minds probably can’t understand the computations going on in our brain (to be fair, that didn’t drive their evolution).
 
-<html>
 
-<body>
 
-  <p>Before the script...</p>
-
-  <script>
-    alert( 'Hello, world!' );
-  </script>
-
-  <p>...After the script.</p>
-
-</body>
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sliders</title>
+        
+<link rel="stylesheet" href="/assets/bokeh.min.css" type="text/css" />
+<link rel="stylesheet" href="/assets/bokeh-widgets.min.css" type="text/css" />
+        
+<script type="text/javascript" src=/assets/bokeh.min.js"></script>
+<script type="text/javascript" src=/assets/bokeh-widgets.min.js"></script>
+<script type="text/javascript" src=/assets/bokeh-gl.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="5d07b987-f550-4b6a-b75d-bcdd533c8c83"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {};
+              var render_items = [{"elementid":"5d07b987-f550-4b6a-b75d-bcdd533c8c83","sessionid":"xgclBYvGyeFpyUpaVFpzMM6BmOYeTGOZjqinXpT2M3TL","use_for_title":true}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
 </html>
 
 Recently, I’ve come across literature on memory replay. The general idea is that a memory is encoded as a sequence of neuronal activation in the hippocampus. Then, during sleep, this neuronal sequence recurs as a hippocampal-independent cortical representation of the memory is formed (<a href="http://en.wikipedia.org/wiki/Memory_consolidation#Systems_consolidation">systems consolidation</a>) so that the memory is stable in the long-term. This hypothesis is well supported by studies in animals. <a href="http://www.ncbi.nlm.nih.gov/pubmed/17173043">Ji &amp; Wilson</a> showed that a sequence of place cells that were activated while a mouse ran through a track was “replayed” during the sleep period that followed running through that maze several times.
