@@ -24,9 +24,8 @@ When we analyze electrophysiology recordings, we generally base their conclusio
     </head>
     <body>
     <h1>JavaScript Hello World Example</h1>
-        <script type="text/javascript">
-			myFunction();
-		</script>
+    <p><button onclick="myFunction()">Create a Dialog Box!</button></p>
+	<p><button onclick="myFunction()">Create Another Dialog Box!</button></p>
     </body>
 </html>
 
