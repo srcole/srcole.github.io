@@ -23,6 +23,9 @@ When we analyze electrophysiology recordings, we generally base their conclusio
 <link rel="stylesheet" href="/assets/bokeh-widgets.min.css" type="text/css" />
         
 <script type="text/javascript" src="/assets/fake.js"></script>
+<script type="text/javascript">
+	myFunction();
+</script>
 <script type="text/javascript" src="/assets/bokeh.min.js"></script>
 <script type="text/javascript" src="/assets/bokeh-widgets.min.js"></script>
 <script type="text/javascript" src="/assets/bokeh-gl.min.js"></script>
