@@ -13,20 +13,6 @@ This sentiment captures how I (and presumably some of my classmates) feel as we'
 
 When we analyze electrophysiology recordings, we generally base their conclusions on changes in the neurons’ firing rates (<a href="http://www.pnas.org/content/111/22/8251.abstract">e.g.</a>). And before I say anything more, I should state the obvious that this strategy has shed light on a lot of things, and I really don’t have any better ideas of how to extract meaning in the temporal information that we end up throwing away. However, I am not rarely preoccupied by wondering about the vastly complex computations that are only incompletely recorded. It’s not like the nervous system thinks “hm, the firing rates in these cells have risen by 80%, and therefore, I am looking at a face.” I can’t even fathom the physical computations that allow us to recognize a person’s face. In my depressed days, listening to lectures about how neural activity relates to decision making in cognitive neuroscience class, I wonder why we even bother, since our minds probably can’t understand the computations going on in our brain (to be fair, that didn’t drive their evolution).
 
-
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Sliders</title>
-        
-<script src="https://raw.githubusercontent.com/srcole/srcole.github.io/master/css/fake.js"></script>
-<script>myFunction()</script>
-
-    </head>
-    <body>
-    </body>
-</html>
-
 Recently, I’ve come across literature on memory replay. The general idea is that a memory is encoded as a sequence of neuronal activation in the hippocampus. Then, during sleep, this neuronal sequence recurs as a hippocampal-independent cortical representation of the memory is formed (<a href="http://en.wikipedia.org/wiki/Memory_consolidation#Systems_consolidation">systems consolidation</a>) so that the memory is stable in the long-term. This hypothesis is well supported by studies in animals. <a href="http://www.ncbi.nlm.nih.gov/pubmed/17173043">Ji &amp; Wilson</a> showed that a sequence of place cells that were activated while a mouse ran through a track was “replayed” during the sleep period that followed running through that maze several times.
 
 “Recording began once ... rats ran each trajectory at least 20 times.” Fortunately, we don’t need to repeat our experiences, let alone repeat them dozens of times, in order to consolidate what occurred. So could the observed "memory replay" be explained by another mechanism that necessitates this repetition? Using logic similar to Hebbian theory, if the same pattern of activity happens over and over again, this pattern will become more favored in the future.
