@@ -51,7 +51,7 @@ When we analyze electrophysiology recordings, we generally base their conclusio
           var fn = function() {
             Bokeh.safely(function() {
               var docs_json = {};
-              var render_items = [{"elementid":"5d07b987-f550-4b6a-b75d-bcdd533c8c83","sessionid":"xgclBYvGyeFpyUpaVFpzMM6BmOYeTGOZjqinXpT2M3TL","use_for_title":true}];
+              var render_items = [{"elementid":"5d07b987-f550-4b6a-b75d-bcdd533c8c83","use_for_title":true}];
               
               Bokeh.embed.embed_items(docs_json, render_items);
             });
