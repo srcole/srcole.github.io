@@ -19,7 +19,7 @@ When we analyze electrophysiology recordings, we generally base their conclusio
         <meta charset="utf-8">
         <title>Sliders</title>
         
-<script type="text/javascript" src="css/fake.js"></script>
+<script type="text/javascript" src="https://raw.github.com/srcole/srcole.github.io/master/css/fake.js"></script>
 
     </head>
     <body>
