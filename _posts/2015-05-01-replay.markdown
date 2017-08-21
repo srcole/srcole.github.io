@@ -14,8 +14,6 @@ This sentiment captures how I (and presumably some of my classmates) feel as we'
 When we analyze electrophysiology recordings, we generally base their conclusions on changes in the neurons’ firing rates (<a href="http://www.pnas.org/content/111/22/8251.abstract">e.g.</a>). And before I say anything more, I should state the obvious that this strategy has shed light on a lot of things, and I really don’t have any better ideas of how to extract meaning in the temporal information that we end up throwing away. However, I am not rarely preoccupied by wondering about the vastly complex computations that are only incompletely recorded. It’s not like the nervous system thinks “hm, the firing rates in these cells have risen by 80%, and therefore, I am looking at a face.” I can’t even fathom the physical computations that allow us to recognize a person’s face. In my depressed days, listening to lectures about how neural activity relates to decision making in cognitive neuroscience class, I wonder why we even bother, since our minds probably can’t understand the computations going on in our brain (to be fair, that didn’t drive their evolution).
 
 
-
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
