@@ -66,6 +66,7 @@ mathjax: true
 
 The goal of this figure is to illustrate how long a savings plan will take to yield an interest-based
 income that is sufficient for retirement. Note that the numbers in the plot are in thousands of today's dollars, and the income has been adjusted for inflation and income tax.
+
 	* Black line - estimated annual income on interest
 	* Red line - minimum annual income needed to retire (set by user)
 	* Green line - year at which annual interest on savings covers the retirement requirement
