@@ -58,9 +58,9 @@ mathjax: true
     </body>
 </html>
 
-## Move the sliders to see the annual income for different savings plans
+#### Move the sliders to see the annual income for different savings plans
 
-Note that income is adjusted for inflation and income tax.
+**Note that income is adjusted for inflation and income tax.**
 
 ## Figure details
 
