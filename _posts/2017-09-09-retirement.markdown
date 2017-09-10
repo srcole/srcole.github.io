@@ -1,17 +1,13 @@
 ---
 layout: post
 comments: true
-title:  "How long until I can retire?: An interactive visualization"
+title:  "Retirement calculator: Interactive visualization using Bokeh"
 excerpt: "After debating with a friend about how much/little we need to save in order
 to retire comfortably, I made an interactive visualization that shows how much money
 you will earn off interest as a function of your savings over time."
 date:   2017-09-09 00:00:00
 mathjax: true
 ---
-
-# Move the sliders to see the annual income for different savings plans
-
-Note that income is adjusted for inflation and income tax.
 
 <html lang="en">
     <head>
@@ -62,7 +58,11 @@ Note that income is adjusted for inflation and income tax.
     </body>
 </html>
 
-# Figure details
+## Move the sliders to see the annual income for different savings plans
+
+Note that income is adjusted for inflation and income tax.
+
+## Figure details
 
 The goal of this figure is to illustrate how long a savings plan will take to yield an interest-based
 income that is sufficient for retirement. Note that the numbers in the plot are in thousands of today's dollars, and the income has been adjusted for inflation and income tax.
@@ -70,7 +70,7 @@ income that is sufficient for retirement. Note that the numbers in the plot are 
 	* Red line - minimum annual income needed to retire (set by user)
 	* Green line - year at which annual interest on savings covers the retirement requirement
 
-# Motivation
+## Motivation
 
 I was recently debating how much/little we need to save in order to retire comfortably. We were pretty surprised when we crunched the numbers and saw how early we may potentially retire. I thought it'd be fun to use [Bokeh](https://bokeh.pydata.org/en/latest/) to make a plot illustrating the age at which we can expect to retire comfortable. It's also interesting to see how much of a different it can make by saving when you're young: using the default parameters, a person who had $100,000 already would retired 7 years earlier than someone without any current savings (35 years vs. 42 years)!
 
