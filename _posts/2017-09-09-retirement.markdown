@@ -62,7 +62,7 @@ mathjax: true
 
 **Note that income is adjusted for inflation and income tax.**
 
-## Figure details
+## Figure details ([see source code](https://github.com/srcole/qwm/blob/master/retire/make_bokeh.py))
 
 The goal of this figure is to illustrate how long a savings plan will take to yield an interest-based
 income that is sufficient for retirement. Note that the numbers in the plot are in thousands of today's dollars, and the income has been adjusted for inflation and income tax.
