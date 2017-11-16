@@ -27,4 +27,4 @@ My main passion is in uncovering statistical trends in data. Though I hope I'll 
 <div class="thecap" style="text-align:justify;">Cole, S.R., Steele, T.W.J. Biodegradable elastomers for targeted drug delivery applications. <em>Exclusive Biomaterials Conference</em>, O'Hare Terminal 1, Gate B22, Chicago. April 2013. Keynote. Uninvited Talk.</div>
 </div>
 
-* Random fact: UCSD Neuro is also home to Sage Scientific, the makers of [Neurophotometrics](https://www.neurophotometrics.com/).
+* Random fact: UCSD Neuro is also home to [Neurophotometrics](https://www.neurophotometrics.com/), a scientist-run fiber photometry company.
