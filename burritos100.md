@@ -13,8 +13,8 @@ permalink: /100burritos/
 	<li style="font-weight:400;"><span style="font-weight:400;">Identify the best and worst burritos in San Diego to share this information with others</span></li>
 	<li style="font-weight:400;"><span style="font-weight:400;">Characterize the variance in burrito qualities across the county.</span></li>
 	<li style="font-weight:400;"><span style="font-weight:400;">Generate models for what makes a burrito great and investigate correlations in its dimensions</span></li>
-<span style="font-weight:400;">As of the writing of this post (May 2016), 30 reviewers visited 31 taco shops and critiqued 104 burritos. So far, a general consensus has identified The Taco Stand in downtown La Jolla as </ol>
-having the best California burrito, but there are many more to try. Here, the average burrito costs about $7 and is about 850mL in volume. Further, we explore correlations between burrito dimensions, such as the quality of the meat and nonmeat fillings, and identify a novel correlation between tortillas and Yelp ratings.</span>
+</ol>
+<span style="font-weight:400;">As of the writing of this post (May 2016), 30 reviewers visited 31 taco shops and critiqued 104 burritos. So far, a general consensus has identified The Taco Stand in downtown La Jolla as having the best California burrito, but there are many more to try. Here, the average burrito costs about $7 and is about 850mL in volume. Further, we explore correlations between burrito dimensions, such as the quality of the meat and nonmeat fillings, and identify a novel correlation between tortillas and Yelp ratings.</span>
 
 ### Quick Links
 
