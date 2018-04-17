@@ -9,19 +9,19 @@ mathjax: true
 
 I’m looking into opportunities after finishing grad school, and data science fellowships seem especially appealing. I came across quite a few and wanted to organize them and share them with others in a similar position. You can see the details of these fellowships in the table below, or in this [Google Sheet](https://docs.google.com/spreadsheets/d/1VJEYwI0vFjyA3iC46CtHX4mgAWEcd9EWzaqdu9ebOYM/edit?usp=sharing).
 
-**Institution**                                                       |  **App due date**  |  **Start date(s)**  |  **Field**        |  **Duration**   |  **Stipend**    
-------------------------------------------------------------------|----------------|-----------------|---------------|-------------|-------------
-[UC San Diego](http://qi.ucsd.edu/dsfellows/)                                                      |  April 15      |  October        |               |  1+ years   | 
-[UC Berkeley - School of Information](https://www.ischool.berkeley.edu/about/ischooljobs/datascipostdoc)                               |  May 11, 2019  |  Jan, May, Aug  |               |  1-2 years  |  60000 USD 
-[UC Berkeley - BIDS, Berkeley Institute for Data Science](https://bids.berkeley.edu/call-data-science-fellow-applications)           |  April 2       |  August         |               |  2 years    | 
-[Columbia University - Data Science Institute](http://datascience.columbia.edu/post-doctoral-fellows-program)                      |  Dec 1         |  July 1         |               |  2 years    | 
-[Harvard Data Science Initiative](https://datascience.harvard.edu/data-science-postdoctoral-fellows)                                   |  ?             |  Fall           |               |  2 years    | 
-[NYU - Moore-Sloan](https://cds.nyu.edu/nyu-moore-sloan-data-science-fellows/)                                                 |  Jan 31        |  Sep 1          |               |  2 years    | 
-[University of New Brunswick - Institute of Biomedial engineering](https://iussp.org/sites/default/files/Health%20Analytics%20Postdoctoral%20Fellowship%20with%20UNB-GNB%202018.pdf)  |  Mar 12        |  Sep 1          |  Healthcare   |  2 years    |  70000 CAD  |  
-[Duke](https://forge.duke.edu/news/funding-opportunity-2018-doctoral-and-postdoctoral-scholarships-health-data-science)                                                              |  Mar 15        |  ?              |  Healthcare   |  2 years    | 
-[UC Santa Barbara](https://www.nceas.ucsb.edu/content/data-science-fellowship-opportunities)                                                  |  Feb 1         |  Jan, July      |  Ecology      |  6 months   | 
-[Northwestern University](https://datascience.northwestern.edu/opportunities/)                                           |  ?             |  ?              |               |  ?          | 
-[IBM](https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=7268)                                                               |  December      |  ?              |  Social good  |  1 year     | 
+|**Institution**                                                       |  **App due date**  |  **Start date(s)**  |  **Field**        |  **Duration**   |  **Stipend**    
+|------------------------------------------------------------------|----------------|-----------------|---------------|-------------|-------------
+|[UC San Diego](http://qi.ucsd.edu/dsfellows/)                                                      |  April 15      |  October        |               |  1+ years   | 
+|[UC Berkeley - School of Information](https://www.ischool.berkeley.edu/about/ischooljobs/datascipostdoc)                               |  May 11, 2019  |  Jan, May, Aug  |               |  1-2 years  |  60000 USD 
+|[UC Berkeley - BIDS, Berkeley Institute for Data Science](https://bids.berkeley.edu/call-data-science-fellow-applications)           |  April 2       |  August         |               |  2 years    | 
+|[Columbia University - Data Science Institute](http://datascience.columbia.edu/post-doctoral-fellows-program)                      |  Dec 1         |  July 1         |               |  2 years    | 
+|[Harvard Data Science Initiative](https://datascience.harvard.edu/data-science-postdoctoral-fellows)                                   |  ?             |  Fall           |               |  2 years    | 
+|[NYU - Moore-Sloan](https://cds.nyu.edu/nyu-moore-sloan-data-science-fellows/)                                                 |  Jan 31        |  Sep 1          |               |  2 years    | 
+|[University of New Brunswick - Institute of Biomedial engineering](https://iussp.org/sites/default/files/Health%20Analytics%20Postdoctoral%20Fellowship%20with%20UNB-GNB%202018.pdf)  |  Mar 12        |  Sep 1          |  Healthcare   |  2 years    |  70000 CAD  |  
+|[Duke](https://forge.duke.edu/news/funding-opportunity-2018-doctoral-and-postdoctoral-scholarships-health-data-science)                                                              |  Mar 15        |  ?              |  Healthcare   |  2 years    | 
+|[UC Santa Barbara](https://www.nceas.ucsb.edu/content/data-science-fellowship-opportunities)                                                  |  Feb 1         |  Jan, July      |  Ecology      |  6 months   | 
+|[Northwestern University](https://datascience.northwestern.edu/opportunities/)                                           |  ?             |  ?              |               |  ?          | 
+|[IBM](https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=7268)                                                               |  December      |  ?              |  Social good  |  1 year     | 
 
 
 |**Institution**                           |  **App due date**     |  **Start date(s)**      |  **Field**           |  **Duration**     |  **Stipend**   |
