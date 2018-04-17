@@ -21,11 +21,11 @@ University of New Brunswick - Institute of Biomedial engineering  |  Mar 12     
 Duke                                                              |  Mar 15        |  ?              |  Healthcare   |  2 years    |             |  https://forge.duke.edu/news/funding-opportunity-2018-doctoral-and-postdoctoral-scholarships-health-data-science
 UC Santa Barbara                                                  |  Feb 1         |  Jan, July      |  Ecology      |  6 months   |             |  https://www.nceas.ucsb.edu/content/data-science-fellowship-opportunities
 Northwestern University                                           |  ?             |  ?              |               |  ?          |             |  https://datascience.northwestern.edu/opportunities/
-IBM                                                               |  December      |  ?              |  Social good  |  1 year     |             |  https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=7268
+[IBM](https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=7268)                                                               |  December      |  ?              |  Social good  |  1 year     | 
 
 
-Institution                        |  App due date  |  Start date      |  Field        |  Duration  |  Stipend   |
------------------------------------|----------------|------------------|---------------|------------|------------|
+Institution                           |  App due date     |  Start date         |  Field           |  Duration     |  Stipend   |
+--------------------------------------|-------------------|---------------------|------------------|---------------|------------|
 [U Chicago](https://dssg.uchicago.edu/)                          |  Jan 31        |  May 28          |  Social good  |  12 weeks  | 
 [U Washington - eScience institute](http://escience.washington.edu/get-involved/incubator-programs/data-science-for-social-good/)  |  Feb 12        |  June 11         |  Social good  |  10 weeks  |  6500 USD  | 
 [University of Northeast Florida](http://dssg.unf.edu/)    |  Mar 20        |  ?               |  Social good  |  ?         | 
