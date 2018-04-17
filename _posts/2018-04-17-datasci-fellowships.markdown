@@ -7,7 +7,7 @@ date:   2018-04-17 00:00:00
 mathjax: true
 ---
 
-I’m looking into opportunities after finishing grad school, and data science fellowships seem especially appealing. I came across quite a few and wanted to organize them and share them with others in a similar position. You can see the details of these fellowships in the table below, or in this [Google Sheet](https://docs.google.com/spreadsheets/d/1VJEYwI0vFjyA3iC46CtHX4mgAWEcd9EWzaqdu9ebOYM/edit?usp=sharing).
+Data science fellowships seem like really good opportunities. I came across quite a few and wanted to organize them to hopefully be useful to me and others. You can see the details of these fellowships in the table below, or in this [Google Sheet](https://docs.google.com/spreadsheets/d/1VJEYwI0vFjyA3iC46CtHX4mgAWEcd9EWzaqdu9ebOYM/edit?usp=sharing). Please comment on the sheet if you know of any that I'm missing.
 
 |**Institution**                                                       |  **App due date**  |  **Start date(s)**  |  **Field**        |  **Duration**   |  **Stipend**    
 |------------------------------------------------------------------|----------------|-----------------|---------------|-------------|-------------
