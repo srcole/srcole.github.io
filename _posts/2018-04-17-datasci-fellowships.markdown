@@ -34,6 +34,12 @@ I’m looking into opportunities after finishing grad school, and data science f
 |[The Data Incubator](https://www.thedataincubator.com/fellowship.html)                 |  ?             |  Jan, June       |               |  8 weeks| 
 
 
+
+| Day     | Meal    | Price |
+| --------|---------|-------|
+| Monday  | pasta   | $6    |
+| Tuesday | chicken | $8    |
+
 There are some other fellowship opportunities that look potentially interesting:
 
 1. [Open NASA Data Fellows](https://open.nasa.gov/explore/data-fellows/) - Still in concept phase
