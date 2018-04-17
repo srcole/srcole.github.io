@@ -25,7 +25,7 @@ I’m looking into opportunities after finishing grad school, and data science f
 
 
 **Institution**                           |  **App due date**     |  **Start date(s)**      |  **Field**           |  **Duration**     |  **Stipend**   |
---------------------------------------|-------------------|---------------------|------------------|---------------|------------|
+ ---------------------------------------- | --------------------- | ----------------------- | -------------------- | ----------------- | -------------- |
 [U Chicago](https://dssg.uchicago.edu/)                          |  Jan 31        |  May 28          |  Social good  |  12 weeks  | 
 [U Washington - eScience institute](http://escience.washington.edu/get-involved/incubator-programs/data-science-for-social-good/)  |  Feb 12        |  June 11         |  Social good  |  10 weeks  |  6500 USD  | 
 [University of Northeast Florida](http://dssg.unf.edu/)    |  Mar 20        |  ?               |  Social good  |  ?         | 
