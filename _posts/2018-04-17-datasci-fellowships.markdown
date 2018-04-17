@@ -9,7 +9,7 @@ mathjax: true
 
 I’m looking into opportunities after finishing grad school, and data science fellowships seem especially appealing. I came across quite a few and wanted to organize them and share them with others in a similar position. You can see the details of these fellowships in the table below, or in this [Google Sheet](https://docs.google.com/spreadsheets/d/1VJEYwI0vFjyA3iC46CtHX4mgAWEcd9EWzaqdu9ebOYM/edit?usp=sharing).
 
-*Institution*                                                       |  *App due date*  |  *Start date(s)*  |  *Field*        |  *Duration*   |  *Stipend*    
+**Institution**                                                       |  **App due date**  |  **Start date(s)**  |  **Field**        |  **Duration**   |  **Stipend**    
 ------------------------------------------------------------------|----------------|-----------------|---------------|-------------|-------------
 [UC San Diego](http://qi.ucsd.edu/dsfellows/)                                                      |  April 15      |  October        |               |  1+ years   | 
 [UC Berkeley - School of Information](https://www.ischool.berkeley.edu/about/ischooljobs/datascipostdoc)                               |  May 11, 2019  |  Jan, May, Aug  |               |  1-2 years  |  60000 USD 
@@ -24,7 +24,7 @@ I’m looking into opportunities after finishing grad school, and data science f
 [IBM](https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=7268)                                                               |  December      |  ?              |  Social good  |  1 year     | 
 
 
-*Institution*                           |  *App due date*     |  *Start date(s)*      |  *Field*           |  *Duration*     |  *Stipend*   |
+**Institution**                           |  **App due date**     |  **Start date(s)**      |  **Field**           |  **Duration**     |  **Stipend**   |
 --------------------------------------|-------------------|---------------------|------------------|---------------|------------|
 [U Chicago](https://dssg.uchicago.edu/)                          |  Jan 31        |  May 28          |  Social good  |  12 weeks  | 
 [U Washington - eScience institute](http://escience.washington.edu/get-involved/incubator-programs/data-science-for-social-good/)  |  Feb 12        |  June 11         |  Social good  |  10 weeks  |  6500 USD  | 
