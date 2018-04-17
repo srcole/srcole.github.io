@@ -24,14 +24,14 @@ I’m looking into opportunities after finishing grad school, and data science f
 [IBM](https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=7268)                                                               |  December      |  ?              |  Social good  |  1 year     | 
 
 
-**Institution**                           |  **App due date**     |  **Start date(s)**      |  **Field**           |  **Duration**     |  **Stipend**   |
- ---------------------------------------- | --------------------- | ----------------------- | -------------------- | ----------------- | -------------- |
-[U Chicago](https://dssg.uchicago.edu/)                          |  Jan 31        |  May 28          |  Social good  |  12 weeks  | 
-[U Washington - eScience institute](http://escience.washington.edu/get-involved/incubator-programs/data-science-for-social-good/)  |  Feb 12        |  June 11         |  Social good  |  10 weeks  |  6500 USD  | 
-[University of Northeast Florida](http://dssg.unf.edu/)    |  Mar 20        |  ?               |  Social good  |  ?         | 
-[University of British Columbia](https://dsi.ubc.ca/2018-dssg-program)     |  Mar 5         |  ?               |  Social good  |  14 weeks  |  6500 USD
-[Insight data science fellows](https://www.insightdatascience.com/apply)       |  May 7         |  Jan, June, Sep  |               |  7 weeks |
-[The Data Incubator](https://www.thedataincubator.com/fellowship.html)                 |  ?             |  Jan, June       |               |  8 weeks| 
+|**Institution**                           |  **App due date**     |  **Start date(s)**      |  **Field**           |  **Duration**     |  **Stipend**   |
+| ---------------------------------------- | --------------------- | ----------------------- | -------------------- | ----------------- | -------------- |
+|[U Chicago](https://dssg.uchicago.edu/)                          |  Jan 31        |  May 28          |  Social good  |  12 weeks  | 
+|[U Washington - eScience institute](http://escience.washington.edu/get-involved/incubator-programs/data-science-for-social-good/)  |  Feb 12        |  June 11         |  Social good  |  10 weeks  |  6500 USD  | 
+|[University of Northeast Florida](http://dssg.unf.edu/)    |  Mar 20        |  ?               |  Social good  |  ?         | 
+|[University of British Columbia](https://dsi.ubc.ca/2018-dssg-program)     |  Mar 5         |  ?               |  Social good  |  14 weeks  |  6500 USD
+|[Insight data science fellows](https://www.insightdatascience.com/apply)       |  May 7         |  Jan, June, Sep  |               |  7 weeks |
+|[The Data Incubator](https://www.thedataincubator.com/fellowship.html)                 |  ?             |  Jan, June       |               |  8 weeks| 
 
 
 There are some other fellowship opportunities that look potentially interesting:
