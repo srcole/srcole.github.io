@@ -43,3 +43,8 @@ I fully acknowledge that this is an imperfect estimate of code sharing, but it s
 </div>
 
 It’s interesting to see how the different journals stack up in terms of code sharing. Especially since some of these (Nature family, PNAS) require statements of code / data availability. However, a recent study showed that less than half of authors (of 2011-2012 Science articles) fulfilled requests for code and data sharing [Stodden et al., PNAS, 2018](http://www.pnas.org/content/115/11/2584). Due to its automation, this current analysis allowed a broader scope, though of course has its share of limitations. In the future, I’m hoping to expand this to study data sharing across fields and institutions (this data is already scraped with the [current code](https://github.com/srcole/codesharing)). If anyone else is interested in working on this, I’ll happily send you the data already scraped.
+
+<div class="imgcap">
+<img src="/assets/codesharing/article_counts_table.png" height="600">
+<div class="thecap"><b>Table 1.</b> Number of articles scraped from each journal.</div>
+</div>
