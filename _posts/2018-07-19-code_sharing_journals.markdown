@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Estimating the prevalence of code sharing in scientific research"
 excerpt: "I scraped over 100,000 full-text articles from the Pub Med API to estimate how common code sharing is across different journals."
-date:   2018-07-19 00:00:00
+date:   2018-07-19
 mathjax: true
 ---
 
