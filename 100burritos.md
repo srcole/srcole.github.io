@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 mathjax: true
 comments: true
 title: 100 Burritos in San Diego
