@@ -10,7 +10,7 @@ permalink: /dataprojects/
 
 ### 1. Burritos - [repo,](https://github.com/srcole/burritos) [blog,](https://srcole.github.io/100burritos/) [ignite talk,](https://www.youtube.com/watch?v=Hp6jFy4_bV4) [seminar,](https://docs.google.com/presentation/d/1jBm4GFYtNnwSkALODX2CwXRmHQmVDrRoeF8cSG8tnDY/edit?usp=sharing) [poster](https://srcole.github.io/assets/burrito/poster.pdf)
 
-I designed a 10-dimensional system to systematically rate burrito quality and applied this method to rate 350+ burritos (60+ restaurants, 70+ unique reviewers). I then analyzed the data to establish significant differences between rival taco shops, explore dimensionality reduction, and quantify inter-reviewer reliability. I used Tableau to make a map to explore taco shop ratings around San Diego.
+I designed a 10-dimensional system to systematically rate burrito quality and applied this method to rate 350+ burritos (60+ restaurants, 70+ unique reviewers). I then analyzed the data to establish significant differences between rival taco shops, explore dimensionality reduction, and quantify inter-reviewer reliability. I used Tableau to make a map to explore taco shop ratings around San Diego. I also formatted the data into an [SQL database and demonstrated some example queries](https://github.com/srcole/burritos/tree/master/SQL%20practice).
 
 ### 2. Brain rhythms - [Papers,](https://scholar.google.com/citations?user=fZe7tcwAAAAJ&hl=en) [methods paper repo,](https://github.com/voytekresearch/Cole_2018_cyclebycycle) [lab toolbox,](https://github.com/voytekresearch/neurodsp) [coupling toolbox](https://github.com/voytekresearch/pacpy)
 
