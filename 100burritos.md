@@ -18,6 +18,8 @@ permalink: /100burritos/
 
 <span style="font-weight:400;">For detailed descriptions, see the <strong><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">database of 350+ burrito reviews</a></strong>, and <strong><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform">contribute your own reviews here</a></strong>. For more detailed analysis, see the <strong><a href="https://github.com/srcole/burritos">codebase for this project</a></strong>, the <strong><a href="https://srcole.github.io/assets/burrito/poster.pdf">burrito poster</a></strong>, <strong><a href="https://docs.google.com/presentation/d/1jBm4GFYtNnwSkALODX2CwXRmHQmVDrRoeF8cSG8tnDY/edit?usp=sharing">graduate seminar slides</a></strong>, and <strong><a href="https://www.youtube.com/watch?v=Hp6jFy4_bV4">Ignite talk</a></strong>.</span>
 
+<img src="/assets/burrito/wordcloud.png" height="400" style="text-align:center">
+
 ### Motivation
 
 <span style="font-weight:400;">Mexican cuisine is often the best food option is southern California. And the burrito is the hallmark of delicious taco shop food: tasty, cheap, and filling. Though these “majestic cylinders” are consumed at a rate faster than one per second across San Diego county [1], they have been dramatically understudied [2]. This lack of funding to support public burrito knowledge has led millions of people to eating a burrito and subsequently feeling dissatisfied, a tragedy that can be avoided. Even the most experienced burrito eaters have experienced the following disappointments:</span>
@@ -68,9 +70,11 @@ permalink: /100burritos/
 <span style="font-weight:400;">As more data is collected, we improve our confidence in not only which taco shops have the best burritos, but those with the best meat, best tortilla, and winners in the other aforementioned burrito dimensions. By limiting our analysis to those taco shops that have at least 5 burrito reviews, we have 14 taco shops, ranked in Figure 1. Subsequently, Table 1 shows the best taco shop in each burrito dimension. The heterogeneity in names here underscores how no single taco shop serves the best burrito in all dimensions, but rather each have their unique strengths.</span>
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/burrito/overall_rank.png" height="300">
+<img src="/assets/burrito/overall_rank.png" height="400">
 <div class="thecap" style="text-align:center">Figure 1. Average overall satisfaction ratings for burritos at taco shops with at least 5 reviews.</div>
 </div>
+
+<p></p>
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/burrito/table_dims.png" height="500">
