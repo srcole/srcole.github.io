@@ -34,7 +34,7 @@ In a past life, I was super interested in trying to predict fluctuations in fina
 
 ### 7. Maps with Tableau - [Tableau Public profile](https://public.tableau.com/profile/scott.cole#!/)
 
-I've used Tableau to make a few maps to visualize [a weighted sum of Olympic medals](https://public.tableau.com/profile/scott.cole#!/vizhome/Olympics-Scorepercountry/Dashboard1), [burrito ratings](https://public.tableau.com/profile/scott.cole#!/vizhome/BurritosinSanDiego/MainDash), and popularity of posters at the Society for Neuroscience annual meeting ([USA](https://public.tableau.com/profile/scott.cole#!/vizhome/SfN2016posterpopularityacrosstheUnitedStates/Dashboard1), [international](https://public.tableau.com/profile/scott.cole#!/vizhome/SfN2016posterpopularityacrosstheworld/Dashboard1)).
+I've used Tableau to make a few maps to visualize [a weighted sum of Olympic medals](https://public.tableau.com/profile/scott.cole#!/vizhome/Olympics-Scorepercountry/Dashboard1), [burrito ratings](https://public.tableau.com/profile/scott.cole#!/vizhome/BurritosinSanDiego/MainDash), and popularity of posters at the Society for Neuroscience annual meeting ([USA](https://public.tableau.com/profile/scott.cole#!/vizhome/SfN2016posterpopularityacrosstheUnitedStates/Dashboard1), [international](https://public.tableau.com/profile/scott.cole#!/vizhome/SfN2016posterpopularityacrosstheworld/Dashboard1)). For when I want to stay in Python, I made a [simple example of plotting features as a function fo US state](https://github.com/srcole/qwm/tree/master/usa_map). 
 
 ### 8. Neuroscience poster popularity - [Notebooks,](https://github.com/srcole/qwm/tree/master/sfn) [blog](https://srcole.github.io/2016/11/27/sfnthemes/)
 
