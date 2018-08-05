@@ -18,7 +18,11 @@ permalink: /100burritos/
 
 <span style="font-weight:400;">For detailed descriptions, see the <strong><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing">database of 350+ burrito reviews</a></strong>, and <strong><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform">contribute your own reviews here</a></strong>. For more detailed analysis, see the <strong><a href="https://github.com/srcole/burritos">codebase for this project</a></strong>, the <strong><a href="https://srcole.github.io/assets/burrito/poster.pdf">burrito poster</a></strong>, <strong><a href="https://docs.google.com/presentation/d/1jBm4GFYtNnwSkALODX2CwXRmHQmVDrRoeF8cSG8tnDY/edit?usp=sharing">graduate seminar slides</a></strong>, and <strong><a href="https://www.youtube.com/watch?v=Hp6jFy4_bV4">Ignite talk</a></strong>.</span>
 
-<img src="/assets/burrito/wordcloud.png" height="400" align="middle">
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/burrito/wordcloud.png" height="400">
+<div class="thecap" style="text-align:center"></div>
+</div>
 
 ### Motivation
 
