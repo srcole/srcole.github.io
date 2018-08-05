@@ -92,16 +92,16 @@ permalink: /100burritos/
 
 <span style="font-weight:400;">While burritos are known to be inexpensive, there is significant variance across taco shops. The average burrito was about $7 before tax, but this value ranged from $5 to $10.</span>
 
-<div class="imgcap">
+<div class="imgcap" style="text-align:center">
 <img src="/assets/burrito/dist_cost.png" height="300">
-<div class="thecap">Figure 3. Distribution of reviewed burrito cost.</div>
+<div class="thecap" style="text-align:center">Figure 3. Distribution of reviewed burrito cost.</div>
 </div>
 
 <span style="font-weight:400;">Volume was estimated using a flexible tape measure (Wal-Mart, sewing section) trimmed to a length of 30cm for better portability. First, before any part of the burrito was consumed, the tape measure was extended in front of the burrito, and the length of the burrito-proper (portion of the burrito with approximately the same circumference as the center) was measured with a precision of 5mm. Second, the tape measure was wrapped around the center of the burrito to record the circumference. An estimate of burrito volume was then calculated using these two measures. The average burrito occupied approximately 0.79 liters but varied across the distribution shown below.</span>
 
-<div class="imgcap">
+<div class="imgcap" style="text-align:center">
 <img src="/assets/burrito/dist_volume.png" height="300">
-<div class="thecap">Figure 4. Distribution of reviewed burrito volume.</div>
+<div class="thecap" style="text-align:center">Figure 4. Distribution of reviewed burrito volume.</div>
 </div>
 
 ### Linear models to predict overall burrito quality
@@ -113,68 +113,37 @@ permalink: /100burritos/
 	<li style="font-weight:400;"><span style="font-weight:400;">Some metrics will inherently be dependent, such as filling quality and flavor synergy.</span></li>
 </ol>
 
-<div class="imgcap">
-<img src="/assets/burrito/100_corrmat.png" height="600">
-<div class="thecap">Figure 4. Correlation matrix between features of burritos.</div>
+<div class="imgcap" style="text-align:center">
+<img src="/assets/burrito/corrmat_manualsave.png" height="600">
+<div class="thecap" style="text-align:center">Figure 5. Correlation matrix between features of burritos.</div>
 </div>
 
-<span style="font-weight:400;">Despite the correlations between our burrito features, a general linear model predicted overall burrito rating based on 8 of the fundamental burrito dimensions as well as Cost and Hunger Level as controlling factors. “Flavor synergy” is an ambiguous term that may be difficult to disassociate from one’s overall rating, so this was removed as a predictor. Additionally, we do not yet have sufficient data on burrito size to include it in the model. The correlation coefficients for each of the 10 predictors are plotted below. Overall, the 10 features explained 71% of the variance in overall rating.</span>
+<span style="font-weight:400;">Despite the correlations between our burrito features, a general linear model predicted overall burrito rating based on 8 of the fundamental burrito dimensions as well as Cost and Hunger Level as controlling factors. “Flavor synergy” is an ambiguous term that may be difficult to disassociate from one’s overall rating, so this was removed as a predictor. Additionally, we do not yet have sufficient data on burrito size to include it in the model. The correlation coefficients for each of the 10 predictors are plotted below. Overall, the 10 features explained 70% of the variance in overall rating.</span>
 
-<div class="imgcap">
-<img src="/assets/burrito/100_bar_cf.png" height="200">
-<div class="thecap">Figure 5. Importance of each burrito dimension to the overall rating, quantified by a linear model.</div>
+<div class="imgcap" style="text-align:center">
+<img src="/assets/burrito/373_glmcoef.png" height="200">
+<div class="thecap" style="text-align:center">Figure 6. Importance of each burrito dimension to the overall rating, quantified by a linear model.</div>
 </div>
 
-<span style="font-weight:400;">The four significant predictors were relatively unsurprising: Non-meat filling, Meat, Salsa, and Meat:Filling. However, what is more interesting is the relative weighting of these features. While I am known to claim that meat quality is the most important aspect of a burrito, the non-meat fillings are actually given more weight in the model. The strong contribution of Salsa in the linear model supports the idea that even if a burrito is lacking in some aspects, a fine salsa can really boost the quality of the meal.</span>
+<span style="font-weight:400;">The two most significant predictors were relatively unsurprising: meat and nonmeat-filling flavor. However, what is more interesting is the relative weighting of these features. While I am known to claim that meat quality is the most important aspect of a burrito, the non-meat fillings are actually given more weight in the model. It's also notable that the balance between these two ingredient categories is the next-most important feature, beating out other notable characteristics such as salsa quality and the tortilla flakiness.</span>
 
-<span style="font-weight:400;">Also interesting is what is not a reliable contributor to overall burrito rating. First, a more expensive burrito does not equate to a tastier burrito. Hunger level is not a significant predictor of overall rating, contrary to the idea that a burrito will taste better if the consumer is more hungry. Even prior to accounting for other factors, hunger was only weakly positively correlated (Pearson r</span><span style="font-weight:400;">2</span><span style="font-weight:400;"> ~ 0.04, p ~ 0.04). This may be indicative of the quality training of these reviewers who are not fooled by their physiological state and remain as objective as possible for burrito ratings.</span>
+<span style="font-weight:400;">Also interesting is what is not a reliable contributor to overall burrito rating. First, a more expensive burrito does not equate to a tastier burrito. Hunger level is not a significant predictor of overall rating, contrary to the idea that a burrito will taste better if the consumer is more hungry. This may be indicative of the quality training of these reviewers who are not fooled by their physiological state and remain as objective as possible for burrito ratings.</span>
 
 While the ratings for Fillings, Meat, Salsa, and Tortilla are heavily reliant on the quality of the ingredients, the other measures are more sensitive to the skilled techniques of the burrito chef. It may be counter-intuitive that the ingredient uniformity, temperature, and wrap integrity were not significant predictors of the overall rating. Naively, one could conclude from this that all that’s important in a burrito is the quality of its ingredients, not the care with which it was prepared. An alternative is that these indications of poor technique are more common at a place that uses poor ingredients. Another interpretation is that poor preparation (e.g. too low of a temperature) can have a negative impact on the subjective ratings of ingredient quality. However Meat:Filling, was a significant predictor of overall burrito rating. Therefore, when burrito artists are making their masterpieces, they should pay close attention to this balance and avoid skimping out too much on the meat.
 
-Is there a recipe for a great burrito? A second linear model was designed to predict overall rating, this time based on the ingredients in each burrito. In order to be included in the model, an ingredient had to be in at least 10 burritos. Ten ingredients met this qualification: Beef, Pork, Pico de Gallo, Guacamole, Cheese, Potatoes, Sour cream, rice, beans, and sauce. Though these features had binary values, a linear model was a reasonable first pass for regression analysis [3]. However, the linear model only explained 12% of the variance in the overall rating, using the same number of features as the previous linear model. This was lower than 27% of models trained using the same number of features but with random values. From this, we conclude that the ingredients chosen for a burrito is not critical, it’s solely how the ingredients are prepared.
-
-### Correlations: Difficult to interpret and possibly spurious
-
-<span style="font-weight:400;">It’s hard to resist looking for correlations after collecting a large multivariate dataset. Afterall, for every 20 tests I run, there will be at least one that will stop and make me think.</span>
-
-<span style="font-weight:400;">Analyzing the 29 burritos for which we have a size estimate, volume is weakly negatively correlated with cost (Pearson r = -0.38, p = 0.04). That is, when ordering a fancy burrito (e.g. Lobster burrito from El Zarape), don’t expect to be full. However, it is hard to believe that this would hold true to both extremes. Extremely cheap burritos (&lt;$5) probably will not be extremely large, and a “Monster burrito” can run &gt;$10. Though it is not a significant predictor for overall burrito rating, we’ll keep an eye on this metric in the future though to see how size relates to other burrito dimensions, linearly or non-linearly.</span>
-
-<div class="imgcap">
-<img src="/assets/burrito/100_scatt_vol-cost.png" height="300">
-<div class="thecap">Figure 6. Negative relationship between burrito volume and its cost.</div>
-</div>
-
-One of the strongest correlations between burrito dimensions was between Meat and Filling. There are a number of possible interpretations of this, including
-<ol>
-	<li style="font-weight:400;"><span style="font-weight:400;">A restaurant with good meat is more likely to have good filling (mildly interesting)</span></li>
-	<li style="font-weight:400;"><span style="font-weight:400;">The meat and fillings interact to enhance or detract from one another’s flavor (most interesting)</span></li>
-	<li style="font-weight:400;"><span style="font-weight:400;">It is difficult for a reviewer to rate these two dimensions (least interesting, most likely)</span></li>
-	<li style="font-weight:400;"><span style="font-weight:400;">A combination of these and other explanations</span></li>
-</ol>
-<span style="font-weight:400;">In order to address hypothesis (1), we performed a case study at my favorite burrito shack, </span><a href="http://www.letstaco.com/"><span style="font-weight:400;">The Taco Stand in downtown La Jolla</span></a><span style="font-weight:400;">. By only analyzing California burritos at The Taco Stand, we still have a positive correlation between Meat and Filling (Spearman r = 0.69, p = 0.04, N=9). The effect was similar when including all burritos rated at The Taco Stand (Spearman r = 0.65, p = 0.007). This test concludes that the Meat and Filling correlation is not simply due to hypothesis (1).</span>
-
-Testing hypotheses (2) and (3) will require very specialized data sets. For example, reviewing many carne asada and carnitas burritos from a given restaurant would hold the fillings (guac and pico) constant while solely changing the meat. Ideally, one meat would be great at this restaurant and the other would be terrible. Then, we could test if there was a difference between the Filling ratings between these two groups (good meat and poor meat). The null result is interesting in this case, in which there is no difference in Filling rating between the burrito with good meat and the type with bad meat. The conclusion would be to reject hypotheses (2) and (3). However, this conclusion will require high power (and so a large sample size) to support.
-
-### Reviewer ratings vs. Yelp ratings
-
-<span style="font-weight:400;">Lastly, how does this data set relate to aggregate ratings from users on Google and Yelp,  both out of 5 stars? While Google and Yelp were both highly correlated with each other (Pearson r = 0.66), they were correlated to a lesser extent to the overall burrito rating (Yelp: Pearson r</span><span style="font-weight:400;"> = 0.34; Google: r</span><span style="font-weight:400;"> = 0.27). This makes sense because we are only rating a subset of the menu at these taco shops. To my surprise, the Tortilla rating was a better predictor than the overall burrito rating when these were these two dimensions were used to predict Yelp rating in a linear model (Tortilla: GLM coefficient = 0.39 +/- 0.13, Z = 2.9, p = 0.003, Overall: GLM coefficient = -0.12 +/- 0.14, Z = -0.8, p = 0.38).</span>
-
-<div class="imgcap">
-<img src="/assets/burrito/100_scatt_tortilla-yelp.png" height="300">
-<div class="thecap">Figure 7. Strong positive correlation between average tortilla ratings and Yelp reviews.</div>
-</div>
+Is there a recipe for a great burrito? A second linear model was designed to predict overall rating, this time based on the ingredients in each burrito. In order to be included in the model, an ingredient had to be in at least 10 burritos. Ten ingredients met this qualification: Beef, Pork, Pico de Gallo, Guacamole, Cheese, Potatoes, Sour cream, rice, beans, and sauce. Though these features had binary values, a linear model was a reasonable first pass for regression analysis [3]. However, the linear model only explained 12% of the variance in the overall rating, using the same number of features as the previous linear model. This was lower than 27% of models trained using the same number of features but with random values. From this, we conclude that the ingredients chosen for a burrito is not critical, it’s how the ingredients are prepared.
 
 ### Future plans
 
 <span style="font-weight:400;">We are certainly not satisfied with our sparse sampling of the burritos around San Diego county. Assembling a reliable must-try list for a burrito enthusiast will require visiting many new taco shops and increasing our sampling at the current ones. The <a href="http://burritosofsandiego.tumblr.com/">burritosofsandiego Tumblr</a> will help here, and perhaps we will integrate some of its data into future analysis. While doing this, we hope to continue to characterize the spectrum of burritos found across San Diego.</span>
 
-While the current analysis was limited to linear models, future analysis will investigate nonlinear effects across the burrito dimensions. For example, is it possible for a burrito to recover from a Meat quality rating of 1/5 to achieve an above-average overall rating? As the data set grows, nonlinear techniques and machine learning approaches can be utilized to extract more insight on the burritos across San Diego. Furthermore, case studies of specific burritos reviewed by many individuals will allow for more controlled analysis.
+While the current analysis was limited to linear models, future analysis will investigate nonlinear effects across the burrito dimensions (see the <a href="https://srcole.github.io/assets/burrito/poster.pdf"</a> and <a href="https://docs.google.com/presentation/d/1jBm4GFYtNnwSkALODX2CwXRmHQmVDrRoeF8cSG8tnDY/edit?usp=sharing">slides</a> for updated analysis). For example, is it possible for a burrito to recover from a Meat quality rating of 1/5 to achieve an above-average overall rating? As the data set grows, nonlinear techniques and machine learning approaches can be utilized to extract more insight on the burritos across San Diego. Furthermore, case studies of specific burritos reviewed by many individuals will allow for more controlled analysis.
 
 <span style="font-weight:400;">In writing this, I welcome and hope to receive suggestions on data collection improvements and analytics ideas. Additionally, by opening up this data set, I encourage anyone who is interested to perform their own analysis and share their conclusions! Most importantly, I hope that readers will contribute to this data set by filling out </span><a href="https://docs.google.com/forms/d/1yF4ZtsYhc5jHkw3fI9AkxaCoIW2MXxIa28UUFNHgm0k/viewform"><span style="font-weight:400;">this form</span></a><span style="font-weight:400;">.</span>
 
 #### Acknowledgements
 
-<span style="font-weight:400;">Thank you to everyone who rated a burrito and provided feedback to improve this system. I am especially grateful to the multiple-burrito raters including Sage Aronson (4 burritos), Ricardo Serrano (6 burritos), and Emily Cheng (21 burritos). And thank you to the National Science Foundation Graduate Research Fellowship program for providing a stipend with sufficient disposable income to eat a lot of burritos.</span>
+<span style="font-weight:400;">Thank you to everyone who rated a burrito and provided feedback to improve this system. I am especially grateful to the multiple-burrito raters including Sage Aronson (14 burritos), Ricardo Serrano (18 burritos), and Emily Cheng (58 burritos). And thank you to the National Science Foundation Graduate Research Fellowship program for providing a stipend with sufficient disposable income to eat a lot of burritos.</span>
 
 #### Footnotes
 
