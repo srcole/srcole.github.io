@@ -85,9 +85,9 @@ permalink: /100burritos/
 
 <span style="font-weight:400;">As with the </span><a href="http://yann.lecun.com/exdb/mnist/"><span style="font-weight:400;">MNIST handwritten digit database</span></a><span style="font-weight:400;">, this database is publicly available </span><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing"><span style="font-weight:400;">(Google Sheet)</span></a><span style="font-weight:400;">. The first version of the database (May 2016) started with 104 burritos, but the current number of (pseudo-QC'd) ratings is now up to 373, across 79 restaurants. Notably, only a quarter (20/79) of the taco shops provided free chips. The California burrito was the most commonly rated variety, mainly because it is one of my favorites and a standard in San Diego. However, multiple samples were taken from other common varieties as well as each restaurant’s specialties.</span>
 
-<div class="imgcap">
+<div class="imgcap" style="text-align:center">
 <img src="/assets/burrito/373_typedist.png" height="400">
-<div class="thecap">Figure 2. Distribution of reviewed burrito varieties.</div>
+<div class="thecap" style="text-align:center">Figure 2. Distribution of reviewed burrito varieties.</div>
 </div>
 
 <span style="font-weight:400;">While burritos are known to be inexpensive, there is significant variance across taco shops. The average burrito was about $7 before tax, but this value ranged from $5 to $10.</span>
