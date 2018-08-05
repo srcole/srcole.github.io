@@ -2,7 +2,7 @@
 layout: default
 mathjax: true
 comments: true
-title: 100 Burritos in San Diego
+title: Burritos of San Diego
 permalink: /100burritos/
 ---
 
