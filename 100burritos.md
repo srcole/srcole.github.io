@@ -83,25 +83,25 @@ permalink: /100burritos/
 
 ### The MNIST (Mexican National Institute for Sustenance Taste) burrito database
 
-<span style="font-weight:400;">As with the </span><a href="http://yann.lecun.com/exdb/mnist/"><span style="font-weight:400;">MNIST handwritten digit database</span></a><span style="font-weight:400;">, all raw data is available in the Google spreadsheet </span><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing"><span style="font-weight:400;">here</span></a><span style="font-weight:400;">. The subsequent analyses performed can be found in </span><a href="https://github.com/srcole/qwm/tree/master/burrito"><span style="font-weight:400;">my GitHub repo for this blog, organized in IPython Notebooks here</span></a><span style="font-weight:400;">. As of May 19, 2016, the review system outlined above has been applied by 30 people to rate 104 burritos at 31 unique restaurants. Only 9 of those 31 (29%) taco shops provided free chips. The California burrito was the most commonly rated variety, mainly because it is one of my favorites and a standard in San Diego. However, multiple samples were taken from other common varieties as well as each restaurant’s specialties.</span>
+<span style="font-weight:400;">As with the </span><a href="http://yann.lecun.com/exdb/mnist/"><span style="font-weight:400;">MNIST handwritten digit database</span></a><span style="font-weight:400;">, this database is publicly available </span><a href="https://docs.google.com/spreadsheets/d/18HkrklYz1bKpDLeL-kaMrGjAhUM6LeJMIACwEljCgaw/edit?usp=sharing"><span style="font-weight:400;">(Google Sheet)</span></a><span style="font-weight:400;">. The first version of the database (May 2016) started with 104 burritos, but the current number of (pseudo-QC'd) ratings is now up to 373, across 79 restaurants. Notably, only a quarter (20/79) of the taco shops provided free chips. The California burrito was the most commonly rated variety, mainly because it is one of my favorites and a standard in San Diego. However, multiple samples were taken from other common varieties as well as each restaurant’s specialties.</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_pie_type.png" height="400">
-<div class="thecap">Figure 1. Distribution of reviewed burrito varieties.</div>
+<img src="/assets/burrito/373_typedist.png" height="400">
+<div class="thecap">Figure 2. Distribution of reviewed burrito varieties.</div>
 </div>
 
 <span style="font-weight:400;">While burritos are known to be inexpensive, there is significant variance across taco shops. The average burrito was about $7 before tax, but this value ranged from $5 to $10.</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_hist_cost.png" height="300">
-<div class="thecap">Figure 2. Distribution of reviewed burrito cost.</div>
+<img src="/assets/burrito/dist_cost.png" height="300">
+<div class="thecap">Figure 3. Distribution of reviewed burrito cost.</div>
 </div>
 
-<span style="font-weight:400;">Volume was estimated using a flexible tape measure (Wal-Mart, sewing section) trimmed to a length of 30cm for better portability. First, before any part of the burrito was consumed, the tape measure was extended in front of the burrito, and the length of the burrito-proper (portion of the burrito with approximately the same circumference as the center) was measured with a precision of 5mm. Second, the tape measure was wrapped around the center of the burrito to record the circumference. An estimate of burrito volume was then calculated using these two measures. The average burrito occupied approximately 0.85 liters but varied across the distribution shown below.</span>
+<span style="font-weight:400;">Volume was estimated using a flexible tape measure (Wal-Mart, sewing section) trimmed to a length of 30cm for better portability. First, before any part of the burrito was consumed, the tape measure was extended in front of the burrito, and the length of the burrito-proper (portion of the burrito with approximately the same circumference as the center) was measured with a precision of 5mm. Second, the tape measure was wrapped around the center of the burrito to record the circumference. An estimate of burrito volume was then calculated using these two measures. The average burrito occupied approximately 0.79 liters but varied across the distribution shown below.</span>
 
 <div class="imgcap">
-<img src="/assets/burrito/100_hist_vol.png" height="300">
-<div class="thecap">Figure 3. Distribution of reviewed burrito volume.</div>
+<img src="/assets/burrito/dist_volume.png" height="300">
+<div class="thecap">Figure 4. Distribution of reviewed burrito volume.</div>
 </div>
 
 ### Linear models to predict overall burrito quality
