@@ -29,7 +29,7 @@ permalink: /100burritos/
 	<li style="font-weight:400;"><span style="font-weight:400;">“Where is the meat in this burrito?”</span></li>
 	<li style="font-weight:400;"><span style="font-weight:400;">“I need a fork”</span></li>
 </ul>
-<span style="font-weight:400;">For this reason, an effort was launched to critique burritos across the county and make this data open to the lay burrito consumer. Armed with an ever-growing database of over 100 burritos from Chula Vista to San Marcos (but mainly around UCSD), consumers can make better educated decisions of where to get their next fix. With this active feedback into consumption choice, we hope this will also cause burrito chefs to continuously improve their own methods. This study was predominantly a joint effort between the Neurosciences graduate program at UC San Diego and the amateur beach volleyball group that plays at Muir courts at 5pm. It is an extension of the </span><a href="https://srcole.github.io/2015/08/30/burrito1/"><span style="font-weight:400;">single-dimensional burrito analysis published last year</span></a><span style="font-weight:400;">.</span>
+<span style="font-weight:400;">For this reason, an effort was launched to critique burritos across the county and make this data open to the lay burrito consumer. Armed with an ever-growing database of over 100 burritos from Chula Vista to San Marcos (but mainly around UCSD), consumers can make better educated decisions of where to get their next fix. With this active feedback into consumption choice, we hope this will also cause burrito chefs to continuously improve their own methods. This study was predominantly a joint effort between the Neurosciences graduate program at UC San Diego and the amateur beach volleyball group that plays at Muir courts at 5pm. It is an extension of the </span><a href="https://srcole.github.io/2015/08/30/burrito1/"><span style="font-weight:400;">single-dimensional burrito analysis published in 2015</span></a><span style="font-weight:400;">.</span>
 
 ### Previous work: FiveThirtyEight’s best burrito in America
 
@@ -63,13 +63,18 @@ permalink: /100burritos/
 	<li style="font-weight:400;"><span style="font-weight:400;">Each burrito at each taco stand has significant variance between each sample. Each chef has their own burrito assembly techniques and certainly cannot construct each burrito in the exact same way.</span></li>
 	<li style="font-weight:400;"><span style="font-weight:400;">Each person processes a given burrito in different ways, from their tongue to their higher-level cortices. Also, the optimal burrito for consumption varies across time for a single individual (e.g. a breakfast burrito may be optimal in the morning, and a carne asada burrito for dinner).</span></li>
 </ol>
-<span style="font-weight:400;">Therefore, the best we can do is to see which burritos are consistently rated the best by multiple reviewers. We want to identify the burritos that will be maximally enjoyed by the most number of people. The consensus at this time is that the “best” burrito in the area is the California burrito from The Taco Stand in downtown La Jolla. The quality of their carne asada is unmatched and worth the extra cost and lack of seating.</span>
+<span style="font-weight:400;">Therefore, the best we can do is to see which burritos are consistently rated the best by multiple reviewers. We want to identify the burritos that will be maximally enjoyed by the most number of people. At this time, the data-driven title for “best” burrito shop in the area is Valentine's Mexican Food, which is about 1 mile north of the convention center. However, this is only a preliminary conclusion, as many factors were uncontrolled. Notably, a relatively high proportion of the reviewers at Valentine's were from out of town, and so their palates may be unusually naive to burritos. Personally, my favorite California burrito is at the Taco Stand in La Jolla. The quality of their carne asada is unmatched and worth the extra cost and lack of seating. Luis, on the other hand, is a strong advocate of California Burritos in Linda Vista. Are all worth a trip.</span>
 
-<span style="font-weight:400;">In the future, when more data is collected (requiring multiple burritos from several establishments), we can identify the taco shop with the best meat, best tortilla, most optimal Meat:Filling, etc. Currently, we can share the rankings of each of the 3 taco shops from which we have rated at least 9 burritos. We find that Taco Stand is superior in most categories (overall average: 4.1/5) but fares worst in terms of cost, volume, and temperature. Rigoberto’s Taco Shop on Miramar Road, seems to be the best value burrito with the lowest cost and greatest volume and Meat:Filling and still an overall rating of 3.8/5.</span>
+<span style="font-weight:400;">As more data is collected, we improve our confidence in not only which taco shops have the best burritos, but those with the best meat, best tortilla, and winners in the other aforementioned burrito dimensions. By limiting our analysis to those taco shops that have at least 5 burrito reviews, we have 14 taco shops, ranked in Figure 1. Subsequently, Table 1 shows the best taco shop in each burrito dimension. The heterogeneity in names here underscores how no single taco shop serves the best burrito in all dimensions, but rather each have their unique strengths.</span>
 
-<div class="imgcap">
-<img src="/assets/burrito/100_table_rank.png" height="200">
-<div class="thecap">Table 1. Ranking of the three most-rated taco shops in each burrito dimension. '1.5' indicates a tie.</div>
+<div class="imgcap" style="text-align:center">
+<img src="/assets/burrito/overall_rank.png" height="300">
+<div class="thecap" style="text-align:center">Figure 1. Average overall satisfaction ratings for burritos at taco shops with at least 5 reviews.</div>
+</div>
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/burrito/table_dims.png" height="500">
+<div class="thecap" style="text-align:center">Table 1. Highest rated taco shops along each burrito dimension.</div>
 </div>
 
 ### The MNIST (Mexican National Institute for Sustenance Taste) burrito database
