@@ -28,6 +28,8 @@ Using scikit-learn, I built and iterated among several machine learning models t
 
 I scraped the [PubMed API](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/) to obtain the full text of around 170,000 articles from 20 different journals that publish neuroscience papers. I did some keyword searching in order to approximately determine which articles relied on custom-written scripts, and which articles publicly shared their code. This involved designing a tool to efficiently, semi-automatically, sift through 200 papers in order to validate the keyword-based estimates. Ultimately, I was able to see how journals vary in terms of code sharing and track how this has improved over time.
 
+This project was expanded during a subsequent hackathon. [Our team improved and expanded the text mining to compute a measure of the openness of each journal ("O-Factor")](https://github.com/srcole/o-factor).
+
 ### 6. Currency exchange prediction - [scraper,](https://github.com/srcole/fxml) [press](http://www.foxcarolina.com/story/18621418/clemson-students-made-40000)
 
 In a past life, I was super interested in trying to predict fluctuations in financial markets. Back when I used MATLAB (cringe), I built some machine learning models (logistic regression, SVM, neural net) from scratch (thanks Andrew Ng!) to predict future trends of the Euro-Dollar exchange rate based on historical trends. At least I had the sense to use python to scrape very high quality (1-minute resolution!) historical data of the exchange rates of several currency pairs over several years.
