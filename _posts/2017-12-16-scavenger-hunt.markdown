@@ -4,6 +4,7 @@ comments: true
 title:  "How to make a scavenger hunt gift"
 excerpt: "Personalized scavenger hunts are fun, they make good gifts, and they can actually be made pretty quickly. Here's some advice on how to make one, as well as a full example."
 date:   2017-12-16 00:00:00
+image: /assets/scavenge/clue8.png
 mathjax: true
 ---
 

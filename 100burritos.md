@@ -4,6 +4,7 @@ mathjax: true
 comments: true
 title: Burritos of San Diego
 permalink: /100burritos/
+image: /assets/burrito/wordcloud.png
 ---
 
 ### Summary

@@ -4,6 +4,7 @@ comments: true
 title:  "Delays of US domestic flights: trends and predictability"
 excerpt: "Using data collected by the US Bureau of Transportation Statistics, we analyzed the relationships between basic properties of a flight (e.g. time of day, airline) and how much they were delayed. We also trained a classifier to predict if a flight would be delayed."
 date:   2017-04-02 00:00:00
+image: /assets/flight_delay/delaybymonth.png
 mathjax: true
 ---
 
