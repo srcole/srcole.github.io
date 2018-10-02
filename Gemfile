@@ -4,6 +4,8 @@ gem 'jekyll'
 
 gem 'jekyll-paginate'
 
+gem 'jekyll-seo-tag'
+
 # Jekyll themes
 gem "jekyll-theme-cayman"
 #gem "minima"

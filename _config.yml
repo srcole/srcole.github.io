@@ -9,8 +9,10 @@ theme: jekyll-theme-cayman
 # Google analytics services
 google_analytics: UA-81645509-1
 
-#
-twitter_username:     scottrcole
+# Social
+twitter:
+  username: scottrcole
+  card: summary
 github_username:      srcole
 
 # Build settings
@@ -22,3 +24,6 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
+gems:
+  - jekyll-seo-tag
