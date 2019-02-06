@@ -20,33 +20,37 @@ For my PhD research, I developed, implemented, and justified a fundamentally new
 
 Using scikit-learn, I built and iterated among several machine learning models trained on police officer activity to predict the likelihood of complaints of excessive force. These models are designed to be incorporated in an early intervention system (EIS) used to efficiently allocate training or other resources in police departments. I also used lots of pandas and seaborn to visualize trends in police officer behavior and variance across districts.
 
-### 4. Flight delays - [repo,](https://github.com/srcole/flightdelay) [report](https://cseweb.ucsd.edu/classes/wi17/cse258-a/reports/a062.pdf)
+### 4. Keystroke biometrics - [repo,](https://github.com/srcole/continu) [dashboard,](http://www.continu.site) [slides](http://bit.ly/continu-slides)
 
-[Tom Donoghue](https://tomdonoghue.github.io/) and I analyzed a data set of 5 million domestic flights in 2015. We characterized different trends in the delays of flights and built several machine learning models to predict if flights would be significantly delayed.
+Keystroke patterns offer a unique biometric to identify individuals and authenticate them in a way that is difficult for malicious users to reproduce. As an Insight Data Science fellow, I worked with a project management fellow and a data engineering fellow towards a system to continuously authenticate users using their keystrokes. I trained a gradient boosting model in order to identify users with a 98% true positive rate and 98% true negative rate (recall), and designed a dashboard that a security team could use to visualize suspicious user activity.
 
 ### 5. Code sharing in neuroscience - [repo,](https://github.com/srcole/codesharing) [blog](https://srcole.github.io/2018/07/19/code_sharing_journals/)
 
 I scraped the [PubMed API](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/) to obtain the full text of around 170,000 articles from 20 different journals that publish neuroscience papers. I did some keyword searching in order to approximately determine which articles relied on custom-written scripts, and which articles publicly shared their code. This involved designing a tool to efficiently, semi-automatically, sift through 200 papers in order to validate the keyword-based estimates. Ultimately, I was able to see how journals vary in terms of code sharing and track how this has improved over time.
 
+### 6. Flight delays - [repo,](https://github.com/srcole/flightdelay) [report](https://cseweb.ucsd.edu/classes/wi17/cse258-a/reports/a062.pdf)
+
+[Tom Donoghue](https://tomdonoghue.github.io/) and I analyzed a data set of 5 million domestic flights in 2015. We characterized different trends in the delays of flights and built several machine learning models to predict if flights would be significantly delayed.
+
 This project was expanded during a subsequent hackathon. [Our team improved and expanded the text mining to compute a measure of the openness of each journal ("O-Factor")](https://github.com/srcole/o-factor).
 
-### 6. Currency exchange prediction - [scraper,](https://github.com/srcole/fxml) [press](http://www.foxcarolina.com/story/18621418/clemson-students-made-40000)
+### 7. Currency exchange prediction - [scraper,](https://github.com/srcole/fxml) [press](http://www.foxcarolina.com/story/18621418/clemson-students-made-40000)
 
 In a past life, I was super interested in trying to predict fluctuations in financial markets. Back when I used MATLAB (cringe), I built some machine learning models (logistic regression, SVM, neural net) from scratch (thanks Andrew Ng!) to predict future trends of the Euro-Dollar exchange rate based on historical trends. At least I had the sense to use python to scrape very high quality (1-minute resolution!) historical data of the exchange rates of several currency pairs over several years.
 
-### 7. Maps with Tableau - [Tableau Public profile](https://public.tableau.com/profile/scott.cole#!/)
+### 8. Maps with Tableau - [Tableau Public profile](https://public.tableau.com/profile/scott.cole#!/)
 
 I've used Tableau to make a few maps to visualize [a weighted sum of Olympic medals](https://public.tableau.com/profile/scott.cole#!/vizhome/Olympics-Scorepercountry/Dashboard1), [burrito ratings](https://public.tableau.com/profile/scott.cole#!/vizhome/BurritosinSanDiego/MainDash), and popularity of posters at the Society for Neuroscience annual meeting ([USA](https://public.tableau.com/profile/scott.cole#!/vizhome/SfN2016posterpopularityacrosstheUnitedStates/Dashboard1), [international](https://public.tableau.com/profile/scott.cole#!/vizhome/SfN2016posterpopularityacrosstheworld/Dashboard1)). For when I want to stay in Python, I made a [simple example of plotting features as a function fo US state](https://github.com/srcole/qwm/tree/master/usa_map). 
 
-### 8. Neuroscience poster popularity - [Notebooks,](https://github.com/srcole/qwm/tree/master/sfn) [blog](https://srcole.github.io/2016/11/27/sfnthemes/)
+### 9. Neuroscience poster popularity - [Notebooks,](https://github.com/srcole/qwm/tree/master/sfn) [blog](https://srcole.github.io/2016/11/27/sfnthemes/)
 
 At the [2016 Society for Neuroscience annual meeting](https://www.sfn.org/Annual-Meeting/Neuroscience-2016), I developed an efficient data collection system that allowed me to quickly measure the number of people at over 3000 posters. I then cross-referenced this data with the online abstract booklet in order to determine which themes were most popular. Additionally, I visualized how poster popularity varied depending on the state or country of the presenter, and [determined which deviances were and were not significant](https://srcole.github.io/2016/12/12/sfnstates/).
 
-### 9. Insight Data Science Fellows - [repo,](https://github.com/srcole/insightfellows) [blog](https://srcole.github.io/2018/05/10/insight_fellows/)
+### 10. Insight Data Science Fellows - [repo,](https://github.com/srcole/insightfellows) [blog](https://srcole.github.io/2018/05/10/insight_fellows/)
 
 I was interested in the backgrounds of Insight Data Science fellows and the sort of jobs they ended up getting, but the only information I could find was a [long list of pictures on their website](https://www.insightdatascience.com/fellows). Therefore, I used BeautifulSoup to scrape the information of these fellows and then used pandas and seaborn to visualize the prevalence of different universities, scientific fields, and companies that the fellows worked in. I also looked at the interactions to discover a few interesting statistical relationships among these.
 
-### 10. Interactive visualization - [script,](https://github.com/srcole/qwm/blob/master/retire/make_bokeh.py) [blog](https://srcole.github.io/2017/09/09/retirement/)
+### 11. Interactive visualization - [script,](https://github.com/srcole/qwm/blob/master/retire/make_bokeh.py) [blog](https://srcole.github.io/2017/09/09/retirement/)
 
 I made a simple interactive graph using Bokeh that projects a savings plan to determine when you will have enough money to retire comfortably. I know I'm too young to be thinking about this already.
 
