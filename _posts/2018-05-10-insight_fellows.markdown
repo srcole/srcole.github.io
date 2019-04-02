@@ -10,6 +10,8 @@ mathjax: true
 
 The [Insight Data Science Fellows program](https://www.insightdatascience.com/) is a highly sought-after post-doctoral training fellowship to help PhD graduates find a good job in data science. I was curious about the background of the fellows (e.g. how many are from UC San Diego? Neuroscience?) and where they ended up. I couldn't find any aggregated information about them, so I scraped their [list of fellows](https://www.insightdatascience.com/fellows) and summarized them in the following figures ([see Jupyter Notebook](https://github.com/srcole/insightfellows)).
 
+UPDATE: After completing the program, [I wrote this post on its pros an cons](https://srcole.github.io/2019/04/01/insight_pros_cons/).
+
 ## Insight fellows dataset overview
 
 For each fellow, I scraped 6 features:

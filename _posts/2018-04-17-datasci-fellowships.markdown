@@ -9,6 +9,8 @@ mathjax: true
 
 Data science fellowships seem like really good opportunities. I came across quite a few and wanted to organize them to hopefully be useful to me and others. You can see the details of these fellowships in the table below, or in this [Google Sheet](https://docs.google.com/spreadsheets/d/1VJEYwI0vFjyA3iC46CtHX4mgAWEcd9EWzaqdu9ebOYM/edit?usp=sharing). Please comment on the sheet if you know of any that I'm missing.
 
+UPDATE: After completing the Insight Data Science Fellowship Program, [I wrote this post on its pros an cons](https://srcole.github.io/2019/04/01/insight_pros_cons/).
+
 |**Institution**                                                       |  **App due date**  |  **Start date(s)**  |  **Field**        |  **Duration**   |  **Stipend**    
 |------------------------------------------------------------------|----------------|-----------------|---------------|-------------|-------------
 |[UC San Diego](http://qi.ucsd.edu/dsfellows/)                                                      |  April 15      |  October        |               |  1+ years   | 
