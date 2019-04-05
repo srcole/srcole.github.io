@@ -37,7 +37,11 @@ In addition to spending time with companies, program alumni, and fellows, the "e
 
 ### 1. Limited selection of companies
 
-Insight might not be a great fit for you if you want to work at very specific companies. An important thing to know is that even though a company has partnered with Insight in the past does not mean that they are recruiting data scientists in your session. It’s also important to know that there are more small- and mid-size companies that come visit Insight compared to large companies. This isn’t necessarily a bad thing, but if your heart is set on working at a big company, maybe you should just apply to them directly. Additionally, even if a company is partnering with Insight, companies progress through interviews at very different speeds (larger companies tend to move slower), which can be an issue...
+Insight might not be a great fit for you if you want to work at very specific companies. An important thing to know is that even though a company has partnered with Insight in the past does not mean that they are recruiting data scientists in your session. It’s also important to know that there are more small- and mid-size companies that come visit Insight compared to large companies. This isn’t necessarily a bad thing, but if your heart is set on working at a big company, maybe you should just apply to them directly.
+
+There are 30-40 companies (about 1 per fellow, depending on the size of the program) in the "first wave" of the program. We meet these companies in the first 4 weeks, present our projects to 6-8 of them during the next 3 weeks, and then start (hopefully) interviewing with them. With this number of companies, there's decent selection to identify many you would like to work for, as long as you're not too picky. If none of the first wave companies work out, there are still opportunities rolling in after that, but they are more sparse.
+
+Additionally, even if a company is partnering with Insight, companies progress through interviews at very different speeds (larger companies tend to move slower), which can be an issue...
 
 ### 2. Constrained timeline
 
