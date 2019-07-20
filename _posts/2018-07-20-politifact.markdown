@@ -16,38 +16,34 @@ As with any data analysis, it's important to keep in mind the caveats and limita
 <img src="/assets/politifact/18_avg_truth_by_party_year.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure 1.</b> Breakdown of the results by category for each person with at least 100 fact checks.</div>
 </div>
-<p></p>
-<p></p>
-<p></p>
+<div> </div>
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/politifact/10_truth_breakdown_by_year.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure 2.</b> Breakdown of truth results for facts checked each year. Unfortunately, it appears that politicians have been telling relatively more blatant lies relative to true statements. Despite the apparent correlation between the rise in "Pants on Fire!" statements and the start of Donald Trump's presidency, this graph remains essentially unchanged if we remove his data, as seen in [this figure](https://srcole.github.io/assets/politifact/11_truth_breakdown_by_year_noTrump.png).</div>
 </div>
-<p></p>
-<p></p>
-<p></p>
+<div> </div>
+<div> </div>
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/politifact/19_most_truthful_and_least_truthful_people.png" height="600">
 <div class="thecap" style="text-align:center"><b>Figure 3.</b> The average truth ratings for the 10 politicians with the highest (top) and lowest (bottom) average truth ratings. The bars are colored by political affiliation, as you would expect (Democrats are Blue. I sometimes get that mixed up.). Only politicians with at least 20 fact checks were considered.</div>
 </div>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<div> ww </div>
+<div> ww </div>
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/politifact/7_breakdown_truth_by_person_most_checks.png" height="700">
 <div class="thecap" style="text-align:center"><b>Figure 4.</b> Breakdown of the results by category for each person with at least 100 fact checks. We have an unexpected victor. Within the confidence range of Bernie and Barack though.</div>
 </div>
-<p></p>
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/politifact/20_truth_by_state_and_party.png" height="600">
 <div class="thecap" style="text-align:center"><b>Figure 5.</b> Average truth score for politicians that represent each state. In order to be considered, a politician needed to have at least 5 fact checks, and a state needed to have at least 5 affiliated politicians. Each red/blue dot is a single politician, and the grey dot and bars indicate the average and 95% confidence interval for that state. Lol Wisconsin.</div>
 </div>
+&nbsp;
+&nbsp;
 
 
 
