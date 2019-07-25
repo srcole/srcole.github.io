@@ -14,7 +14,7 @@ As with any data analysis, it's important to keep in mind the caveats and limita
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/politifact/18_avg_truth_by_party_year.png" height="300">
-<div class="thecap" style="text-align:center"><b>Figure 1.</b> Breakdown of the results by category for each person with at least 100 fact checks.</div>
+<div class="thecap" style="text-align:center"><b>Figure 1.</b> Average truth scores for people affiliated with the Republican and Democratic parties over time.</div>
 </div>
 &nbsp;
 &nbsp;
