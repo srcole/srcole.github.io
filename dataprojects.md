@@ -30,7 +30,7 @@ I scraped the [PubMed API](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/) t
 
 This project was expanded during a subsequent hackathon. [Our team improved and expanded the text mining to compute a measure of the openness of each journal ("O-Factor")](https://github.com/srcole/o-factor).
 
-### 6. Flight delays - [repo,](https://github.com/srcole/flightdelay) [report](https://cseweb.ucsd.edu/classes/wi17/cse258-a/reports/a062.pdf)
+### 6. Flight delays - [repo,](https://github.com/srcole/flightdelay) [report](https://srcole.github.io/assets/flight_delay/report.pdf)
 
 [Tom Donoghue](https://tomdonoghue.github.io/) and I analyzed a data set of 5 million domestic flights in 2015. We characterized different trends in the delays of flights and built several machine learning models to predict if flights would be significantly delayed.
 
