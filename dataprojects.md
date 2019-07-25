@@ -8,7 +8,7 @@ permalink: /dataprojects/
 
 ## Projects
 
-### 1. Burritos - [repo,](https://github.com/srcole/burritos) [blog,](https://srcole.github.io/100burritos/) [ignite talk,](https://www.youtube.com/watch?v=Hp6jFy4_bV4) [seminar,](https://docs.google.com/presentation/d/1jBm4GFYtNnwSkALODX2CwXRmHQmVDrRoeF8cSG8tnDY/edit?usp=sharing) [poster,](https://srcole.github.io/assets/burrito/poster.pdf) [dashboard](https://sdburritos.herokuapp.com/)
+### 1. Burritos - [repo,](https://github.com/srcole/burritos) [blog,](https://srcole.github.io/100burritos/) [ignite talk,](https://www.youtube.com/watch?v=Hp6jFy4_bV4) [seminar1,](https://docs.google.com/presentation/d/1jVRM1Rng_km9Ycl2hcka82gfJ8n1m89kqcs3381M8Wg/edit?usp=sharing) [seminar2,](https://docs.google.com/presentation/d/1jBm4GFYtNnwSkALODX2CwXRmHQmVDrRoeF8cSG8tnDY/edit?usp=sharing) [poster,](https://srcole.github.io/assets/burrito/poster.pdf) [dashboard](https://sdburritos.herokuapp.com/)
 
 I designed a 10-dimensional system to systematically rate burrito quality and applied this method to rate 350+ burritos (60+ restaurants, 70+ unique reviewers). I then analyzed the data to establish significant differences between rival taco shops, explore dimensionality reduction, and quantify inter-reviewer reliability. I made a couple dashboards using Tableau and Dash to explore taco shop ratings around San Diego. I also formatted the data into an [SQL database and demonstrated some example queries](https://github.com/srcole/burritos/tree/master/SQL%20practice).
 
