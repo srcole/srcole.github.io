@@ -21,7 +21,7 @@ As with any data analysis, it's important to keep in mind the caveats and limita
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/politifact/10_truth_breakdown_by_year.png" height="300">
-<div class="thecap" style="text-align:center"><b>Figure 2.</b> Breakdown of truth results for facts checked each year. Unfortunately, it appears that politicians have been telling relatively more blatant lies relative to true statements. Despite the apparent correlation between the rise in "Pants on Fire!" statements and the start of Donald Trump's presidency, this graph remains essentially unchanged if we remove his data, as seen in <a href="https://srcole.github.io/assets/politifact/11_truth_breakdown_by_year_noTrump.png">this figure</a>.</div>
+<div class="thecap" style="text-align:center"><b>Figure 2.</b> Breakdown of truth results for facts checked each year. Unfortunately, it appears that politicians have been telling relatively more blatant lies relative to true statements. Despite the apparent correlation between the rise in "Pants on Fire!" statements and the start of Donald Trump's presidency, this graph remains essentially unchanged if we remove his data, as seen in <a href="https://srcole.github.io/assets/politifact/11_truth_breakdown_by_year_noTrump.png">this figure</a>. Notice that the decrease in 2017 is not apparent in the graph above. That means that the contribution here is mainly driven by political organizations, people who were not identified as Democrat or Republican, or other fact sources. Further analysis could be done to investigate this.</div>
 </div>
 &nbsp;
 &nbsp;
