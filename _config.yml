@@ -14,6 +14,7 @@ twitter:
   username: scottrcole
   card: summary
 github_username:      srcole
+twitter_username:      scottrcole
 
 # Build settings
 markdown: kramdown
