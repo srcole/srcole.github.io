@@ -33,14 +33,14 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/boa_cuisines_stacked_proportion.png" height="300">
+<img src="/assets/personaldata/boa_cuisines_stacked_proportion.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure 2.</b> Changes in the relative amount I've spent on different cuisines. (Data source: Bank of America)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/spotify_plays_artist_counts.png" height="300">
+<img src="/assets/personaldata/spotify_plays_artist_counts.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure 3.</b> The bands I have listened to most recently (Data source: Spotify)</div>
 </div>
 &nbsp;
@@ -54,7 +54,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/twitter_my_tweets_wordcloud_good.png" height="300">
+<img src="/assets/personaldata/twitter_my_tweets_wordcloud_good.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure 5.</b> Word cloud indicating the words I use most frequently in my tweets. (Data source: Twitter)</div>
 </div>
 &nbsp;
@@ -68,14 +68,14 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/venmo_wordcloud_good.png" height="300">
+<img src="/assets/personaldata/venmo_wordcloud_good.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure 7.</b> Word cloud indicating the words and emojis that are most common in my Venmo transacations. (Data source: Venmo)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/uber_cost_per_minute_by_city.png" height="300">
+<img src="/assets/personaldata/uber_cost_per_minute_by_city.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure 8.</b> Cost of my Uber rides per minute in different cities. (Data source: Uber)</div>
 </div>
 &nbsp;
@@ -89,7 +89,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/amazon_spent.png" height="300">
+<img src="/assets/personaldata/amazon_spent.png" height="400">
 <div class="thecap" style="text-align:center"><b>Figure 10.</b> Amount I've spent on Amazon in different categories. (Data source: Amazon)</div>
 </div>
 &nbsp;
@@ -98,28 +98,28 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/apple_podcast_counts.png" height="300">
+<img src="/assets/personaldata/apple_podcast_counts.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A1.</b> Play counts for my favorite podcasts. (Data source: Apple)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/boa_cuisines_by_year_total_stacked.png" height="300">
+<img src="/assets/personaldata/boa_cuisines_by_year_total_stacked.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A2i.</b> How much I've spent on different cuisines (Data source: Bank of America)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/boa_categories_year_total.png" height="300">
+<img src="/assets/personaldata/boa_categories_year_total.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A2ii.</b> How much I've spent on different things over time (Data source: Bank of America)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/boa_cuisines.png" height="300">
+<img src="/assets/personaldata/boa_cuisines.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A2iii.</b> Total amount I've spent on different cuisines on my credit cards since 2013. (Data source: Bank of America)</div>
 </div>
 &nbsp;
@@ -127,7 +127,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/spotify_listening_duration_by_day.png" height="300">
+<img src="/assets/personaldata/spotify_listening_duration_by_day.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A3i.</b> Amount of Spotify I've listened to each day. (Data source: Spotify)</div>
 </div>
 &nbsp;
@@ -135,7 +135,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/spotify_plays_top_songs.png" height="300">
+<img src="/assets/personaldata/spotify_plays_top_songs.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A3ii.</b> Songs I've played most recently. (Data source: Spotify)</div>
 </div>
 &nbsp;
@@ -143,7 +143,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/spotify_plays_top_songs.png" height="300">
+<img src="/assets/personaldata/spotify_plays_top_songs.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A3iii.</b> Artists I've listened to a lot in June and July 2019. (Data source: Spotify)</div>
 </div>
 &nbsp;
@@ -151,28 +151,28 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/politifact/spotify_liked_songs_artist_counts.png" height="300">
+<img src="/assets/personaldata/spotify_liked_songs_artist_counts.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure A3iv.</b> Number of songs from each artist that I have favorited. (Data source: Spotify)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/twitter_liked_word_rate.png" height="300">
+<img src="/assets/personaldata/twitter_liked_word_rate.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure A5i.</b> Frequency of different words in the tweets I like. (Data source: Twitter)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/twitter_liked_word_rate.png" height="300">
+<img src="/assets/personaldata/twitter_liked_word_rate.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure A5ii.</b> Number of times I've liked tweets from different accounts. Fairly few non-neuroscientists(*). (Data source: Twitter)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/venmo_note_counts.png" height="300">
+<img src="/assets/personaldata/venmo_note_counts.png" height="400">
 <div class="thecap" style="text-align:center"><b>Figure A7i.</b> Number of times different words or emojis (:emoji:) appear in my venmo transactions. (Data source: Venmo)</div>
 </div>
 &nbsp;
