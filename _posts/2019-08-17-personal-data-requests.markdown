@@ -143,7 +143,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/spotify_plays_by_band_temporal1.png" height="350">
+<img src="/assets/personaldata/spotify_plays_by_band_temporal3.png" height="350">
 <div class="thecap" style="text-align:center"><b>Figure A3iii.</b> Artists I've listened to a lot in June and July 2019. (Data source: Spotify)</div>
 </div>
 &nbsp;
@@ -165,7 +165,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/twitter_liked_word_rate.png" height="500">
+<img src="/assets/personaldata/twitter_liked_accounts_ranked.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure A5ii.</b> Number of times I've liked tweets from different accounts. Fairly few non-neuroscientists(*). (Data source: Twitter)</div>
 </div>
 &nbsp;
