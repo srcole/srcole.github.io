@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Analysis of my personal data from 10 apps"
-excerpt: "GDPR has prompted many websites and apps to allow its users to easily download their personal data. I requested, analyzed, and visualized data from Spotify, Twitter, Amazon, Facebook, Apple, LinkedIn, Uber, Venmo, Bank of America, and Tinder."
+title:  "My personal data from 10 apps"
+excerpt: "I requested, processed, analyzed, and visualized data from Spotify, Twitter, Amazon, Facebook, Apple, LinkedIn, Uber, Venmo, Bank of America, and Tinder."
 image: /assets/personaldata/apple_podcast_counts.png
 date:   2019-08-17 00:00:00
 mathjax: true
 ---
 
-The EU's General Data Protection Regulation (GDPR) law has prompted many websites and apps to allow its users to easily download (a subset of) the personal data they have stored. I was curious what information was held by the apps that I use (and what they would provide), so I requested data from the companies below. I've listed some of the interesting data they provided and show some plots below ([GitHub code](https://github.com/srcole/personal-data-requests)).
+The EU's General Data Protection Regulation (GDPR) law has prompted many web companies to allow its users to easily download (a subset of) the personal data they have stored. I was curious what information was held by the apps that I use (and what they would provide), so I requested data from the companies below (plots below, [GitHub code](https://github.com/srcole/personal-data-requests)).
 
 1. Spotify - streaming history, playlists, search queries (only last 90 days)
 2. Twitter - tweets, likes, ad impressions/engagements, messages
