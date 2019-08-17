@@ -143,7 +143,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/spotify_plays_top_songs.png" height="350">
+<img src="/assets/personaldata/spotify_plays_by_band_temporal1.png" height="350">
 <div class="thecap" style="text-align:center"><b>Figure A3iii.</b> Artists I've listened to a lot in June and July 2019. (Data source: Spotify)</div>
 </div>
 &nbsp;
