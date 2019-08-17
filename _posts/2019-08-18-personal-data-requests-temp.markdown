@@ -11,7 +11,7 @@ mathjax: true
 &nbsp;
 &nbsp;
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/apple_podcast_counts_greens.png" height="300">
+<img src="/assets/personaldata/apple_podcast_counts_greens.png" height="400">
 <div class="thecap" style="text-align:center"><b>Figure 1.</b> Some of my favorite podcasts over time.</div>
 </div>
 &nbsp;
