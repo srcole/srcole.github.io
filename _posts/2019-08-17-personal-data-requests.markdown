@@ -98,28 +98,28 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/apple_podcast_counts.png" height="300">
+<img src="/assets/personaldata/apple_podcast_counts.png" height="400">
 <div class="thecap" style="text-align:center"><b>Figure A1.</b> Play counts for my favorite podcasts. (Data source: Apple)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/boa_cuisines_by_year_total_stacked.png" height="300">
+<img src="/assets/personaldata/boa_cuisines_by_year_total_stacked.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure A2i.</b> How much I've spent on different cuisines (Data source: Bank of America)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/boa_categories_year_total.png" height="300">
+<img src="/assets/personaldata/boa_categories_year_total.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure A2ii.</b> How much I've spent on different things over time (Data source: Bank of America)</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/boa_cuisines.png" height="300">
+<img src="/assets/personaldata/boa_cuisines.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure A2iii.</b> Total amount I've spent on different cuisines on my credit cards since 2013. (Data source: Bank of America)</div>
 </div>
 &nbsp;
@@ -127,7 +127,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/spotify_listening_duration_by_day.png" height="300">
+<img src="/assets/personaldata/spotify_listening_duration_by_day.png" height="250">
 <div class="thecap" style="text-align:center"><b>Figure A3i.</b> Amount of Spotify I've listened to each day. (Data source: Spotify)</div>
 </div>
 &nbsp;
@@ -135,7 +135,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/spotify_plays_top_songs.png" height="300">
+<img src="/assets/personaldata/spotify_plays_top_songs.png" height="350">
 <div class="thecap" style="text-align:center"><b>Figure A3ii.</b> Songs I've played most recently. (Data source: Spotify)</div>
 </div>
 &nbsp;
@@ -143,7 +143,7 @@ I also requested data from Airbnb (denied), Bumble (denied), CoffeeMeetsBagel (w
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/personaldata/spotify_plays_top_songs.png" height="300">
+<img src="/assets/personaldata/spotify_plays_top_songs.png" height="350">
 <div class="thecap" style="text-align:center"><b>Figure A3iii.</b> Artists I've listened to a lot in June and July 2019. (Data source: Spotify)</div>
 </div>
 &nbsp;
