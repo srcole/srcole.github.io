@@ -8,11 +8,11 @@ date:   2020-01-26 00:00:00
 mathjax: true
 ---
 
-Income inequality is one of the biggest problems in our society. It’s pretty messed up that there are so many people struggling to meet basic needs and having a hard life, while many of us live in relative luxury because we were lucky enough to have the skills that industries value (and/or be born into wealthy families).
+Income inequality is one of the biggest problems in our society. It’s pretty messed up that there are so many people struggling to meet basic needs and having a hard life, while many of us live in relative luxury because we were lucky enough to be inclined in the skills that industries value (and/or be born into wealthy families).
 
-I had heard that “income inequality is getting worse,” but I never really had a quantified perspective of it. Therefore, I downloaded some data from the [Census](https://www.census.gov/data/tables/2019/demo/income-poverty/p60-266.html) and visualized it below. Overall, it seems like "the rich get richer, and the poor ~get poorer~ stay about the same." The most prominent trends are:
-- The 90th percentile of households now earn 13x more than the 10th percentile of households, and 3x more than the median household.
-- Over the past 4 decades, incomes have increased more rapidly (in both relative and absolute terms) for the more wealthy households 
+I had heard that “income inequality is getting worse,” but I never really had a quantified perspective of it. Therefore, I downloaded some [data from the Census Bureau](https://www.census.gov/data/tables/2019/demo/income-poverty/p60-266.html) and visualized it below. Overall, it seems like "the rich get richer, and the poor <strike>get poorer</strike> stay about the same." The most prominent trends are:
+- The 90th percentile of households now earn 13x that of the 10%, and 3x that of the median household.
+- Over the past 40 years, incomes have increased more rapidly (in both relative and absolute terms) for the more wealthy households.
     - While the inflation-adjusted income of the 90th percentile has increased 14% in the past 10 years, the income of the 10th percentile of the population has only increased by 3%.
 - The official poverty rate has fluctuated over the past 40 years between 12% and 15%, and as of 2018, we are in a relatively good period (11.8% poverty rate).
 - The southern states have the greatest rates of poverty (Louisiana and Mississippi have poverty rates of 20%). New Hampshire has the lowest poverty rate (6%).
@@ -50,7 +50,14 @@ Visualizations were created in python from raw spreadsheets downloaded from teh 
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/income-inequality/6_Poverty rates by state.png" height="500">
-<div class="thecap" style="text-align:center"><b>Figure 5.</b> Poverty rate in each US state, averaged across 2016, 2017, and 2018 figures.(Louisiana and Mississippi had the highest poverty rates: 20%. New Hampshire had the lowest poverty rate: 6%.</div>
+<div class="thecap" style="text-align:center"><b>Figure 5a.</b> Poverty rate in each US state, averaged across 2016, 2017, and 2018 figures. Louisiana and Mississippi had the highest poverty rates: 20%. New Hampshire had the lowest poverty rate: 6%. See rates ranked by each state below.</div>
+</div>
+&nbsp;
+&nbsp;
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/income-inequality/6_Poverty rates by state.png" height="500">
+<div class="thecap" style="text-align:center"><b>Figure 5b.</b> Poverty rate in each US state, averaged across 2016, 2017, and 2018 figures. Same data as figure above.</div>
 </div>
 &nbsp;
 &nbsp;
