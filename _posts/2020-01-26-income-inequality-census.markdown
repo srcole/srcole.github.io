@@ -30,7 +30,7 @@ Visualizations were created in python from raw spreadsheets downloaded from teh 
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/income-inequality/2_Historical income inequality ratios.png" height="400">
+<img src="/assets/income-inequality/2_Historical income inequality ratios.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure 2.</b> Historical changes in the ratios of annual income between different percentiles of US households. A value of 1 would indicate that the two percentiles earn the same (i.e. everyone between these percentiles earned the same amount). A value of 10 indicates e.g. in 1986, the 90th percentile of households earned 10x as much as the 10th percentile of households (blue line).</div>
 </div>
 &nbsp;
@@ -40,6 +40,8 @@ Visualizations were created in python from raw spreadsheets downloaded from teh 
 <img src="/assets/income-inequality/4a_Income distribution - all races.png" height="500">
 <div class="thecap" style="text-align:center"><b>Figure 3.</b> Historical changes in the distribution of households in each income bracket over the past 40 years. Amounts were adjusted for inflation by the Census Bureau. Note that in 2018, 30% of US households earn at least $100,000 per year. That is more than I expected. Still, 40% of US households earn less than $50,000 per year, and 10% earn less than $15,000 per year. Hopefully this will improve.</div>
 </div>
+&nbsp;
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/income-inequality/5_Historical poverty rates.png" height="300">
@@ -50,20 +52,20 @@ Visualizations were created in python from raw spreadsheets downloaded from teh 
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/income-inequality/6_Poverty rates by state.png" height="400">
-<div class="thecap" style="text-align:center"><b>Figure 5a.</b> Poverty rate in each US state, averaged across 2016, 2017, and 2018 figures. Louisiana and Mississippi had the highest poverty rates: 20%. New Hampshire had the lowest poverty rate: 6%. See rates ranked by each state below.</div>
+<div class="thecap" style="text-align:center"><b>Figure 5a.</b> Poverty rate in each US state, averaged across 2016, 2017, and 2018 figures. Louisiana and Mississippi had the highest poverty rates: 20%. New Hampshire had the lowest poverty rate: 6%. See state ranking below.</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/income-inequality/6b_Poverty rates by state bar.png" height="600">
-<div class="thecap" style="text-align:center"><b>Figure 5b.</b> Poverty rate in each US state, averaged across 2016, 2017, and 2018 figures. Same data as figure above.</div>
+<div class="thecap" style="text-align:center"><b>Figure 5b.</b> Poverty rate in each US state, averaged across 2016, 2017, and 2018 figures.</div>
 </div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/income-inequality/3_Median income by race.png" height="500">
+<img src="/assets/income-inequality/3_Median income by race.png" height="300">
 <div class="thecap" style="text-align:center"><b>Figure 6.</b> Median income of households of each race over the past 30 years. Amounts were adjusted for inflation by the Census Bureau.</div>
 </div>
 &nbsp;
