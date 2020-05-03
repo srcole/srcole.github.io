@@ -14,7 +14,7 @@ I somewhat often have conversation of what my favorite channels are, so here I r
 
 # Top 10 (more details below)
 
-1. Short, animated documentaries about science & society - [Wendover Productions](https://www.youtube.com/user/Wendoverproductions), [PolyMatter](https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg),  [Kurzgesagt](https://www.youtube.com/user/Kurzgesagt)
+1. [Wendover Productions](https://www.youtube.com/user/Wendoverproductions) & [PolyMatter](https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg) & [Kurzgesagt](https://www.youtube.com/user/Kurzgesagt)
 2. [The Joe Rogan Experience](https://www.youtube.com/user/PowerfulJRE)
 3. [Summoning Salt](https://www.youtube.com/channel/UCtUbO6rBht0daVIOGML3c8w)
 4. [LEMMiNO](https://www.youtube.com/channel/UCRcgy6GzDeccI7dkbbBna3Q)
