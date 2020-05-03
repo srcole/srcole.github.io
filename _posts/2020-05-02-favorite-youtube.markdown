@@ -3,7 +3,6 @@ layout: post
 comments: true
 title:  "My 10 favorite YouTube channels"
 excerpt: "YouTube is one of the things that makes me feel incredibly lucky to grow up in the 21st century. As long as I have a good internet connection, I can learn and discover so many interesting new things from passionate creators. Here is a list and descriptions of my favorites."
-image: /assets/income-inequality/4a_Income distribution - all races.png
 date:   2020-05-02 00:00:00
 mathjax: true
 ---
