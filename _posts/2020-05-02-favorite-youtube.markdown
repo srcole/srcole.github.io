@@ -38,8 +38,7 @@ PolyMatter has a lot of cool videos about problems in different countries and ot
 
 Kurzgesagt makes really amazing animations to explain scientific concepts in a fun way and also has a lot of other random videos about society and philosophy too (e.g. [Is the EU Democratic? Does Your Vote Matter?](https://www.youtube.com/watch?v=h4Uu5eyN6VU), [Optimistic Nihilism](https://www.youtube.com/watch?v=MBRqu0YOH14), [Are GMOs good or bad?](https://www.youtube.com/watch?v=7TmcXYp8xu4).
 
-I acknowledge that my top ranking is misappropriately multiple channels. But there  
-when I think of captivating animated videos explaining some societal issue or scientific phenomenon. Other good channels in this category include:
+Other good channels in this category include:
 
 - [Atlas Pro](https://www.youtube.com/channel/UCz1oFxMrgrQ82-276UCOU9w) - Up there with Wendover and PolyMatter. 
 - [Half as Interesting](https://www.youtube.com/channel/UCuCkxoKLYO_EQ2GeFtbM_bw) - Up there with Wendover and PolyMatter.
