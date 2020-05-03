@@ -11,7 +11,7 @@ Until 1 year ago, I couldn’t rationalize a Netflix subscription, because there
 
 I somewhat often have conversation of what my favorite channels are, so here I ranked my 10 favorite YouTube channels and included links to some of my favorite episodes. I think many of you would enjoy these, and if you have any recommendations, please let me know!
 
-# Top 10 (more details below)
+# Top 10
 
 1. [Wendover Productions](https://www.youtube.com/user/Wendoverproductions) & [PolyMatter](https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg) & [Kurzgesagt](https://www.youtube.com/user/Kurzgesagt)
 2. [The Joe Rogan Experience](https://www.youtube.com/user/PowerfulJRE)
@@ -90,9 +90,8 @@ VICE produces really unique documentaries about risque topics like drugs and pro
 # Honorable mentions
 
 - [Last week tonight with John Oliver](https://www.youtube.com/user/LastWeekTonight) - Who doesn’t love this (primarily HBO) show?
-- [Two Minute Papers](https://www.youtube.com/user/keeroyz) - Good overviews of recent papers mostly in AI research, e.g. [MuZero: DeepMind’s New AI Mastered More Than 50 Games](https://www.youtube.com/watch?v=hYV4-m7_SK8).
-- [Jake & Amir 700-episode playlist](https://www.youtube.com/watch?v=OZXeE-cAeQg&list=PL8WEHjU-hK_6SSza5t3DJ57ruDs4pBKhk) - 2-minute short comedy videos including one of the best characters of all time (e.g. [Data ideas scroll](https://www.youtube.com/watch?v=dHJB_lUVkUQ), [Swag])(https://www.youtube.com/watch?v=ZeFPlu7bqxw))
-- [Casually Explained](https://www.youtube.com/channel/UCr3cBLTYmIK9kY0F_OdFWFQ) - awkward comedy frames as life tutorials (e.g. [how to have a normal conversation](https://www.youtube.com/watch?v=TpMDX7n14Bg))
+- [Jake & Amir 700-episode playlist](https://www.youtube.com/watch?v=OZXeE-cAeQg&list=PL8WEHjU-hK_6SSza5t3DJ57ruDs4pBKhk) - 2-minute short comedy videos including one of the best characters of all time (e.g. [Data ideas scroll](https://www.youtube.com/watch?v=dHJB_lUVkUQ), [Swag](https://www.youtube.com/watch?v=ZeFPlu7bqxw))
+- [Casually Explained](https://www.youtube.com/channel/UCr3cBLTYmIK9kY0F_OdFWFQ) - awkward comedy framed as life tutorials (e.g. [how to have a normal conversation](https://www.youtube.com/watch?v=TpMDX7n14Bg))
 - [Rahdo runs through](https://www.youtube.com/channel/UCr3cBLTYmIK9kY0F_OdFWFQ) - Entertaining board game tutorials
 - [Marblelympics](youtube.com/channel/UCYJdpnjuSWVOLgGT9fIzL0g) - if the olympic games were performed with teams of marbles
 - [World Chase Tag](https://www.youtube.com/watch?v=fFgT9vt2sJM) - underrated sport
@@ -100,6 +99,7 @@ VICE produces really unique documentaries about risque topics like drugs and pro
 ## Honorable mentions - educational and informational
 
 - [Numberphile](https://www.youtube.com/user/numberphile) - math puzzles
+- [Two Minute Papers](https://www.youtube.com/user/keeroyz) - Good overviews of recent papers mostly in AI research, e.g. [MuZero: DeepMind’s New AI Mastered More Than 50 Games](https://www.youtube.com/watch?v=hYV4-m7_SK8)
 - [Vsauce](https://www.youtube.com/user/Vsauce) - fun scientific questions
 - [Freedom in Thought](https://www.youtube.com/channel/UCd6Za0CXVldhY8fK8eYoIuw) - animated self-help
 - [SciShow](https://www.youtube.com/user/scishow) - Everything the vlogbrothers do is good
