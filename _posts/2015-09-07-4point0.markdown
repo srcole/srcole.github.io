@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_nondata
 comments: true
 title:  "Is an undergraduate 4.0 GPA worth the effort?"
 excerpt: "A different perspective on how much having a perfect undergrad GPA really matters."

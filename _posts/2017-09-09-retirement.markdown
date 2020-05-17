@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_nondata
 comments: true
 title:  "Retirement calculator: Interactive visualization using Bokeh"
 excerpt: "After debating with a friend about how much/little we need to save in order

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_nondata
 comments: true
 title:  "How to make a scavenger hunt gift"
 excerpt: "Personalized scavenger hunts are fun, they make good gifts, and they can actually be made pretty quickly. Here's some advice on how to make one, as well as a full example."
