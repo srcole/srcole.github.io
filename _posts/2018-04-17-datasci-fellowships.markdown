@@ -1,5 +1,6 @@
 ---
-layout: post_nondata
+layout: post
+is_data: no
 comments: true
 title:  "List of summer and postdoctoral fellowships in data science"
 excerpt: "There are many data science fellowships available after graduate school, so I organized details about the ones I have found as a potentially useful resource for myself and others."
