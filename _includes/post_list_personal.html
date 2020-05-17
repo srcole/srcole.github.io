@@ -3,7 +3,7 @@
 	{% for year in postsByYear %}
 	  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
 	  {% for post in year.items %}
-	  	{% if post.header.is_data == "no" %}
+	  	{% if post.is_data == "no" %}
 	    	{% include archive-single.html %}
 	    {% endif %}
 	  {% endfor %}
