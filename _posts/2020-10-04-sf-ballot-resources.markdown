@@ -10,7 +10,7 @@ mathjax: true
 
 I got my mail-in ballot today and remembered how it’s really difficult and time-consuming to have an informed opinion on everything that we vote for (other than Presidential candidate). So I spent time finding some resources on each election and proposition and wanted to share the resources so that others can inform their votes more easily!
 
-Below I provide some resources (and note my preferences) for each of the elections:
+Below I provide some resources (and bold my preferences) for each of the elections:
 
 ### United States Representative, District 12
 - **Shahid Buttar**; Nancy Pelosi
@@ -46,4 +46,6 @@ Below I provide some resources (and note my preferences) for each of the electio
 - [Official voter information guide has nicely laid out arguments for both sides of each proposition](https://vig.cdn.sos.ca.gov/2020/general/pdf/complete-vig.pdf)
 
 ### City and county propositions
+- **Yes: A, B, C**
+- **No: **
 - [Details and arguments for each measure](https://sfelections.sfgov.org/measures)
