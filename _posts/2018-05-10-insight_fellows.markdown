@@ -1,6 +1,5 @@
 ---
 layout: post
-is_data: "no"
 comments: true
 title:  "Analysis of Insight Data Science Fellows"
 excerpt: "Insight Data Science is a popular fellowship for PhDs going into data analytics. I wanted to get a better sense of where fellows came from and ended up, so I scraped some data from the Insight website and analyzed it."

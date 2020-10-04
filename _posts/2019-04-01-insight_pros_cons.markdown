@@ -1,5 +1,6 @@
 ---
 layout: post
+is_data: "no"
 comments: true
 title:  "5 Pros and 5 Cons of Insight Data Science Fellowship"
 excerpt: "During my time as a data science fellow at Insight, I took note of both the great and not-so-great aspects of the program. I wanted to provide a more nuanced perspective of the program than what is currently on the internet."
