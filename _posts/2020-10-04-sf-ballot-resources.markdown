@@ -46,6 +46,6 @@ Below I provide some resources (and bold my preferences) for each of the electio
 - [Official voter information guide has nicely laid out arguments for both sides of each proposition](https://vig.cdn.sos.ca.gov/2020/general/pdf/complete-vig.pdf)
 
 ### City and county propositions
-- **Yes: A, B, C**
-- **No: **
+- **Yes: A, B, C, D, E, F**
+- **No: ?**
 - [Details and arguments for each measure](https://sfelections.sfgov.org/measures)
