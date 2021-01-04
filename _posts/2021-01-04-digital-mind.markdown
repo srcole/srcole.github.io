@@ -4,11 +4,11 @@ is_data: "no"
 comments: true
 title:  "My digital mind"
 image: /assets/misc/digital_mind.png
-excerpt: "TBD."
+excerpt: "I've developed a system using Google Keep and Drive to help me more effectively think through ideas and organize my research into different topics."
 date:   2021-01-04 00:00:00
 mathjax: true
 ---
-For the past 3 years, I’ve had an unintentional New Years tradition. I’ve come to think of it as refactoring my digital mind. Basically, <b>my goal is to have a framework for reflecting on and developing my thoughts</b>. It’s fulfilling to think through ideas and come to new conclusions, to more deeply understand society and myself. Structure makes me better at this, otherwise I’ll more often be consuming media and encountering more fascinating ideas, but not developing them much after I jot them down.
+For the past 3 years, I’ve had an unintentional New Years tradition. I’ve come to think of it as refactoring my digital mind. Basically, <b>my goal is to have a framework for reflecting on and developing my thoughts</b>. It’s fulfilling to think through ideas and come to new conclusions, to more deeply understand systems, concepts, and myself. Structure makes me better at this, otherwise I’ll more often be consuming media and encountering more fascinating ideas, but not developing them much after I jot them down.
 
 This year, I’m finally happy with the organization of my digital mind, and I wanted to share it here. <i>In brief, I use Google Keep and Google Drive to organize my thoughts from inspiration to evolution to conclusion.</i> My current framework is described below.
 
