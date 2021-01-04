@@ -13,12 +13,9 @@ For the past 3 years, I’ve had an unintentional New Years tradition. I’ve co
 This year, I’m finally happy with the organization of my digital mind, and I wanted to share it here. <i>In brief, I use Google Keep and Google Drive to organize my thoughts from inspiration to evolution to conclusion.</i> My current framework is described below.
 
 &nbsp;
-&nbsp;
 <div class="imgcap" style="text-align:center">
 <img src="/assets/misc/digital_mind.png" height="500">
 <div class="thecap" style="text-align:center"></div></div>
-&nbsp;
-&nbsp;
 
 ### Google Keep - Short-term memory
 
