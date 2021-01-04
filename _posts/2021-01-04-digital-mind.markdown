@@ -3,7 +3,7 @@ layout: post
 is_data: "no"
 comments: true
 title:  "My digital mind"
-image: /assets/misc/digital_mind.png
+image: /assets/misc/digital_mind_white.png
 excerpt: "I've developed a system using Google Keep and Drive to help me more effectively think through ideas and organize my research into different topics."
 date:   2021-01-04 00:00:00
 mathjax: true
