@@ -3,7 +3,7 @@ layout: post
 is_data: "no"
 comments: true
 title:  "5 ideas that most impact my life perspective"
-excerpt: "1. Numeric misinformation. 2. Determinism. 3. Street epistemology. 4. Stoicism. 5. Financial independence"
+excerpt: "They are: 1. Numeric misinformation. 2. Determinism. 3. Street epistemology. 4. Stoicism. 5. Financial independence"
 date:   2021-04-04 00:00:00
 mathjax: true
 ---
@@ -83,3 +83,7 @@ I was incredibly lucky that a fellow grad student forwarded me to some resources
 <b>Good resources</b>
 - [Tim Ferriss interview with Mr Money Mustache](https://www.youtube.com/watch?v=-FlLj64dI1Q)
 - [My interactive plot visualizing time needed to retire based on multiple savings factors](https://srcole.github.io/2017/09/09/retirement/)
+
+### End
+
+Well, that’s it. I have 0 other ideas. I’ll keep learning more about these topics and look forward to chatting with others about them.
