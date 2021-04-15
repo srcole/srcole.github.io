@@ -1,0 +1,21 @@
+---
+layout: post
+comments: true
+title:  "Misleading title of British Medical Journal article"
+excerpt: "The title of a BMJ article indicates that the first dose of the Pfizer vaccine has 52% efficacy. I rant here about how the statistical analysis does not match the intuitive interpretation of efficacy after the first dose, and how this leads to inaccurate downstream citations."
+image: /assets/misc/polack_nejm_fig3.png
+date:   2021-04-14 00:00:00
+mathjax: true
+---
+I was curious if there was any data on the effectiveness of a single dose of the Pfizer Covid-19 vaccine. The first result I found was [this article in the British Medical Journal](https://www.bmj.com/content/371/bmj.m4826) claiming the "vaccine efficacy was 52% after first dose." This article's claim of 52% effectiveness came from Figure 3 of the [Polack et al. NEJM article](https://www.nejm.org/doi/pdf/10.1056/NEJMoa2034577?articleTools=true), which showed 39 covid-19 occurrences between dose 1 and dose 2 for the treatment vs. 82 occurrences in the control. i.e., 1 - (39/82) = 52% (image below).
+
+&nbsp;
+<div class="imgcap" style="text-align:center">
+<img src="/assets/misc/polack_nejm_fig3.png" height="800">
+<div class="thecap" style="text-align:center">Figure 3 of Polack et al., NEJM 2020, showing the time course of covid-19 occurrences since the time of the first dose compared between the Pfizer vaccine treatment (red) and placebo control (blue).</div></div>
+
+A huge part of this figure is that it shows a clear difference in temporal trends of the case rates between the treatment and placebo groups, even before the second dose (21 days after the first dose). Therefore, if the second dose happened to be given at day 10, the metric computed in the BMJ article would have been closer to 10%. It would not make sense for the "effectiveness after the first dose" to be dependent on the timing of the second dose. Rather, an intuitive definition of "effectiveness" here would be something like that used in the NEJM article (>7 days after the dose).
+
+An example of a more appropriate metric for "effectiveness after the first dose" would be the difference in the rates of Covid-19 occurrence between 7 and 21 days after the first dose. This result should be phrased with the nuance of the precise definition used, its limited time window (14 days), and its limited sample size.
+
+The BMJ article title's claim of "effectiveness" does not put it in the context of the dominant temporal factor. This article has already been cited 22 times, but its title should be modified because it is spreading false impressions that the first dose is 52% effective. For example, [this paper](https://www.biorxiv.org/content/biorxiv/early/2021/02/05/2021.02.05.429759.full.pdf) claims "the first dose of the Pfizer/BNT162b2 before boosting suggested approximately a 52% protection from severe infection," which is not really accurate. The text of the BMJ article states "vaccine efficacy between the first and second doses was 52%," which is closer to the truth, but can still be misinterpreted. I think that specifying the 3-week interval is important context and helping the information to be accurately used in later articles.
