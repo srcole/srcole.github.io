@@ -29,6 +29,7 @@ A second major reason numeric misinformation is going to be hard to fight is bec
 I think [NewsGuard](https://www.newsguardtech.com/) is a good first step at trying to combat this issue. I also think some sort of structurally organized debate forum would be helpful, if it was significantly used. If people could read the best points and counterpoints from both sides right next to each other, I think it would make discourse much more productive and honest, allow people to better understand different perspectives, and decrease division in society.
 
 <b>Good resources</b>
+- [Calling Bullshit - a book that pretty much scooped my manifesto but is much better written, describing many examples of quantitative bullshit and the challenges in counteracting them](https://www.callingbullshit.org/)
 - [How to Lie with Statistics - a nice, short, non-technical book going over several ways people mislead with data](https://www.horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf)
 - [NewsGuard - transparent trust ratings for news sources](https://www.newsguardtech.com/)
 
