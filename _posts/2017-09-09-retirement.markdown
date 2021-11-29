@@ -10,6 +10,11 @@ date:   2017-09-09 00:00:00
 mathjax: true
 ---
 
+# Update
+
+More recently, I have created [this visualization in Streamlit](https://share.streamlit.io/srcole/streamlit_retirement_calculator/main/app.py), which is a better interactive tool for visualizing retirement savings for different parameters.
+
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
