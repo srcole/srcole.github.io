@@ -15,7 +15,7 @@ This problem was the inspiration for the board game I developed: *p-hacking*. In
 
 See an [overview of the game in this video](https://youtu.be/_MIvq2xtyIg), or [read the short rule book in this doc](https://docs.google.com/document/d/1n5liLiBh5QxK-UAqQb5A_tDcXt55Pn8PlBn9xp3S6uI/edit?usp=sharing).
 
-You can [play the game on playingcards.io here](https://playingcards.io/cyhgua), or [download a copy here](https://github.com/srcole/srcole.github.io/blob/master/assets/phacking/p-hacking-v0-3.pcio).
+You can [play the game on playingcards.io here](https://playingcards.io/rw8tht), or [download a copy here](https://github.com/srcole/srcole.github.io/blob/master/assets/phacking/p-hacking-v0-3.pcio).
 
 &nbsp;
 &nbsp;
