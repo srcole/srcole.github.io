@@ -3,7 +3,6 @@ layout: post
 is_data: "no"
 comments: true
 title:  "Mexico City to Teotihuacan Pyramids by bus"
-image: /assets/misc/digital_mind_white.png
 excerpt: "Like many visitors to Mexico City, I visited the Teotihuacan Pyramids. Doing that by bus was a bit confusing, so I wanted to provide some more information to hopefully help people doing this trip in the future."
 date:   2022-05-12 00:00:00
 mathjax: true
