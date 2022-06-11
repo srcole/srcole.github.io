@@ -19,3 +19,13 @@ The doors of the metro in Mexico City are open much more briefly at their stops 
 ### Data collection methodology
 
 A Google Pixel 3 with Google Sheets was installed for easy data entry. At each new stop, immediately after the doors began to open, the time on a Mobvoi Ticwatch Pro 3 was noted, in seconds-resolution. This process was repeated when the doors began to close, and the time difference was recorded as the number of seconds the doors were open at that stop in this [Google Sheet](https://docs.google.com/spreadsheets/d/1kkpbr0-V_IrsJvXUU5q6A7tsmhUxP02Bj3-C4KWcIrA/edit?usp=sharing).
+
+### Future analysis
+
+It could be interesting to look into some further relationships, such as:
+- time of day effect (and relative to rush hour)
+- metro line and direction effect
+- particular stops (e.g. transfer points) effects
+- autocorrelations in stop duration
+
+It would likely help to collect more data to make any of these claims with confidence.
