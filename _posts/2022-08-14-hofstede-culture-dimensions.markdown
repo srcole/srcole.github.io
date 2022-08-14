@@ -3,7 +3,7 @@ layout: post
 is_data: "yes"
 comments: true
 title:  "Hofstede's 6 culture dimensions - Streamlit"
-excerpt: "In a recent Freakonomics episode, they described an Hofstede's framework of 6 culture dimensions. I made a web app to visualize the culture dimensions by country and compare them to a personal set of preferences."
+excerpt: "A recent Freakonomics episode described Hofstede's framework of 6 culture dimensions. I made a web app to visualize the culture dimensions by country and compare them to a personal set of preferences."
 date:   2022-08-14 00:00:00
 mathjax: true
 ---
@@ -16,7 +16,7 @@ Freakonomics had a recent episode, [The Pros and Cons of America’s (Extreme) I
 - Long- v. Short-Term Orientation
 - Indulgence v. Restraint
 
-I wanted to explore this more, so I downloaded the data of these dimension ratings by country and made [this Streamlit app](https://srcole-streamlit-hofstede-dimensions-app-lxprgu.streamlitapp.com/). I was interested in seeing how similar my preferences would be to different countries to get a sense of which countries may have the most compatible culture to me.
+I wanted to explore this more, so I downloaded [the data of dimension ratings by country](https://geerthofstede.com/research-and-vsm/dimension-data-matrix/) and made [this Streamlit app](https://srcole-streamlit-hofstede-dimensions-app-lxprgu.streamlitapp.com/). I was interested in seeing how similar my preferences would be to different countries to get a sense of which countries may have the most compatible culture to me.
 
 Personally, it looks like I'm closely aligned with Northern Europe, as I prefer:
 - Lower power distance
