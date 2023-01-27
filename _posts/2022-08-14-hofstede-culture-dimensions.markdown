@@ -35,6 +35,6 @@ I hope you enjoy playing around [with the Streamlit app here](https://srcole-str
 
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/misc/hofstede_screenshot2.png" height="400">
+<img src="/assets/misc/hofstede_screenshot2.png" height="300">
 <div class="thecap" style="text-align:center"></div></div>
 
