@@ -26,4 +26,15 @@ Personally, it looks like I'm closely aligned with Northern Europe, as I prefer:
 - Long-term orientation
 - More indulgence
 
-I hope you enjoy playing around [with the Streamlit app here](https://srcole-streamlit-hofstede-dimensions-app-lxprgu.streamlitapp.com/).
+I hope you enjoy playing around [with the Streamlit app here](https://srcole-streamlit-hofstede-dimensions-app-lxprgu.streamlitapp.com/) (screenshots below).
+
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/misc/hofstede_screenshot1.png" height="600">
+<div class="thecap" style="text-align:center"></div></div>
+
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/misc/hofstede_screenshot2.png" height="400">
+<div class="thecap" style="text-align:center"></div></div>
+
