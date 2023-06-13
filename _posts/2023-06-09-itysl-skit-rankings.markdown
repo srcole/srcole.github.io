@@ -17,31 +17,31 @@ Multiple websites have ranked the best skits in “I Think You Should Leave.” 
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/itysl/ranking_mine.png" height="300">
+<img src="/assets/itysl/ranking_mine.png" height="200">
 <div class="thecap" style="text-align:center">Table 1. Top 10 skits, according to my rankings</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/itysl/ranking_aggregate.png" height="300">
+<img src="/assets/itysl/ranking_aggregate.png" height="200">
 <div class="thecap" style="text-align:center">Table 2. Top 10 skits, averaging across all rankings.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/itysl/underrated.png" height="300">
+<img src="/assets/itysl/underrated.png" height="200">
 <div class="thecap" style="text-align:center">Table 3. Most underrated skits from seasons 1-2, according to my rankings.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/itysl/overrated.png" height="300">
+<img src="/assets/itysl/overrated.png" height="200">
 <div class="thecap" style="text-align:center">Table 4. Most overrated skits from seasons 1-2, according to my rankings.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/itysl/itysl_skit_counts.png" height="300">
+<img src="/assets/itysl/itysl_skit_counts.png" height="200">
 <div class="thecap" style="text-align:center">Figure 2. There were 3-5 skits per episode. 29 skits in season 1 and 27 skits each in seasons 2 and 3.</div></div>
 
 
