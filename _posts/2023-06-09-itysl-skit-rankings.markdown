@@ -13,27 +13,32 @@ Multiple websites have ranked the best skits in “I Think You Should Leave.” 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/itysl_ranking_v2.png" height="1200">
 <div class="thecap" style="text-align:center">Figure 1. Ranking of all “I Think You Should Leave” skits from Seasons 1-3. Rankings were created by two websites (Consequence and Indie Wire) and myself.</div></div>
-
+&nbsp;
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/ranking_mine.png" height="300">
 <div class="thecap" style="text-align:center">Table 1. Top 10 skits, according to my rankings</div></div>
-
+&nbsp;
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/ranking_aggregate.png" height="300">
 <div class="thecap" style="text-align:center">Table 2. Top 10 skits, averaging across all rankings.</div></div>
-
+&nbsp;
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/underrated.png" height="300">
 <div class="thecap" style="text-align:center">Table 3. Most underrated skits from seasons 1-2, according to my rankings.</div></div>
-
+&nbsp;
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/overrated.png" height="300">
 <div class="thecap" style="text-align:center">Table 4. Most overrated skits from seasons 1-2, according to my rankings.</div></div>
-
+&nbsp;
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/itysl_skit_counts.png" height="300">
@@ -64,7 +69,7 @@ Multiple websites have ranked the best skits in “I Think You Should Leave.” 
   - My rank: #82, average rank: #50
 
 ## Data sources
-You can easily load the data yourself in python by running: `pandas.read_csv('https://docs.google.com/spreadsheets/d/1ohrGvph_ALF7NICLiDsa3g-ZnNKUhcDC1DpLdYC7jrE/export?format=csv')`. It includes my own rankings and those from 6 websites:
+You can easily load the data from myself and the 6 websites below in python by running: `pandas.read_csv('https://docs.google.com/spreadsheets/d/1ohrGvph_ALF7NICLiDsa3g-ZnNKUhcDC1DpLdYC7jrE/export?format=csv')`.
 - https://consequence.net/2023/06/i-think-you-should-leave-sketches-ranked-tim-robinson/12/ 
 - https://www.indiewire.com/gallery/i-think-you-should-leave-sketches-ranked-tim-robinson-best/i-think-you-should-leave-season-2-capital-room-sketch/ 
 - https://www.polygon.com/23737241/every-i-think-you-should-leave-sketch-ranked-best-to-worst-itysl 
