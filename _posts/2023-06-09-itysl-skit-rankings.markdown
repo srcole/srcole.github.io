@@ -44,29 +44,32 @@ Multiple websites have ranked the best skits in “I Think You Should Leave.” 
 <img src="/assets/itysl/itysl_skit_counts.png" height="200">
 <div class="thecap" style="text-align:center">Figure 2. There were 3-5 skits per episode. 29 skits in season 1 and 27 skits each in seasons 2 and 3.</div></div>
 
+## Best and worst episodes
+The best episode was Season 2, Episode 4, according to my rankings
+  - My Wife (#8)
+  - Blues Brothers (#9)
+  - Calico Cut Pants (#2)
+
+The worst episode was Season 3, Episode 4, according to my rankings
+  - I’d Wanna be Mike (#49)
+  - Pacific Proposal Park (#82)
+  - Gelutol (#56)
+  - Farewell Ronnie (#78)
+  - Shirt Brothers (#39)
 
 ## Some other stats
-- Season 2 skits were ranked the best, with an average rank of 34. Followed by season 1 (average rank = 43) and season 3 (average rank = 49).
+- Most underrated skit from season 3: “Dog-eared hair”. 
+  - My rank: #14, average rank: #51
+- Most overated skit from season 3: “Pacific Proposal Park”. 
+  - My rank: #82, average rank: #50
+- Season 2 skits were ranked the best (average rank=34). Followed by season 1 (43) and season 3 (49).
 - Skits starring Tim Robinson were more highly ranked than those that did not
   - Top 5 episodes: 100% Tim Robinson
   - Top 10 episodes:  80% Tim Robinson
   - Top 50% episodes:  71% Tim Robinson
   - Bottom 50% episodes:  49% Tim Robinson
   - Bottom 10 episodes:  30% Tim Robinson
-- The best episode was Season 2, Episode 4, according to my rankings
-  - My Wife (#8)
-  - Blues Brothers (#9)
-  - Calico Cut Pants (#2)
-- The best episode was Season 3, Episode 4, according to my rankings
-  - I’d Wanna be Mike (#49)
-  - Pacific Proposal Park (#82)
-  - Gelutol (#56)
-  - Farewell Ronnie (#78)
-  - Shirt Brothers (#39)
-- Most underrated skit from season 3: “Dog-eared hair”. 
-  - My rank: #14, average rank: #51
-- Most overated skit from season 3: “Pacific Proposal Park”. 
-  - My rank: #82, average rank: #50
+
 
 ## Data sources
 You can easily load the data from myself and the 6 websites below in python by running: `pandas.read_csv('https://docs.google.com/spreadsheets/d/1ohrGvph_ALF7NICLiDsa3g-ZnNKUhcDC1DpLdYC7jrE/export?format=csv')`.
