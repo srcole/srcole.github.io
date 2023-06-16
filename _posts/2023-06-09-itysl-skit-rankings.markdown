@@ -16,6 +16,8 @@ Multiple websites have ranked the best skits in “I Think You Should Leave.” 
 &nbsp;
 &nbsp;
 
+## Top skits
+
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/ranking_mine.png" height="200">
 <div class="thecap" style="text-align:center">Table 1. Top 10 skits, according to my rankings</div></div>
@@ -28,6 +30,8 @@ Multiple websites have ranked the best skits in “I Think You Should Leave.” 
 &nbsp;
 &nbsp;
 
+## Most underrated and overrated skits
+
 <div class="imgcap" style="text-align:center">
 <img src="/assets/itysl/underrated.png" height="200">
 <div class="thecap" style="text-align:center">Table 3. Most underrated skits from seasons 1-2, according to my rankings.</div></div>
@@ -39,10 +43,6 @@ Multiple websites have ranked the best skits in “I Think You Should Leave.” 
 <div class="thecap" style="text-align:center">Table 4. Most overrated skits from seasons 1-2, according to my rankings.</div></div>
 &nbsp;
 &nbsp;
-
-<div class="imgcap" style="text-align:center">
-<img src="/assets/itysl/itysl_skit_counts.png" height="200">
-<div class="thecap" style="text-align:center">Figure 2. There were 3-5 skits per episode. 29 skits in season 1 and 27 skits each in seasons 2 and 3.</div></div>
 
 ## Best and worst episodes
 The best episode was Season 2, Episode 4, according to my rankings
@@ -69,6 +69,10 @@ The worst episode was Season 3, Episode 4, according to my rankings
   - Top 50% episodes:  71% Tim Robinson
   - Bottom 50% episodes:  49% Tim Robinson
   - Bottom 10 episodes:  30% Tim Robinson
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/itysl/itysl_skit_counts.png" height="200">
+<div class="thecap" style="text-align:center">Figure 2. There were 3-5 skits per episode. 29 skits in season 1 and 27 skits each in seasons 2 and 3.</div></div>
 
 
 ## Data sources
