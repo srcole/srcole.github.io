@@ -13,7 +13,7 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 ## Top-ranked episodes
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/episode_ranks.png" height="500">
+<img src="/assets/blackmirror/episode_ranks.png" height="520">
 <div class="thecap" style="text-align:center">Figure 1. Ranking of all Black Mirror episodes from seasons 1-6, sorted by average ranking.</div></div>
 &nbsp;
 &nbsp;
