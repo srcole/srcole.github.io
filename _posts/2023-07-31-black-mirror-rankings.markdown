@@ -13,25 +13,25 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 ## Top-ranked episodes
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/episode_ranks.png" height="520">
+<img src="/assets/blackmirror/episode_ranks.png" height="521">
 <div class="thecap" style="text-align:center">Figure 1. Ranking of all Black Mirror episodes from seasons 1-6, sorted by average ranking.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/rank_corrs.png" height="450">
+<img src="/assets/blackmirror/rank_corrs.png" height="451">
 <div class="thecap" style="text-align:center">Figure 2. Correlation matrix of different rankings, sorted by their correlation with Mashable’s Dread ranking.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_avg.png" height="250">
+<img src="/assets/blackmirror/top10_avg.png" height="251">
 <div class="thecap" style="text-align:center">Table 1. Top 10 episodes, according to average rankings</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_me.png" height="250">
+<img src="/assets/blackmirror/top10_me.png" height="251">
 <div class="thecap" style="text-align:center">Table 2. Top 10 episodes, according to my rankings</div></div>
 &nbsp;
 &nbsp;
@@ -39,19 +39,19 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 ## Most underrated, overrated, & polarizing episodes
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_overrated.png" height="250">
+<img src="/assets/blackmirror/top10_overrated.png" height="251">
 <div class="thecap" style="text-align:center">Table 3. Top 10 most over-rated episodes, according to my rankings.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_underrated.png" height="250">
+<img src="/assets/blackmirror/top10_underrated.png" height="251">
 <div class="thecap" style="text-align:center">Table 4. Top 10 most under-rated episodes, according to my rankings.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_polarizing.png" height="250">
+<img src="/assets/blackmirror/top10_polarizing.png" height="251">
 <div class="thecap" style="text-align:center">Table 5. Top 10 most polarizing episodes, as measured by the standard deviation of all rankings.</div></div>
 &nbsp;
 &nbsp;
@@ -59,19 +59,19 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 ## Correlations
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/overrated_by_dread.png" height="300">
+<img src="/assets/blackmirror/overrated_by_dread.png" height="301">
 <div class="thecap" style="text-align:center">Figure 3. Correlation between Mashable’s ranking of episodes by dread, and my metric of over-ratedness, measured as the difference between my ranking and the average ranking. Episodes that are less dreadful tend to be more overrated  (Spearman rho = -0.40, un-corrected p-value = 0.04).</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/rank_by_date.png" height="300">
+<img src="/assets/blackmirror/rank_by_date.png" height="301">
 <div class="thecap" style="text-align:center">Figure 4. Weak correlation between the ranking of an episode and when it was released: episodes released longer ago tend to have a better ranking (Spearman rho = 0.37, un-corrected p-value = 0.06).</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/avg_by_season.png" height="300">
+<img src="/assets/blackmirror/avg_by_season.png" height="301">
 <div class="thecap" style="text-align:center">Table 6. Average episode ranks by season.</div></div>
 
 ## Data sources
