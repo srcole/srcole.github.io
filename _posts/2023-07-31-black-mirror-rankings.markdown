@@ -51,7 +51,7 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_underrated.png" height="250">
+<img src="/assets/blackmirror/top10_polarizing.png" height="250">
 <div class="thecap" style="text-align:center">Table 5. Top 10 most polarizing episodes, as measured by the standard deviation of all rankings.</div></div>
 &nbsp;
 &nbsp;
@@ -67,6 +67,12 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 <div class="imgcap" style="text-align:center">
 <img src="/assets/blackmirror/rank_by_date.png" height="300">
 <div class="thecap" style="text-align:center">Figure 4. Weak correlation between the ranking of an episode and when it was released: episodes released longer ago tend to have a better ranking (Spearman rho = 0.37, un-corrected p-value = 0.06).</div></div>
+&nbsp;
+&nbsp;
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/blackmirror/avg_by_season.png" height="300">
+<div class="thecap" style="text-align:center">Table 6. Average episode ranks by season.</div></div>
 
 ## Data sources
 You can easily load the data yourself in python by running: `pandas.read_csv('https://docs.google.com/spreadsheets/d/13jl1yrwu4W-zL0i_avoNzVBDtbBRzUmKKTjLIHfJopE/export?format=csv&gid=0')`. It includes my own rankings and those from 9 websites:
