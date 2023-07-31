@@ -19,19 +19,19 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/rank_corrs.png" height="350">
+<img src="/assets/blackmirror/rank_corrs.png" height="450">
 <div class="thecap" style="text-align:center">Figure 2. Correlation matrix of different rankings, sorted by their correlation with Mashable’s Dread ranking.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_avg.png" height="200">
+<img src="/assets/blackmirror/top10_avg.png" height="250">
 <div class="thecap" style="text-align:center">Table 1. Top 10 episodes, according to average rankings</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_me.png" height="200">
+<img src="/assets/blackmirror/top10_me.png" height="250">
 <div class="thecap" style="text-align:center">Table 2. Top 10 episodes, according to my rankings</div></div>
 &nbsp;
 &nbsp;
@@ -39,19 +39,19 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 ## Most underrated, overrated, & polarizing episodes
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_overrated.png" height="200">
+<img src="/assets/blackmirror/top10_overrated.png" height="250">
 <div class="thecap" style="text-align:center">Table 3. Top 10 most over-rated episodes, according to my rankings.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_underrated.png" height="200">
+<img src="/assets/blackmirror/top10_underrated.png" height="250">
 <div class="thecap" style="text-align:center">Table 4. Top 10 most under-rated episodes, according to my rankings.</div></div>
 &nbsp;
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/blackmirror/top10_underrated.png" height="200">
+<img src="/assets/blackmirror/top10_underrated.png" height="250">
 <div class="thecap" style="text-align:center">Table 5. Top 10 most polarizing episodes, as measured by the standard deviation of all rankings.</div></div>
 &nbsp;
 &nbsp;
@@ -70,12 +70,12 @@ Several websites have ranked all of the episodes in Seasons 1-6 of Black Mirror.
 
 ## Data sources
 You can easily load the data yourself in python by running: `pandas.read_csv('https://docs.google.com/spreadsheets/d/13jl1yrwu4W-zL0i_avoNzVBDtbBRzUmKKTjLIHfJopE/export?format=csv&gid=0')`. It includes my own rankings and those from 9 websites:
-- https://ew.com/tv/black-mirror-episodes-ranked/ 
-- https://www.vulture.com/2016/10/every-black-mirror-episode-from-worst-to-best.html
-- https://www.radiotimes.com/tv/sci-fi/best-black-mirror-episodes/
-- https://editorial.rottentomatoes.com/article/black-mirror-best-episodes/
-- https://www.denofgeek.com/tv/black-mirror-ranking-every-episode/
-- https://www.indiewire.com/features/best-of/best-black-mirror-episodes-worst-netflix-ranked-1201897973/
-- https://www.imdb.com/search/title/?series=tt2085059&sort=user_rating,desc&count=250&view=simple
-- https://www.pastemagazine.com/tv/black-mirror/black-mirror-episodes-ranked 
-- https://mashable.com/article/black-mirror-pessimism-ranking-dread
+- [https://ew.com/tv/black-mirror-episodes-ranked/](https://ew.com/tv/black-mirror-episodes-ranked/)
+- [https://www.vulture.com/2016/10/every-black-mirror-episode-from-worst-to-best.html](https://www.vulture.com/2016/10/every-black-mirror-episode-from-worst-to-best.html)
+- [https://www.radiotimes.com/tv/sci-fi/best-black-mirror-episodes/](https://www.radiotimes.com/tv/sci-fi/best-black-mirror-episodes/)
+- [https://editorial.rottentomatoes.com/article/black-mirror-best-episodes/](https://editorial.rottentomatoes.com/article/black-mirror-best-episodes/)
+- [https://www.denofgeek.com/tv/black-mirror-ranking-every-episode/](https://www.denofgeek.com/tv/black-mirror-ranking-every-episode/)
+- [https://www.indiewire.com/features/best-of/best-black-mirror-episodes-worst-netflix-ranked-1201897973/](https://www.indiewire.com/features/best-of/best-black-mirror-episodes-worst-netflix-ranked-1201897973/)
+- [https://www.imdb.com/search/title/?series=tt2085059&sort=user_rating,desc&count=250&view=simple](https://www.imdb.com/search/title/?series=tt2085059&sort=user_rating,desc&count=250&view=simple)
+- [https://www.pastemagazine.com/tv/black-mirror/black-mirror-episodes-ranked](https://www.pastemagazine.com/tv/black-mirror/black-mirror-episodes-ranked)
+- [https://mashable.com/article/black-mirror-pessimism-ranking-dread](https://mashable.com/article/black-mirror-pessimism-ranking-dread)
