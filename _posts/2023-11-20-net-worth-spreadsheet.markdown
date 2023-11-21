@@ -18,7 +18,7 @@ A lot of nerds have spreadsheets to track the details of their financials becaus
 Curious to hear about others spreadsheets and potential ideas for how to enhance my own!
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/misc/networth_sheet.png" height="300">
+<img src="/assets/misc/networth_sheet.png" height="250">
 <div class="thecap" style="text-align:center">Sample screenshot of my net worth Google Sheet template.</div></div>
 &nbsp;
 &nbsp;
