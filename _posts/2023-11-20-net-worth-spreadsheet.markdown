@@ -8,7 +8,7 @@ date:   2023-11-20 00:00:00
 mathjax: true
 ---
 
-A lot of nerds have spreadsheets to track the details of their financials because commercial finance tracking apps can't always be as customizable as desired. I, of course, am proud of [my own net worth tracking spreadsheet template here](https://docs.google.com/spreadsheets/d/1t6SkBjQQAcL72asyFrE_1PGjuoLjqzFT6PaUC4XFXAU/edit?usp=sharing). As seen in that sheet or in the screenshot below, some of my favorite features of this sheet are:
+A lot of nerds have spreadsheets to track the details of their financials because commercial finance tracking apps can't always be as customizable as desired. While there are ton of blogs detailing Excel sheets full of fancy features in a tuned aesthetic, I, of course, am proud of [my own net worth tracking Google spreadsheet template here](https://docs.google.com/spreadsheets/d/1t6SkBjQQAcL72asyFrE_1PGjuoLjqzFT6PaUC4XFXAU/edit?usp=sharing). As seen in that sheet or in the screenshot below, some of my favorite features of this sheet are:
 - Computing the breakdown of each asset class
 - Quantifying the impact of inflation
 - Accounting for tax obligations in both the current and future years
