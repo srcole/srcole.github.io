@@ -8,12 +8,11 @@ date:   2024-05-26 00:00:00
 mathjax: true
 ---
 
-In the spirit of trip reports in r/travelchina, I wrote down some notes from my recent 3-month, mostly-solo trip along the east coast and northwest of China. I won’t go into my itinerary but moreso just my general tips without spending too much time on common knowledge, hoping these are useful or mildly interesting to others planning to visit. I visited Xiamen, Hangzhou, Shanghai, Suzhou, Nanjing, Jinan, Dezhou, Xiong’an, Beijing, Xi’an, and Dunhuang (route pictured below).
+In the spirit of trip reports in r/travelchina, I wrote down some notes from my recent 3-month, mostly-solo trip along the east coast and northwest of China. I won’t go into my itinerary but moreso just my general tips without spending too much time on common knowledge, hoping these are useful or mildly interesting to others planning to visit. I visited Xiamen, Hangzhou, Shanghai, Suzhou, Nanjing, Jinan, Dezhou, Xiong’an, Beijing, Xi’an, and Dunhuang.
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/misc/china_route.png" height="350">
 <div class="thecap" style="text-align:center">My trip route.</div></div>
-&nbsp;
 &nbsp;
 
 ## Internet
@@ -88,9 +87,9 @@ Traveling through China, I liked to think about the pros/cons of living here.
 - People are complaining of salary cuts or freezes.
 - Xiong’an feels like a college campus on summer break.
 - No need to pack a toothbrush or toothpaste because they’re free everywhere. Probably don’t need to pack an umbrella either. Though razors, conditioner, and lotion are not guaranteed.
-- Foreigners are required to register with the police if they’re not staying at a hotel. I heard this is easier in some places like Shanghai where you can do it online, but in Xi’An, I went to 3 stations. The first told me it’s not required. The 2nd told me they can’t do it and sent me to the 3rd which required documents like approval from the HOA for me to stay.
+- Foreigners are required to register with the police if they’re not staying at a hotel. I heard this is easier in some places like Shanghai where you can do it online, but in Xi’An, I went to 3 stations. The first told me it’s not required. The 2nd told me they can’t do it and sent me to the 3rd which required documents like a copy of the house lease and approval from the HOA.
 - Elevator and train doors don’t stop reliably when I reach my arm through to try to hold it open for someone.
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/misc/solar_valley.png" height="500">
+<img src="/assets/misc/solar_valley.jpeg" height="500">
 <div class="thecap" style="text-align:center">Exploring the run-down Solar Valley of Dezhou, Shandong.</div></div>
