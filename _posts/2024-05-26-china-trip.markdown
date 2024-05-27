@@ -93,3 +93,10 @@ Traveling through China, I liked to think about the pros/cons of living here.
 <div class="imgcap" style="text-align:center">
 <img src="/assets/misc/solar_valley.jpeg" height="500">
 <div class="thecap" style="text-align:center">Exploring the run-down Solar Valley of Dezhou, Shandong.</div></div>
+
+&nbsp;
+&nbsp;
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/misc/coffee_surround.jpeg" height="500">
+<div class="thecap" style="text-align:center">One of the many great pour-overs in Shanghai.</div></div>
