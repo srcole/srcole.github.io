@@ -8,7 +8,7 @@ date:   2024-09-01 00:00:00
 mathjax: true
 ---
 
-In the financial independence subreddit, r/FIRE, it's common for users to ask "Is $X enough to retire?". I analyzed some historical inflation and SPY return data to get a sense of how often different retirement strategies succeed.
+In the financial independence subreddit, [r/FIRE](https://www.reddit.com/r/Fire/), it's common for users to ask "Is $X enough to retire?". I analyzed some historical inflation and SPY return data to get a sense of how often different retirement strategies succeed.
 - The retiree sets a withdrawal rate tha they want to live on (e.g. 4%, $40k if initial investment is $1M).
 - The withdrawal amount each year is increased based on inflation.
 - The retiree has all funds invested in SPY, which would not be the case for conservative investors.
