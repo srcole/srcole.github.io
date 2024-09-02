@@ -3,7 +3,7 @@ layout: post
 is_data: "yes"
 comments: true
 title:  "Historical analysis of FIRE strategies"
-excerpt: "On r/FIRE, there's common questions about 'Is $X enough to retire?'. I analyzed some historical inflation and SPY return data to get a sense of how often different retirement strategies succeed."
+excerpt: "On r/FIRE, there are common questions about 'Is $X enough to retire?'. I analyzed some historical inflation and SPY return data to get a sense of how often different retirement strategies succeed."
 date:   2024-09-01 00:00:00
 mathjax: true
 ---
