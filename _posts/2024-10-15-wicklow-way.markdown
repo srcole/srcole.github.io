@@ -3,7 +3,7 @@ layout: post
 is_data: "no"
 comments: true
 title:  "Wicklow Way 7-day hike details"
-excerpt: "I've found I like multi-day hikes where I don't have to camp or carry much. The Wicklow Way in Ireland is one of those I did, and wanted to share details"
+excerpt: "I like multi-day hikes where I don't have to camp or carry much. The Wicklow Way in Ireland is one of those, and I want to share the details of my experience"
 date:   2024-10-15 00:00:00
 mathjax: true
 ---
@@ -21,12 +21,16 @@ I hiked the [Wicklow Way](https://www.wicklowway.com/) over 7 days in early Octo
 - Day 7. Shillelagh to Clonegal. Airbnb in Carlow. 19km, 4.5h, 1400ft
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/wicklow_way/7d_map.png" height="500">
-<div class="thecap" style="text-align:center">Day-by-day maps for the whole route see [pdf to print on 1 page](https://srcole.github.io/assets/wicklow_way/7d_maps.pdf)</div></div>
+<img src="/assets/wicklow_way/7d_map.png" height="600">
+<div class="thecap" style="text-align:center">Day-by-day maps for the whole route. pdf to print at https://srcole.github.io/assets/wicklow_way/7d_maps.pdf</div></div>
+
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/wicklow_way/collage_scenery.jpg" height="600">
 <div class="thecap" style="text-align:center">Wicklow Way scenery</div></div>
+
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/wicklow_way/collage_livestock.jpg" height="600">
@@ -75,4 +79,4 @@ When looking for things to do around Dublin, I saw the seaside town of Bray reco
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/wicklow_way/central_house_country_rank.jpg" height="600">
-<div class="thecap" style="text-align:center">Distribution of hikers by nationality, as listed by the Central House in Tinahely.</div></div>
+<div class="thecap" style="text-align:center">Distribution of hikers by nationality, as listed by the Central House in Shillelagh.</div></div>

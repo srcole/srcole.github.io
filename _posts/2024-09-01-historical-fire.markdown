@@ -14,6 +14,7 @@ In the financial independence subreddit, [r/FIRE](https://www.reddit.com/r/Fire/
 - The retiree has all funds invested in SPY, which would not be the case for conservative investors.
 - Data used was obtained from [officialdata.org](https://www.officialdata.org/us/stocks/s-p-500/1900) and can be found in [this sheet](https://docs.google.com/spreadsheets/d/1D7-i4j74_lF5XtWsIOmZEGU0QBdWIbo15ZaWWAYGfP8/edit?usp=sharing).
 - [Google Colab notebook](https://colab.research.google.com/drive/1IwDgsjDsFpeG-VlyleHIoAJwGBQ7sjLa?authuser=0&pli=1#scrollTo=fUBVDQf5AOoU) with python code of simulation and visualization
+- A friend pointed me to [Engaging Data](https://engaging-data.com/fire-calculator/), which has a much nicer FIRE calculator.
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/fire/bankrupt.png" height="500">
