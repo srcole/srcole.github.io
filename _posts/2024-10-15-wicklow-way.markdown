@@ -22,7 +22,7 @@ I hiked the [Wicklow Way](https://www.wicklowway.com/) over 7 days in early Octo
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/wicklow_way/7d_map.png" height="600">
-<div class="thecap" style="text-align:center">Day-by-day maps for the whole route. pdf to print at https://srcole.github.io/assets/wicklow_way/7d_maps.pdf</div></div>
+<div class="thecap" style="text-align:center">Day-by-day maps for the whole route. pdf to print at https://srcole.github.io/assets/wicklow_way/7day_maps.pdf</div></div>
 
 &nbsp;
 
