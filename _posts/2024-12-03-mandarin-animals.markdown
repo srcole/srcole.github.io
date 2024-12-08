@@ -3,7 +3,7 @@ layout: post
 is_data: "no"
 comments: true
 title:  "Learning animals in Mandarin Chinese"
-excerpt: "My favorite topic in learning Mandarin is animal names because I'm amused by the compound words."
+excerpt: "My favorite topic in learning Mandarin is animal names because I'm amused by the compound words. I also tried translating some country names."
 date:   2024-12-03 00:00:00
 mathjax: true
 ---
@@ -30,6 +30,10 @@ My favorite topic in learning Mandarin is animal names because I'm amused by the
 - 野牛 (yěniú) - wild cow	(bison)
 - 美洲虎 (měizhōuhǔ) - America tiger (jaguar)
 - 鸭嘴兽 (yāzuǐshòu) - duck mouth beast	(platypus)
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/mandarin/countries.png" height="800">
+<div class="thecap" style="text-align:center">Countries in Mandarin Chinese</div></div>
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/mandarin/animals.png" height="800">
