@@ -17,7 +17,7 @@ Download this font file that combines pinyin with the characters: [https://githu
 Font Book is pre-installed on Mac. Open it up, go to "My fonts", and drag into it the .ttf file downloaded in the previous step. It will then show up as something like "Hanzi-Pinyin-Font."
 
 ## 3. Apply the font in Google Chrome
-In the Chrome settings ([chrome://settings/](chrome://settings/)) go to Appearance, click on "Customize fonts" and under the "Standard font" select your new font, e.g. "Hanzi-Pinyin-Font".
+In the Chrome settings (chrome://settings/) go to Appearance, click on "Customize fonts" and under the "Standard font" select your new font, e.g. "Hanzi-Pinyin-Font".
 
 ## 4. Test out the new font
 After a little delay, you should start to see the new font, like in the image below. One drawback is now the characters are smaller, and so the standard size was hard to read, so I increased the default font size to 20 to make it more visible. This should apply to captions on YouTube, Netflix, and more.
