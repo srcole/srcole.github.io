@@ -11,7 +11,7 @@ mathjax: true
 I didn't find a full guide online, so wanted to write one for how to easily set up a font that adds pinyin to Chinese characters to help learn. This specifically applies to my preferred setup (running Chrome on a Macbook).
 
 ## 1. Download .ttf file
-Download this font file that combines pinyin with the characters: https://github.com/parlr/hanzi-pinyin-font/blob/master/Hanzi-Pinyin-Font.top.ttf
+Download this font file that combines pinyin with the characters: [https://github.com/parlr/hanzi-pinyin-font/blob/master/Hanzi-Pinyin-Font.top.ttf](https://github.com/parlr/hanzi-pinyin-font/blob/master/Hanzi-Pinyin-Font.top.ttf)
 
 ## 2. Upload to Font Book
 Font Book is pre-installed on Mac. Open it up, go to "My fonts", and drag into it the .ttf file downloaded in the previous step. It will then show up as something like "Hanzi-Pinyin-Font."
