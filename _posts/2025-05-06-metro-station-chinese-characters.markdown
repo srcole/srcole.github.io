@@ -12,15 +12,19 @@ When I arrive in a new Chinese city, one problem I have is not knowing how to re
 
 ## Plots
 
-There are 3 plots below, which show both the most frequent character and also character combinations. While the plots are limited to the top characters that appear the most, but you can see the full ranking of character counts in this [Google Sheet](https://docs.google.com/spreadsheets/d/1Xo_OcRMchrhX_76FOtOD6B_XC6DdeySVhamcbJiOHoU/edit?gid=0#gid=0).
+There are 3 plots below, which show both the most frequent character and also character combinations. The plots are limited to the top characters that appear the most, but you can see the ranking of all characters in this [Google Sheet](https://docs.google.com/spreadsheets/d/1Xo_OcRMchrhX_76FOtOD6B_XC6DdeySVhamcbJiOHoU/edit?gid=0#gid=0).
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/mandarin/metro_character_ranking_14metros.png" height="1200">
 <div class="thecap" style="text-align:center"></div>Frequencies of individual characters that occur in at least 25 station names</div>
 
+&nbsp;
+
 <div class="imgcap" style="text-align:center">
 <img src="/assets/mandarin/metro_2char_combo_ranking_14metros.png" height="600">
 <div class="thecap" style="text-align:center"></div>Frequencies of two-character combinations</div>
+
+&nbsp;
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/mandarin/metro_3char_combo_ranking_14metros.png" height="600">
