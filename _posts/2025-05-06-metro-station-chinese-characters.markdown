@@ -30,6 +30,12 @@ There are 3 plots below, which show both the most frequent character and also ch
 <img src="/assets/mandarin/metro_3char_combo_ranking_14metros.png" height="600">
 <div class="thecap" style="text-align:center"></div>Frequencies of 3+ character combinations</div>
 
+&nbsp;
+
+<div class="imgcap" style="text-align:center">
+<img src="/assets/mandarin/metro_char_comparison_by_city.png" height="500">
+<div class="thecap" style="text-align:center"></div>Top character frequency differences by city</div>
+
 ## Code
 You can see this [Jupyter Notebook](https://github.com/srcole/mandarin_data/blob/main/01_metro_stations/03_wikipedia_scrape_all.ipynb) for how I:
 1. Scraped and parsed the data from Wikipedia
