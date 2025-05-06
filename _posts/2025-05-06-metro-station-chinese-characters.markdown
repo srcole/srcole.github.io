@@ -33,7 +33,7 @@ There are 3 plots below, which show both the most frequent character and also ch
 &nbsp;
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/mandarin/metro_char_comparison_by_city.png" height="500">
+<img src="/assets/mandarin/metro_char_comparison_by_city.png" height="350">
 <div class="thecap" style="text-align:center"></div>Top character frequency differences by city</div>
 
 ## Code
