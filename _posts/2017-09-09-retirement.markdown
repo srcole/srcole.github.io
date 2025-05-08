@@ -12,7 +12,7 @@ mathjax: true
 
 # Update: Streamlit
 
-[This Streamlit visualization](https://share.streamlit.io/srcole/streamlit_retirement_calculator/main/app.py) was more recently made and is a better interactive tool for visualizing retirement savings for different parameters.
+[This Streamlit visualization](https://fire-calculator.streamlit.app/) was more recently made and is a better interactive tool for visualizing retirement savings for different parameters.
 
 # Old interactive tool
 
