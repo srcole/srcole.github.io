@@ -17,6 +17,11 @@ The best way I remember new vocabulary in Chinese is by breaking up its characte
 
 I used [Streamlit Cloud to host the game here](https://mandarin-chinese-combo-word-game.streamlit.app/), hope some of you enjoy it!
 
+This vocabulary learning strategy was also mentioned in:
+- [this blog by Go East Mandarin](https://goeastmandarin.com/fr/chinese-vocabulary-hacks/)
+- [this Reddit post](https://www.reddit.com/r/ChineseLanguage/comments/d4idts/since_everyone_liked_the_business_goose_post_i/)
+- [this other blog post](https://www.languagetrainers.com/blog/chinese-word-combinations/).
+
 <div class="imgcap" style="text-align:center">
 <img src="/assets/mandarin/chinese_combo_word_game_screenshot.png" height="400">
 <div class="thecap" style="text-align:center"></div>Screenshot of the "easy" mode of the game.</div>
