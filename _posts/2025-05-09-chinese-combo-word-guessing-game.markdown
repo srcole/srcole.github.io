@@ -18,5 +18,5 @@ The best way I remember new vocabulary in Chinese is by breaking up its characte
 I used Streamlit Cloud to host the game [here](https://mandarin-chinese-combo-word-game.streamlit.app/), hope some of you enjoy it!
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/mandarin/chinese_combo_word_game_screenshot.png" height="600">
+<img src="/assets/mandarin/chinese_combo_word_game_screenshot.png" height="400">
 <div class="thecap" style="text-align:center"></div>Screenshot of the "easy" mode of the game.</div>
