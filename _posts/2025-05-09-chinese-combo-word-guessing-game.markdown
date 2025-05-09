@@ -15,7 +15,7 @@ The best way I remember new vocabulary in Chinese is by breaking up its characte
 - 黄 (yellow) + 油 (oil) = 黄油 (butter)
 - 保安 (protect) + 危险 (danger) = 保险 (insurance)
 
-I used Streamlit Cloud to host the game [here](https://mandarin-chinese-combo-word-game.streamlit.app/), hope some of you enjoy it!
+I used [Streamlit Cloud to host the game here](https://mandarin-chinese-combo-word-game.streamlit.app/), hope some of you enjoy it!
 
 <div class="imgcap" style="text-align:center">
 <img src="/assets/mandarin/chinese_combo_word_game_screenshot.png" height="400">
