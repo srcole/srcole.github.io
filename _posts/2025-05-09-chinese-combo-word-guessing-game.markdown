@@ -1,6 +1,6 @@
 ---
 layout: post
-is_data: "no"
+is_data: "yes"
 comments: true
 title:  "Python web app for studying combo-word Chinese vocabulary using Streamlit"
 excerpt: "I best remember new vocabulary in Chinese is by breaking up its characters into component words, so I made a game to do this. e.g. 半 (half) + 岛 (island) = 半岛 (peninsula)"
@@ -18,5 +18,5 @@ The best way I remember new vocabulary in Chinese is by breaking up its characte
 I used Streamlit Cloud to host the game [here](https://mandarin-chinese-combo-word-game.streamlit.app/), hope some of you enjoy it!
 
 <div class="imgcap" style="text-align:center">
-<img src="/assets/mandarin/chinese_combo_word_game_screenshot.png" height="1200">
+<img src="/assets/mandarin/chinese_combo_word_game_screenshot.png" height="600">
 <div class="thecap" style="text-align:center"></div>Screenshot of the "easy" mode of the game.</div>
