@@ -2,7 +2,7 @@
 layout: post
 is_data: "yes"
 comments: true
-title:  "Vibe-coding web app #2: Studying traditional Chinese characters"
+title:  "Vibe coded web app #2: Studying traditional Chinese characters"
 excerpt: "I made a small quiz to practice recognizing traditional Chinese characters and recalling their simplified forms."
 date:   2026-08-30 01:00:00
 ---
