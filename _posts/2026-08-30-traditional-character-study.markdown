@@ -2,9 +2,9 @@
 layout: post
 is_data: "yes"
 comments: true
-title:  "Vibe-coded web app for studying traditional Chinese characters"
+title:  "Vibe-coding web app #2: Studying traditional Chinese characters"
 excerpt: "I made a small quiz to practice recognizing traditional Chinese characters and recalling their simplified forms."
-date:   2026-08-30 00:00:00
+date:   2026-08-30 01:00:00
 ---
 
 I have been studying Mandarin in the Mainland only focusing on simplified characters, but I wanted to increase my recognition ability of traditional characters. I also wanted an excuse to try out Codex more. So I made a small browser game that shows a traditional character and asks me to type its corresponding simplified form.

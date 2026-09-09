@@ -2,7 +2,7 @@
 layout: post
 is_data: "yes"
 comments: true
-title:  "A browser game for practicing Chinese tones"
+title:  "Vibe coded web app #3: Practicing Chinese tones"
 excerpt: "A small game for practicing Mandarin tones and comparing characters with the same pinyin syllable."
 date:   2026-09-09 00:00:00
 ---
