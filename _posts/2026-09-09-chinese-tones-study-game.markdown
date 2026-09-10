@@ -7,7 +7,7 @@ excerpt: "A small game for practicing Mandarin tones and comparing characters wi
 date:   2026-09-09 00:00:00
 ---
 
-NOTE: this is an Codex-generated blog post and app:
+NOTE: this is a Codex-generated blog post and app:
 
 I added another small Mandarin study tool to the site: Tone Garden (lol, not a fan of the name, tbh), a browser game for practicing the tones of simplified Chinese words.
 

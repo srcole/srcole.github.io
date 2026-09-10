@@ -7,6 +7,8 @@ excerpt: "I made a small quiz to practice recognizing traditional Chinese charac
 date:   2026-08-30 01:00:00
 ---
 
+NOTE: this is a Codex-generated blog post and app:
+
 I have been studying Mandarin in the Mainland only focusing on simplified characters, but I wanted to increase my recognition ability of traditional characters. I also wanted an excuse to try out Codex more. So I made a small browser game that shows a traditional character and asks me to type its corresponding simplified form.
 
 For example:

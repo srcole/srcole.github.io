@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f7f3">
+    <meta name="description" content="Build your Chinese, one sentence at a time. Translation challenges with grammar explanations, pinyin, streaks, and progress tracking.">
+    <title>句 Jù — Chinese, one sentence at a time</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js?v=continuous-4"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#practice" aria-label="Jù home"><span class="brand-mark" lang="zh-Hans">句</span><span>jù<span class="brand-dot">.</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#practice" data-nav="practice" class="nav-link active">Practice</a>
+        <a href="#library" data-nav="library" class="nav-link">Grammar library</a>
+      </nav>
+      <span class="level-pill"><span class="status-dot"></span> Chinese <span class="desktop-label">practice</span></span>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="loading-state"><span class="brand-mark" lang="zh-Hans">句</span><h1>A little practice goes a long way.</h1><p>Getting your sentences ready…</p></div>
+    </main>
+    <footer class="site-footer"><span>One sentence closer.</span><span>Simplified Chinese <span aria-hidden="true">·</span> <span id="save-status">Progress saved on this device</span></span></footer>
+    <div id="announcer" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+    <noscript><p class="noscript">Please enable JavaScript to play this game.</p></noscript>
+  </body>
+</html>
