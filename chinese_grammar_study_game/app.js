@@ -21,6 +21,40 @@ let storageAvailable = true;
 let composing = false;
 let libraryQuery = '';
 let libraryCategory = 'all';
+let sentenceUtterance = null;
+const speechAvailable = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+
+function stopSentenceAudio() {
+  sentenceUtterance = null;
+  if (speechAvailable) window.speechSynthesis.cancel();
+}
+
+function playSentenceAudio(exercise) {
+  if (!speechAvailable) return;
+  stopSentenceAudio();
+  const status = main.querySelector('#sentence-audio-status');
+  try {
+    const utterance = new SpeechSynthesisUtterance(exercise.expected.chinese);
+    const voices = window.speechSynthesis.getVoices();
+    const voice = voices.find(voice => /^zh[-_]CN$/i.test(voice.lang))
+      || voices.find(voice => /^(zh([-_](TW|SG|Hans|Hant))?|cmn)([-_]|$)/i.test(voice.lang));
+    utterance.lang = voice?.lang || 'zh-CN';
+    if (voice) utterance.voice = voice;
+    utterance.rate = 0.85;
+    sentenceUtterance = utterance;
+    if (status) status.textContent = '';
+    utterance.onend = () => { if (sentenceUtterance === utterance) sentenceUtterance = null; };
+    utterance.onerror = () => {
+      if (sentenceUtterance !== utterance) return;
+      sentenceUtterance = null;
+      if (status) status.textContent = 'Couldn’t play the sentence. Try replaying or enable a Mandarin voice on your device.';
+    };
+    window.speechSynthesis.speak(utterance);
+  } catch {
+    sentenceUtterance = null;
+    if (status) status.textContent = 'Sentence audio is unavailable. Try replaying.';
+  }
+}
 
 function save() {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)); }
@@ -41,6 +75,7 @@ function eligibleCount() {
 }
 
 function render() {
+  stopSentenceAudio();
   if (!data) return;
   const library = location.hash === '#library';
   document.querySelectorAll('[data-nav]').forEach(link => {
@@ -153,6 +188,7 @@ function renderChallenge() {
       <div class="aside-quote"><span lang="zh-Hans">慢慢来</span><p>Take your time.<br>There’s no clock to beat.</p></div></aside></div>`;
   main.querySelector('[data-action="pause"]').addEventListener('click', () => { view = 'setup'; render(); focusHeading(); });
   if (!answered) bindAnswerForm(exercise);
+  main.querySelector('[data-action="replay-audio"]')?.addEventListener('click', () => playSentenceAudio(exercise));
   main.querySelector('[data-action="count-miss"]')?.addEventListener('click', () => finishAnswer('miss', session.pending, true));
   main.querySelector('[data-action="self-review"]')?.addEventListener('click', () => finishAnswer('self', session.pending, true));
   main.querySelector('[data-action="next"]')?.addEventListener('click', () => {
@@ -170,6 +206,8 @@ function feedbackHTML(exercise, rule, session, stats, pending, last, ending) {
   const detail = pending ? 'Not in the accepted answer list. Other valid translations exist; compare yours below.' : correct ? `+1 correct answer${stats.streak > 1 ? ` · ${stats.streak}-answer streak` : ''}` : self ? 'Self-reviewed · correct count unchanged · no life lost · streak reset' : `One life used · ${stats.lives} remaining · added to your review list`;
   return `<section class="panel feedback-panel ${correct ? 'success' : pending ? 'pending' : self ? 'self-reviewed' : 'learning'}" aria-labelledby="feedback-title"><div class="feedback-heading"><span class="feedback-icon">${icon(correct ? 'check' : 'book')}</span><div><h2 id="feedback-title" tabindex="-1">${title}</h2><p>${detail}</p></div></div>
     <div class="expected-answer"><span class="eyebrow">EXPECTED TRANSLATION</span><p class="chinese-answer" lang="zh-Hans">${escapeHTML(exercise.expected.chinese)}</p><p class="pinyin" lang="zh-Latn">${escapeHTML(exercise.expected.pinyin)}</p><p class="translation">${escapeHTML(exercise.expected.english)}</p></div>
+    <button type="button" class="button small secondary" data-action="replay-audio" ${speechAvailable ? '' : 'disabled'}>${icon('refresh')} Replay sentence audio</button>
+    <p id="sentence-audio-status" class="small-muted" role="status">${speechAvailable ? '' : 'Sentence audio is not supported in this browser.'}</p>
     ${exercise.accepted_answers.length > 1 ? `<details class="alternatives"><summary>Also accepted</summary>${exercise.accepted_answers.slice(1).map(answer => `<p lang="zh-Hans">${escapeHTML(answer)}</p>`).join('')}</details>` : ''}
     <div class="grammar-note"><span class="eyebrow">WHY IT WORKS</span><h3>${escapeHTML(rule.title)}</h3><p>${escapeHTML(rule.explanation)}</p></div>
     <div class="more-examples"><span class="eyebrow">THREE MORE WAYS TO USE IT</span>${exercise.feedback_example_ids.map((id, i) => { const sample = exercises.get(id).exercise.expected; return `<div class="example"><span class="example-number">0${i + 1}</span><div><p lang="zh-Hans">${escapeHTML(sample.chinese)}</p><p class="pinyin" lang="zh-Latn">${escapeHTML(sample.pinyin)}</p><p class="translation">${escapeHTML(sample.english)}</p></div></div>`; }).join('')}</div>
@@ -201,6 +239,7 @@ function bindAnswerForm(exercise) {
       progress.active.pending = answer; progress.active.stage = 'pending'; save(); render();
       announce('Compare your translation with the expected answer before choosing whether to count a miss.');
       main.querySelector('#feedback-title').focus();
+      playSentenceAudio(exercise);
     }
   });
   main.querySelector('[data-action="reveal"]').addEventListener('click', () => finishAnswer('miss', input.value.trim()));
@@ -208,7 +247,7 @@ function bindAnswerForm(exercise) {
 
 function finishAnswer(outcome, input, continueImmediately = false) {
   const session = progress.active;
-  const { rule } = exercises.get(currentId(session));
+  const { exercise, rule } = exercises.get(currentId(session));
   resolveAnswer(session, outcome, input);
   recordAnswer(progress, session, rule.id);
   if (continueImmediately) advance(session);
@@ -217,7 +256,10 @@ function finishAnswer(outcome, input, continueImmediately = false) {
   if (continueImmediately) {
     window.scrollTo({ top: 0, behavior: 'instant' });
     if (session.stage === 'question' && matchMedia('(pointer: fine)').matches) main.querySelector('#answer').focus(); else focusHeading();
-  } else main.querySelector('#feedback-title').focus();
+  } else {
+    main.querySelector('#feedback-title').focus();
+    playSentenceAudio(exercise);
+  }
 }
 
 function renderSummary() {
@@ -274,5 +316,6 @@ async function init() {
   }
 }
 
+window.addEventListener('pagehide', stopSentenceAudio);
 window.addEventListener('hashchange', () => { if (location.hash === '#practice') view = 'setup'; render(); focusHeading(); });
 init();
