@@ -35,7 +35,7 @@ const PLAYER_NAMES = [
   "Dexter Dataset", "Olive Overfit", "Harvey Hypothesis", "Bella Bellcurve", "Manny Manipulation",
   "Stan Darderror", "Quinn Quantile", "Ivy Inference", "Wally Wald", "Pat Pending Results",
 ];
-const CARD_COUNTS = { rounding: 30, contaminated: 10, outlier: 10, swap: 10, audit: 10, copy: 5, challenge: 5, decrease: 2 };
+const CARD_COUNTS = { rounding: 15, contaminated: 5, outlier: 5, swap: 5, audit: 5, copy: 3, challenge: 3, decrease: 1 };
 const CARD_NAMES = {
   rounding: "Rounding error", contaminated: "Contaminated sample", outlier: "Outlier removal; Collect new data",
   swap: "Swap labels", audit: "Audit", copy: "Copy", challenge: "Challenge", decrease: "Decrease significance threshold",
@@ -68,8 +68,8 @@ function shuffle(items) {
 function buildDeck() { return shuffle(Object.entries(CARD_COUNTS).flatMap(([type, count]) => Array(count).fill(type))); }
 function randomPlayerNames() { return shuffle(PLAYER_NAMES).slice(0, 2); }
 function draw(player) {
-  if (!state.deck.length) return null;
-  const card = state.deck.pop();
+  if (!state.decks[player].length) return null;
+  const card = state.decks[player].pop();
   state.hands[player].push(card);
   return card;
 }
@@ -84,11 +84,10 @@ function makeGame(players, context, gameOptions = {}) {
   let firstRoll = randomDie();
   let secondRoll = randomDie();
   while (firstRoll === secondRoll) { firstRoll = randomDie(); secondRoll = randomDie(); }
-  const deck = buildDeck();
   state = {
     players, redPlayer: firstRoll > secondRoll ? 0 : 1, current: firstRoll > secondRoll ? 0 : 1, context,
-    samples: { red: [...STARTING_VALUES], blue: [...STARTING_VALUES] }, threshold: 4, deck, hands: [[], []],
-    history: [], moves: [], pending: null, result: null, handVisible: false, dieResult: null,
+    samples: { red: [...STARTING_VALUES], blue: [...STARTING_VALUES] }, threshold: 4, decks: [buildDeck(), buildDeck()], hands: [[], []],
+    history: [], moves: [], lastMove: [], pending: null, result: null, handVisible: false, dieResult: null,
     computer: gameOptions.computer || [false, false], difficulty: gameOptions.difficulty || "tactician", aiBusy: false,
   };
   state.handVisible = Boolean(state.computer.some(Boolean) && !isComputerTurn());
@@ -120,7 +119,7 @@ function evaluateResult(cardType = null) {
     };
   }
   else if (winners.size > 1) state.result = cardType === "decrease" ? { type: "win", player: currentPlayer(), highlighted: [...evidence.values()].flat(), finding: "The reduced significance threshold produced a significant result." } : { type: "null" };
-  else if (!state.deck.length && !state.hands[0].length && !state.hands[1].length) state.result = { type: "null" };
+  else if (!state.decks[0].length && !state.decks[1].length && !state.hands[0].length && !state.hands[1].length) state.result = { type: "null" };
 }
 function lastOpponentAction() { return [...state.history].reverse().find((action) => action.player !== state.current); }
 function addMove(text) { state.moves.unshift(text); }
@@ -128,6 +127,12 @@ function startTurn() {
   state.current = state.current === 0 ? 1 : 0;
   // In a computer game, reveal the human hand as soon as the AI finishes its turn.
   state.handVisible = Boolean(state.computer?.some(Boolean) && !isComputerTurn());
+}
+function findMovements(beforeSamples, afterSamples) {
+  return ["red", "blue"].flatMap((color) => afterSamples[color].map((to, index) => {
+    const from = beforeSamples[color][index];
+    return from === to ? null : { color, index, from, to, direction: to > from ? "up" : "down" };
+  }).filter(Boolean));
 }
 
 function boardQualifies(samples, threshold, sorted, requiredColor) {
@@ -146,7 +151,7 @@ function boardPotential(samples, threshold, color) {
   const immediate = boardQualifies(samples, threshold, high, color) || boardQualifies(samples, threshold, low, opponent);
   const opponentImmediate = boardQualifies(samples, threshold, high, opponent) || boardQualifies(samples, threshold, low, color);
   return (ownTotal - opponentTotal) * 2 + (highOwn + lowOpponent) * 20 + (immediate ? 10000 : 0) - (opponentImmediate ? 9000 : 0);
-}
+}2
 function actionTargets(effect) {
   if (effect === "swap") return LABELS.map((_, index) => ({ index }));
   if (effect === "rounding") return ["red", "blue"].flatMap((color) => LABELS.flatMap((_, index) => [{ color, index, delta: -1 }, { color, index, delta: 1 }]));
@@ -230,23 +235,16 @@ function selectCard(type, cardIndex) {
   render();
 }
 function chooseSample(color, index) {
-  if (!state.pending || state.pending.effect === "rounding" || state.pending.effect === "swap") return;
+  if (!state.pending || state.pending.effect === "swap") return;
+  if (state.pending.effect === "rounding") { state.pending.target = { color, index }; render(); return; }
   commit(state.pending.type, state.pending.effect, { color, index });
 }
 function chooseColumn(index) { if (state.pending?.effect === "swap") commit(state.pending.type, state.pending.effect, { index }); }
-function beginRoundingDrag(event, color, index) {
-  if (state.pending?.effect !== "rounding") return;
-  event.currentTarget.setPointerCapture?.(event.pointerId);
-  state.pending.target = { color, index, startY: event.clientY };
-}
-function finishRoundingDrag(event) {
+function chooseRoundDirection(delta) {
   const target = state.pending?.target;
   if (!target || state.pending.effect !== "rounding") return;
-  const distance = event.clientY - target.startY;
-  if (Math.abs(distance) < 16) { state.pending.target = null; return; }
-  const delta = distance < 0 ? 1 : -1;
   const next = state.samples[target.color][target.index] + delta;
-  if (next < 0 || next > 10) { alert("That sample must remain between 0 and 10."); state.pending.target = null; return; }
+  if (next < 0 || next > 10) return alert("That sample must remain between 0 and 10.");
   commit(state.pending.type, state.pending.effect, { color: target.color, index: target.index, delta });
 }
 function describeMove(actor, type, effect, target, before, challengeTarget) {
@@ -273,6 +271,7 @@ function commit(type, effect, target = null, challengeTarget = null, selectedCar
   state.hands[state.current].splice(handIndex, 1);
   const drawnCard = draw(state.current);
   state.history.push({ player: state.current, type, effect, before, handIndex, drawnCard });
+  state.lastMove = findMovements(before.samples, state.samples);
   addMove(describeMove(actor, type, effect, target, before, challengeTarget));
   state.pending = null; evaluateResult(effect); if (!state.result) startTurn(); render();
 }
@@ -284,7 +283,7 @@ function undoLastMove() {
   if (last.drawnCard !== null) {
     const drawnIndex = state.hands[last.player].lastIndexOf(last.drawnCard);
     if (drawnIndex >= 0) state.hands[last.player].splice(drawnIndex, 1);
-    state.deck.push(last.drawnCard);
+    state.decks[last.player].push(last.drawnCard);
   }
   state.hands[last.player].splice(last.handIndex, 0, last.type);
   state.history.pop();
@@ -293,13 +292,14 @@ function undoLastMove() {
   state.handVisible = true;
   state.pending = null;
   state.dieResult = null;
+  state.lastMove = [];
   render();
 }
 function rulesReminder() {
   return `<details class="rules-reminder"><summary>Rules reminder</summary><div class="rules-copy">
     <h3>Context</h3><p>You are rival researchers collaborating on one dataset. Prove that your population has significantly higher values to win publication, funding, and academic survival.</p>
-    <h3>Components</h3><p>A board; seven red and seven blue samples; an 11-sided die (0–10); 20 flavor-only context cards; and 82 action cards.</p>
-    <h3>Setup & play</h3><ol><li>Randomly choose a context.</li><li>Place samples at 0, 2, 4, 5, 6, 8, and 10.</li><li>Each researcher starts with five cards, then rolls the 11-sided die. The higher roll researches red and takes the first turn.</li><li>On each turn, play one card and choose its effect. Players may target either color. When the draw pile is empty, continue playing cards normally.</li></ol>
+    <h3>Components</h3><p>A board; seven red and seven blue samples; an 11-sided die (0–10); 20 flavor-only context cards; and two 40-card action decks.</p>
+    <h3>Setup & play</h3><ol><li>Randomly choose a context.</li><li>Place samples at 0, 2, 4, 5, 6, 8, and 10.</li><li>Each researcher receives their own 40-card deck, starts with five cards, then rolls the 11-sided die. The higher roll researches red and takes the first turn.</li><li>On each turn, play one card and draw a replacement from your own deck when available. Players may target either color. When a deck is empty, continue playing cards normally.</li></ol>
     <h3>Winning & null result</h3><p>At significance level N, a player wins if either the top N samples are all their color or the bottom N are all their opponent’s color. Ties do not count. If every card is played without a winner, both players lose with a null result. If decreasing significance triggers both thresholds, the player who lowered it wins.</p>
     <h3>Action cards</h3><ol><li><strong>Rounding error:</strong> Move one sample up or down one point.</li><li><strong>Contaminated sample:</strong> Move one sample to 5.</li><li><strong>Outlier removal; Collect new data:</strong> Reroll one sample (0–10).</li><li><strong>Swap label:</strong> Swap the red and blue values in one column.</li><li><strong>Audit:</strong> Return one sample to its starting point.</li><li><strong>Copy:</strong> Copy the opponent’s last action ability, except Challenge or Decrease significance threshold.</li><li><strong>Challenge:</strong> Undo the opponent’s last card, except Decrease significance threshold.</li><li><strong>Decreased significance threshold:</strong> Lower significance by one.</li></ol>
     <h3>Example contexts</h3><p>Coffee flavor of Starbucks vs. Luckin; cancer incidence in coffee drinkers vs. tea drinkers; and handsomeness of men in San Francisco vs. New York.</p>
@@ -326,9 +326,14 @@ function boardPopulation(color) {
       const hasToken = state.samples[color][index] === value;
       const isStartingCell = STARTING_VALUES[index] === value;
       const isSignificant = hasToken && state.result?.highlighted?.some((sample) => sample.color === color && sample.index === index);
+      const movement = hasToken && state.lastMove?.find((sample) => sample.color === color && sample.index === index);
       const sampleAction = state.pending && ["rounding", "contaminated", "outlier", "audit"].includes(state.pending.effect);
       const swapAction = state.pending?.effect === "swap"; const selectable = (sampleAction && hasToken) || swapAction;
-      cells.push(`<button class="cell ${isStartingCell ? "starting-cell" : ""} ${hasToken ? `token-${color}` : ""} ${isSignificant ? "significant" : ""} ${selectable ? "selectable" : ""}" data-sample="${color}:${index}" data-column="${index}" aria-label="${title} sample ${LABELS[index]}, value ${value}" ${selectable ? "" : "disabled"}></button>`);
+      const roundTarget = state.pending?.effect === "rounding" && state.pending.target;
+      const roundChoice = roundTarget && roundTarget.color === color && roundTarget.index === index && (value === state.samples[color][index] + 1 || value === state.samples[color][index] - 1);
+      const roundDelta = roundChoice ? value - state.samples[color][index] : 0;
+      const canSelect = swapAction || (state.pending?.effect === "rounding" ? (roundTarget ? roundChoice : hasToken) : sampleAction && hasToken);
+      cells.push(`<button class="cell ${isStartingCell ? "starting-cell" : ""} ${hasToken ? `token-${color}` : ""} ${isSignificant ? "significant" : ""} ${movement ? `arrow-${movement.direction}` : ""} ${roundChoice ? `round-choice-${roundDelta > 0 ? "up" : "down"}` : ""} ${canSelect ? "selectable" : ""}" data-sample="${color}:${index}" data-column="${index}" ${roundChoice ? `data-round-choice="${roundDelta}"` : ""} aria-label="${title} sample ${LABELS[index]}, value ${value}" ${canSelect ? "" : "disabled"}></button>`);
     }
   }
   cells.push("<span></span>", ...LABELS.map((label, index) => state.pending?.effect === "swap" ? `<button class="sample-label selectable" data-column="${index}">${label}</button>` : `<span class="sample-label">${label}</span>`));
@@ -336,13 +341,15 @@ function boardPopulation(color) {
 }
 function controls() {
   if (!state.pending) return "";
-  const prompt = state.pending.effect === "rounding" ? "Drag a filled point up or down by one square." : state.pending.effect === "swap" ? "Click any square or label in the column to swap." : `Choose a filled point for ${CARD_NAMES[state.pending.effect]}.`;
+  if (state.pending.effect === "rounding" && state.pending.target) return `<div class="action-controls"><p>Click the highlighted upper or lower box to move ${labelFor(state.pending.target.color, state.pending.target.index)}.</p><button class="ghost" data-cancel>Cancel</button></div>`;
+  const prompt = state.pending.effect === "rounding" ? "Select a filled point, then choose its upper or lower box." : state.pending.effect === "swap" ? "Click any square or label in the column to swap." : `Choose a filled point for ${CARD_NAMES[state.pending.effect]}.`;
   return `<div class="action-controls"><p>${prompt}</p><button class="ghost" data-cancel>Cancel</button></div>`;
 }
-function hand() {
-  const cards = state.hands[state.current];
-  return `<section class="hand"><h2>${currentPlayer()}’s cards</h2><p class="muted">Choose one card, then follow the highlighted board interaction.</p><div class="cards">${cards.map((type, index) => `<button class="card ${state.pending?.cardIndex === index ? "selected" : ""}" data-card="${type}" data-card-index="${index}">${CARD_IMAGES[type] ? `<img src="${CARD_IMAGES[type]}" alt="" />` : `<span class="card-placeholder" aria-hidden="true">${type === "copy" ? "↗" : "↶"}</span>`}<span class="card-title">${CARD_NAMES[type]}</span></button>`).join("") || "<p>No cards remain.</p>"}</div>${controls()}</section>`;
+function hand(player = state.current) {
+  const cards = state.hands[player];
+  return `<section class="hand"><h2>${state.players[player]}’s cards</h2>${player === state.current && !state.result ? '<p class="muted">Choose one card, then follow the highlighted board interaction.</p>' : ""}<div class="cards">${cards.map((type, index) => `<button class="card ${player === state.current && state.pending?.cardIndex === index ? "selected" : ""}" data-card="${type}" data-card-index="${index}" ${state.result || player !== state.current ? "disabled" : ""}>${CARD_IMAGES[type] ? `<img src="${CARD_IMAGES[type]}" alt="" />` : `<span class="card-placeholder" aria-hidden="true">${type === "copy" ? "↗" : "↶"}</span>`}<span class="card-title">${CARD_NAMES[type]}</span></button>`).join("") || "<p>No cards remain.</p>"}</div>${player === state.current && !state.result ? controls() : ""}</section>`;
 }
+function finalHands() { return `<section class="final-hands"><h2>Cards left in hand</h2><div>${hand(0)}${hand(1)}</div></section>`; }
 function recentMoves() { return `<section class="panel"><h2>Recent moves</h2>${state.moves.length ? `<ol class="moves">${state.moves.slice(0, 10).map((move, index) => `<li class="${index === 0 ? "latest" : ""}">${move}</li>`).join("")}</ol>` : "<p class=\"muted\">No moves yet.</p>"}</section>`; }
 function render() {
   if (!state) return setupScreen();
@@ -350,17 +357,16 @@ function render() {
   const computerNotice = !state.result && isComputerTurn() ? `<div class="notice computer-turn"><strong>${currentPlayer()} is thinking…</strong> Difficulty: ${AI_MODES[state.difficulty].label}.</div>` : "";
   const passScreen = !state.result && !state.handVisible && !isComputerTurn() && !state.computer?.some(Boolean) ? `<section class="pass-screen"><p>Pass the device to <strong>${currentPlayer()}</strong>.</p><div class="pass-actions"><button data-show-hand>Show ${currentPlayer()}’s cards</button>${state.history.length ? "<button class=\"ghost\" data-undo>Undo last move</button>" : ""}</div></section>` : "";
   app.innerHTML = `<div class="shell"><header class="masthead"><div><h1>P-Hacking: The Game</h1><p class="subtitle">A two-researcher race to statistical significance.</p></div><button class="ghost" data-new>New game</button></header>
-    <section class="status"><div class="status-card"><strong>${state.result ? "Study concluded" : `${currentPlayer()}’s turn`}</strong><span>${state.result ? "" : contextRole(state.current)}</span></div><div class="status-card"><strong>${state.deck.length}</strong><span>cards in draw pile</span></div></section>${result}${computerNotice}${state.dieResult ? `<div class="die-result">🎲 ${state.dieResult}</div>` : ""}
-    <section class="game-layout"><div class="board-wrap"><div class="board-area"><div class="y-axis-label">${state.context.yAxis}</div><div class="board">${boardPopulation("red")}${boardPopulation("blue")}</div></div></div><aside class="sidebar"><section class="panel"><h2>Significance level</h2><div class="threshold">${[4, 3, 2].map((level) => `<span class="level ${state.threshold === level ? "active" : ""}">${level}</span>`).join("")}</div></section>${recentMoves()}</aside></section>${passScreen}${state.handVisible && !state.result ? hand() : ""}${rulesReminder()}</div>`;
+    <section class="status"><div class="status-card"><strong>${state.result ? "Study concluded" : `${currentPlayer()}’s turn`}</strong><span>${state.result ? "" : contextRole(state.current)}</span></div><div class="status-card"><strong>${state.decks[state.current].length}</strong><span>${currentPlayer()}’s cards in deck</span></div></section>${result}${computerNotice}${state.dieResult ? `<div class="die-result">🎲 ${state.dieResult}</div>` : ""}
+    <section class="game-layout"><div class="board-wrap"><div class="board-area"><div class="y-axis-label">${state.context.yAxis}</div><div class="board">${boardPopulation("red")}${boardPopulation("blue")}</div></div></div><aside class="sidebar"><section class="panel"><h2>Significance level</h2><div class="threshold">${[4, 3, 2].map((level) => `<span class="level ${state.threshold === level ? "active" : ""}">${level}</span>`).join("")}</div></section>${recentMoves()}</aside></section>${passScreen}${state.result ? finalHands() : state.handVisible ? hand() : ""}${rulesReminder()}</div>`;
   app.querySelector("[data-new]")?.addEventListener("click", () => { state = null; render(); });
   app.querySelector("[data-show-hand]")?.addEventListener("click", () => { state.handVisible = true; render(); });
   app.querySelector("[data-undo]")?.addEventListener("click", undoLastMove);
   app.querySelectorAll("[data-card]").forEach((button) => button.addEventListener("click", () => selectCard(button.dataset.card, Number(button.dataset.cardIndex))));
-  app.querySelectorAll("[data-sample]").forEach((button) => {
-    button.addEventListener("click", () => { const [color, index] = button.dataset.sample.split(":"); if (state.pending?.effect === "swap") chooseColumn(Number(index)); else chooseSample(color, Number(index)); });
-    button.addEventListener("pointerdown", (event) => { const [color, index] = button.dataset.sample.split(":"); beginRoundingDrag(event, color, Number(index)); });
-    button.addEventListener("pointerup", finishRoundingDrag);
-  });
+  app.querySelectorAll("[data-sample]").forEach((button) => button.addEventListener("click", () => {
+    if (button.dataset.roundChoice) chooseRoundDirection(Number(button.dataset.roundChoice));
+    else { const [color, index] = button.dataset.sample.split(":"); if (state.pending?.effect === "swap") chooseColumn(Number(index)); else chooseSample(color, Number(index)); }
+  }));
   app.querySelectorAll("[data-column]").forEach((button) => button.addEventListener("click", () => chooseColumn(Number(button.dataset.column))));
   app.querySelector("[data-cancel]")?.addEventListener("click", () => { state.pending = null; render(); });
   scheduleComputerTurn();
