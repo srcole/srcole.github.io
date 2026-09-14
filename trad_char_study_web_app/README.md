@@ -1,6 +1,11 @@
 # trad_char_study_web_app
 A web app to quiz myself on traditional Chinese characters
 
+After each guess, example words appear alongside their English translations,
+including on the completion screen for the final question. The CSV's
+`exampleEnglish` column stores semicolon-separated translations in the same order
+as `examples`.
+
 After each submitted guess, browser speech synthesis reads the character in
 Mandarin followed by its three example words, reading each word only once.
 Playback stops when moving to the next question, ending practice manually, or

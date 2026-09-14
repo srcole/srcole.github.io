@@ -149,7 +149,7 @@ answerForm.addEventListener("submit", event => {
   feedbackTraditional.textContent = currentCharacter.trad;
   correctCharacter.textContent = currentCharacter.simp; pinyin.textContent = currentCharacter.pinyin || "—";
   english.textContent = currentCharacter.English || "—";
-  renderExamples(currentCharacter.examples);
+  renderExamples(currentCharacter);
   updateStats();
   answerInput.disabled = true; submitButton.disabled = true;
   guessPanel.classList.add("hidden"); feedback.classList.remove("hidden");
@@ -218,13 +218,18 @@ function updateStats() {
   accuracy.textContent = `${totalAnswers ? Math.round(correctAnswers / totalAnswers * 100) : 0}%`;
 }
 
-function formatExamples(value) {
-  if (!value) return "—";
-  return value.split(";").map(example => example.trim()).filter(Boolean).join("\n");
+function translatedExamples(character) {
+  const translations = (character.exampleEnglish || "").split(";");
+  return (character.examples || "").split(";").map((word, index) => {
+    word = word.trim();
+    if (!word || word === "-") return "";
+    const translation = translations[index]?.trim();
+    return translation ? `${word} — ${translation}` : word;
+  }).filter(Boolean);
 }
 
-function renderExamples(value) {
-  const words = value?.split(";").map(word => word.trim()).filter(Boolean) || [];
+function renderExamples(character) {
+  const words = translatedExamples(character);
   examples.replaceChildren();
   if (!words.length) {
     examples.textContent = "—";
@@ -262,7 +267,7 @@ function endGame(completed = false) {
     : "本次練習已結束。準備好後即可返回首頁。";
   const finalExamples = byId("finalExamples");
   if (completed && currentCharacter?.examples) {
-    finalExamples.textContent = `最後一題例詞：\n${formatExamples(currentCharacter.examples)}`;
+    finalExamples.textContent = `最後一題例詞：\n${translatedExamples(currentCharacter).join("\n") || "—"}`;
     finalExamples.classList.remove("hidden");
   } else {
     finalExamples.textContent = "";
