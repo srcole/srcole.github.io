@@ -9,7 +9,9 @@ date: 2026-09-26 00:00:00
 
 NOTE: this is (an edited version of) a Codex-generated blog post.
 
-I like practicing Chinese by listening to podcasts. There are many YouTubers who make content for Chinese learners, but I also wanted to make custom podcasts about things I'm interested in, so I vibe-coded a [Chinese podcast generator](https://github.com/srcole/chinese_podcast_generator). It's a small Python tool that turns a Chinese transcript, an English translation, and a vocabulary list (I used ChatGPT to generate all of these) into a single MP3. Preparing those texts is a separate step; the generator handles turning them into audio and assembling the episode.
+I like practicing Chinese by listening to podcasts. There are many YouTubers who make content for Chinese learners, but I also wanted to make custom podcasts about things I'm interested in, so I vibe-coded a [Chinese podcast generator](https://github.com/srcole/chinese_podcast_generator). It's a small Python tool that turns a Chinese transcript, an English translation, and a vocabulary list into a single MP3. Preparing those texts is a separate step; the generator handles turning them into audio and assembling the episode.
+
+I made a list of over 100 topics I'd be interested in hearing a podcast about and asked Codex to write a prompt for each one. Now, whenever I want a new podcast, I first ask Codex to generate the transcript using one of those prompts, then run the tool to generate the podcast.
 
 The default episode has four parts:
 
@@ -19,6 +21,8 @@ The default episode has four parts:
 4. The Chinese transcript again at normal speed.
 
 The idea is to first try following the Chinese on its own, then get some help with vocabulary and meaning before hearing it again. Having everything in one audio file makes it easy to listen through without switching between a recording while I'm walking around or something.
+
+I also added a feature to generate corresponding videos that show the Chinese text, English translation, and pinyin together as the podcast is read. That gives me a way to follow along with the text and pronunciation when I feel like watching instead of just listening.
 
 Under the hood, it uses Microsoft's text-to-speech service through `edge-tts` and FFmpeg to assemble the audio. It also has a short preview mode to check how an episode sounds before generating the whole thing, and caches speech segments so interrupted runs can reuse audio that's already been generated.
 
